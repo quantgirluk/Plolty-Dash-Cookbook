@@ -1,2 +1,2 @@
-# Plotly-and-Dash-Cookbook
-Plotly and Dash Cookbook
+# Data Visualisation with Plotly-and-Dash-Cookbook
+
