@@ -1,0 +1,16 @@
+beautifulsoup4==4.12.3
+dash==2.17.1
+ipykernel==6.29.5
+ipython==8.26.0
+jupyter-book==1.0.2
+kaleido==0.2.1
+latexcodec==3.0.0
+numpy==2.0.1
+pandas==2.2.2
+pandas-datareader==0.10.0
+plotly==5.23.0
+requests==2.32.3
+statsmodels==0.14.2
+scipy==1.14.0
+xlrd==2.0.1
+yfinance==0.2.41

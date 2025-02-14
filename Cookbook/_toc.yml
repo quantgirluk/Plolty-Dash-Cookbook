@@ -1,0 +1,101 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: 1
+  maxdepth: 3
+
+parts:
+  - caption: Chapter 1. Introduction to Plotly and Dash in Python
+    numbered: False  # Only applies to chapters in Part 1.
+    chapters:
+    - file: chapter_01/ch01_intro
+      options:  
+        numbered: 1
+        maxdepth: 2
+      sections:
+      - file: chapter_01/ch01_recipe04
+      - file: chapter_01/ch01_recipe05
+      - file: chapter_01/ch01_recipe06
+      - file: chapter_01/ch01_recipe07
+
+  - caption: Chapter 2. Data Processing and Transformation
+    numbered: False  
+    chapters:
+    - file: chapter_02/ch02_intro
+      options:  
+        numbered: 1
+        maxdepth: 2
+      sections:
+      - file: chapter_02/ch02_recipe01
+      - file: chapter_02/ch02_recipe02
+      - file: chapter_02/ch02_recipe03
+      - file: chapter_02/ch02_recipe04
+      - file: chapter_02/ch02_recipe05
+      - file: chapter_02/ch02_recipe06
+      - file: chapter_02/ch02_recipe07
+      - file: chapter_02/ch02_recipe08
+      - file: chapter_02/ch02_recipe09
+      - file: chapter_02/ch02_recipe10
+      - file: chapter_02/ch02_recipe11
+      - file: chapter_02/ch02_recipe12
+
+  - caption: Chapter 3. Simple Recipes
+    numbered: False  
+    chapters:
+    - file: chapter_03/ch03_intro
+      options:  
+        numbered: 1
+        maxdepth: 2
+      sections:
+      - file: chapter_03/ch03_recipe01
+      - file: chapter_03/ch03_recipe02
+      - file: chapter_03/ch03_recipe03
+      - file: chapter_03/ch03_recipe04
+      - file: chapter_03/ch03_recipe05
+      - file: chapter_03/ch03_recipe06
+      - file: chapter_03/ch03_recipe07
+      - file: chapter_03/ch03_recipe08
+      - file: chapter_03/ch03_recipe09
+      - file: chapter_03/ch03_recipe10
+
+  - caption: Chapter 4. Recipes for Statistical Charts
+    numbered: False  
+    chapters:
+    - file: chapter_04/ch04_intro
+      options:  
+        numbered: 1
+        maxdepth: 2
+      sections:
+      - file: chapter_04/ch04_recipe01
+      - file: chapter_04/ch04_recipe02
+      - file: chapter_04/ch04_recipe03
+      - file: chapter_04/ch04_recipe04
+      - file: chapter_04/ch04_recipe05
+      - file: chapter_04/ch04_recipe06
+      - file: chapter_04/ch04_recipe07
+      - file: chapter_04/ch04_recipe08
+      - file: chapter_04/ch04_recipe09
+      - file: chapter_04/ch04_recipe10
+      - file: chapter_04/ch04_recipe11
+      - file: chapter_04/ch04_recipe12
+
+  - caption: Chapter 5. Recipes for Intermediate Charts
+    numbered: False  
+    chapters:
+    - file: chapter_05/ch05_intro
+      options:  
+        numbered: 1
+        maxdepth: 2
+      sections:
+      - file: chapter_05/ch05_recipe01
+      - file: chapter_05/ch05_recipe02
+      - file: chapter_05/ch05_recipe03
+      - file: chapter_05/ch05_recipe04
+      - file: chapter_05/ch05_recipe05
+      - file: chapter_05/ch05_recipe06
+      - file: chapter_05/ch05_recipe07
+      - file: chapter_05/ch05_recipe08
+      - file: chapter_05/ch05_recipe09

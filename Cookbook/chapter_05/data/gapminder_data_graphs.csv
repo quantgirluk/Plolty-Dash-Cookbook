@@ -1,0 +1,3676 @@
+country,continent,year,lifeExp,hdi_index,co2_consump,gdpPercap,services
+Afghanistan,Asia,1998,53.3,0.344,0.0522,,24.4
+Afghanistan,Asia,1999,54.7,0.348,0.0402,,24.6
+Afghanistan,Asia,2000,54.7,0.35,0.037,,24.7
+Afghanistan,Asia,2001,54.8,0.353,0.0376,,24.7
+Afghanistan,Asia,2002,55.5,0.384,0.0471,333,25.6
+Afghanistan,Asia,2003,56.5,0.393,0.0509,346,25.9
+Afghanistan,Asia,2004,57.1,0.409,0.0368,336,26.1
+Afghanistan,Asia,2005,57.6,0.418,0.0515,360,26.5
+Afghanistan,Asia,2006,58,0.429,0.0622,368,26.9
+Afghanistan,Asia,2007,58.5,0.447,0.0838,409,27.7
+Afghanistan,Asia,2008,59.2,0.447,0.152,415,28.2
+Afghanistan,Asia,2009,59.9,0.46,0.238,492,29.5
+Afghanistan,Asia,2010,60.5,0.472,0.29,547,30.7
+Afghanistan,Asia,2011,61,0.477,0.406,533,31.7
+Afghanistan,Asia,2012,61.4,0.489,0.345,580,32.8
+Afghanistan,Asia,2013,61.9,0.496,0.28,592,33.8
+Afghanistan,Asia,2014,61.9,0.5,0.253,588,34.8
+Afghanistan,Asia,2015,61.9,0.5,0.262,578,35.8
+Afghanistan,Asia,2016,62,0.502,0.245,575,36.9
+Afghanistan,Asia,2017,62.9,0.506,0.247,576,38
+Afghanistan,Asia,2018,62.7,0.509,0.254,569,38.4
+Albania,Europe,1998,74.8,0.655,0.563,1600,33
+Albania,Europe,1999,75.1,0.665,0.956,1820,33.8
+Albania,Europe,2000,75.4,0.671,0.966,1960,34.4
+Albania,Europe,2001,76,0.678,1.03,2140,35
+Albania,Europe,2002,75.9,0.684,1.2,2250,35.4
+Albania,Europe,2003,75.6,0.691,1.38,2380,35.9
+Albania,Europe,2004,75.8,0.696,1.34,2520,36.4
+Albania,Europe,2005,76.2,0.706,1.38,2680,36.9
+Albania,Europe,2006,76.9,0.713,1.27,2850,37.2
+Albania,Europe,2007,77.5,0.722,1.29,3050,37.5
+Albania,Europe,2008,77.6,0.728,1.46,3300,37.6
+Albania,Europe,2009,78,0.733,1.47,3430,36
+Albania,Europe,2010,78.1,0.745,1.56,3580,37.3
+Albania,Europe,2011,78.1,0.764,1.79,3680,35.7
+Albania,Europe,2012,78.2,0.775,1.69,3740,36.7
+Albania,Europe,2013,78.3,0.782,1.69,3780,38.9
+Albania,Europe,2014,78.2,0.787,1.9,3860,40
+Albania,Europe,2015,78.1,0.788,1.6,3950,40.1
+Albania,Europe,2016,78.2,0.788,1.57,4090,40.6
+Albania,Europe,2017,78.3,0.79,1.61,4250,42.5
+Albania,Europe,2018,78.4,0.792,1.59,4430,43
+Algeria,Africa,1998,70.2,0.621,3.53,2990,52
+Algeria,Africa,1999,70.7,0.629,3,3040,52.5
+Algeria,Africa,2000,71,0.637,2.82,3110,52.8
+Algeria,Africa,2001,71.3,0.647,2.67,3160,53.3
+Algeria,Africa,2002,71.8,0.657,2.81,3300,53.5
+Algeria,Africa,2003,72,0.667,2.82,3490,53.6
+Algeria,Africa,2004,72.6,0.677,2.69,3590,54.3
+Algeria,Africa,2005,72.9,0.685,3.21,3750,54.7
+Algeria,Africa,2006,73.3,0.69,2.98,3760,55.4
+Algeria,Africa,2007,73.6,0.7,3.18,3830,56
+Algeria,Africa,2008,73.9,0.702,3.14,3860,56.8
+Algeria,Africa,2009,74.2,0.711,3.4,3850,57.4
+Algeria,Africa,2010,74.5,0.721,3.28,3920,57.9
+Algeria,Africa,2011,74.7,0.728,3.27,3960,58.4
+Algeria,Africa,2012,74.9,0.728,3.43,4010,58.5
+Algeria,Africa,2013,75.1,0.729,3.48,4040,58.5
+Algeria,Africa,2014,75.3,0.736,3.68,4110,58.6
+Algeria,Africa,2015,75.4,0.74,3.8,4180,58.8
+Algeria,Africa,2016,75.7,0.743,3.64,4220,59
+Algeria,Africa,2017,75.9,0.745,3.56,4190,59.2
+Algeria,Africa,2018,76,0.746,3.69,4160,59.6
+Angola,Africa,1998,50.6,,0.474,2490,53.3
+Angola,Africa,1999,51.9,0.391,0.576,2460,53.6
+Angola,Africa,2000,52.8,0.4,0.581,2450,53.9
+Angola,Africa,2001,53.4,0.41,0.571,2470,54.1
+Angola,Africa,2002,54.5,0.426,0.72,2720,54.7
+Angola,Africa,2003,55.1,0.435,0.496,2710,54.6
+Angola,Africa,2004,55.5,0.446,0.998,2900,54.7
+Angola,Africa,2005,56.4,0.46,0.979,3220,53.1
+Angola,Africa,2006,57,0.473,1.1,3460,51.2
+Angola,Africa,2007,58,0.489,1.2,3810,49.5
+Angola,Africa,2008,58.8,0.501,1.18,4080,47.6
+Angola,Africa,2009,59.5,0.515,1.23,3960,45.7
+Angola,Africa,2010,60.2,0.517,1.24,3990,43.3
+Angola,Africa,2011,60.8,0.533,1.25,3980,40.8
+Angola,Africa,2012,61.4,0.544,1.35,4170,40.8
+Angola,Africa,2013,62.1,0.555,1.28,4220,41
+Angola,Africa,2014,63,0.565,1.64,4270,41.1
+Angola,Africa,2015,63.5,0.572,1.22,4170,41.3
+Angola,Africa,2016,63.9,0.578,1.18,3920,41.5
+Angola,Africa,2017,64.2,0.582,1.14,3790,41.8
+Angola,Africa,2018,64.6,0.582,1.12,3600,42.1
+Argentina,South America,1998,73.7,0.763,3.87,11400,74.4
+Argentina,South America,1999,73.8,0.774,4.02,10900,75.6
+Argentina,South America,2000,74.2,0.781,3.85,10700,76.6
+Argentina,South America,2001,74.3,0.786,3.58,10100,77.2
+Argentina,South America,2002,74.3,0.781,3.3,8940,78.8
+Argentina,South America,2003,74.4,0.786,3.54,9630,76.8
+Argentina,South America,2004,74.9,0.787,4.08,10400,75.8
+Argentina,South America,2005,75.3,0.788,4.15,11200,75.5
+Argentina,South America,2006,75.4,0.812,4.45,12000,75.3
+Argentina,South America,2007,75.3,0.817,4.39,12900,75
+Argentina,South America,2008,75.7,0.821,4.7,13300,74.8
+Argentina,South America,2009,75.8,0.821,4.42,12400,75.6
+Argentina,South America,2010,75.9,0.829,4.57,13600,75.4
+Argentina,South America,2011,76,0.835,4.61,14200,75.4
+Argentina,South America,2012,76.2,0.834,4.6,13900,75.7
+Argentina,South America,2013,76.3,0.835,4.56,14100,75.4
+Argentina,South America,2014,76.5,0.836,4.56,13600,75.3
+Argentina,South America,2015,76.5,0.84,4.64,13800,76.1
+Argentina,South America,2016,76.2,0.839,4.6,13400,77
+Argentina,South America,2017,76.3,0.843,4.55,13600,77.5
+Argentina,South America,2018,76.5,0.842,4.41,13100,78
+Armenia,Asia,1998,71.6,0.657,1.09,1160,40.8
+Armenia,Asia,1999,71.9,0.664,0.988,1210,41.2
+Armenia,Asia,2000,72.4,0.669,1.14,1290,41.5
+Armenia,Asia,2001,72.5,0.673,1.16,1420,42
+Armenia,Asia,2002,72.7,0.682,1.01,1620,42.5
+Armenia,Asia,2003,72.8,0.691,1.15,1860,43
+Armenia,Asia,2004,73,0.7,1.23,2060,43.3
+Armenia,Asia,2005,73,0.712,1.47,2360,43.6
+Armenia,Asia,2006,73.1,0.726,1.49,2700,44
+Armenia,Asia,2007,73.5,0.741,1.74,3090,44.5
+Armenia,Asia,2008,73.5,0.745,1.92,3340,44
+Armenia,Asia,2009,73.6,0.742,1.51,2880,43.5
+Armenia,Asia,2010,73.9,0.747,1.48,2960,44
+Armenia,Asia,2011,74.2,0.751,1.73,3100,44.4
+Armenia,Asia,2012,74.6,0.756,1.99,3310,45.1
+Armenia,Asia,2013,75.1,0.762,1.91,3410,46.7
+Armenia,Asia,2014,75.2,0.764,1.91,3510,48.4
+Armenia,Asia,2015,75.1,0.768,1.65,3610,48.8
+Armenia,Asia,2016,75.3,0.766,1.76,3600,50.6
+Armenia,Asia,2017,75.5,0.769,1.7,3860,51.9
+Armenia,Asia,2018,75.6,0.771,1.89,4050,51.1
+Australia,Oceania,1998,79.1,0.896,18,42800,73.6
+Australia,Oceania,1999,79.4,0.9,18.3,44500,73.9
+Australia,Oceania,2000,79.7,0.903,18.5,45700,73.5
+Australia,Oceania,2001,80.1,0.905,18.6,45900,74.5
+Australia,Oceania,2002,80.3,0.907,18.7,47200,74.7
+Australia,Oceania,2003,80.6,0.909,18.9,48000,75.2
+Australia,Oceania,2004,80.9,0.911,19.3,49400,75
+Australia,Oceania,2005,81.2,0.906,19.2,50300,75.3
+Australia,Oceania,2006,81.5,0.909,19.1,50900,75.3
+Australia,Oceania,2007,81.5,0.912,19.2,52600,75.5
+Australia,Oceania,2008,81.7,0.926,19,53400,75.1
+Australia,Oceania,2009,81.9,0.928,18.8,53300,75.6
+Australia,Oceania,2010,82.1,0.93,18.4,53600,75.8
+Australia,Oceania,2011,82.3,0.932,18,54200,76.3
+Australia,Oceania,2012,82.6,0.937,17.8,55300,76.5
+Australia,Oceania,2013,82.7,0.931,17.1,55800,76.9
+Australia,Oceania,2014,82.7,0.933,16.7,56300,76.9
+Australia,Oceania,2015,82.7,0.938,16.8,56800,78
+Australia,Oceania,2016,83,0.939,17,57400,78
+Australia,Oceania,2017,83,0.941,17,57800,78
+Australia,Oceania,2018,82.9,0.943,16.9,58600,77.5
+Austria,Europe,1998,77.9,0.837,8.35,36400,64
+Austria,Europe,1999,78.2,0.842,8.17,37600,64
+Austria,Europe,2000,78.5,0.847,8.22,38800,63.9
+Austria,Europe,2001,78.9,0.857,8.69,39200,64.8
+Austria,Europe,2002,79,0.847,8.87,39600,65.4
+Austria,Europe,2003,79.1,0.851,9.52,39800,65.6
+Austria,Europe,2004,79.5,0.858,9.49,40600,68.4
+Austria,Europe,2005,79.8,0.863,9.63,41300,67.2
+Austria,Europe,2006,80.1,0.87,9.31,42500,66.6
+Austria,Europe,2007,80.3,0.89,8.96,43900,67.1
+Austria,Europe,2008,80.5,0.893,8.85,44400,68.5
+Austria,Europe,2009,80.5,0.895,8.1,42600,69.7
+Austria,Europe,2010,80.8,0.904,8.6,43300,69.9
+Austria,Europe,2011,81,0.906,8.3,44400,69
+Austria,Europe,2012,81.2,0.908,7.95,44500,69.2
+Austria,Europe,2013,81.3,0.905,7.97,44300,69.5
+Austria,Europe,2014,81.5,0.913,7.49,44200,69.4
+Austria,Europe,2015,81.6,0.915,7.7,44200,69.7
+Austria,Europe,2016,81.8,0.917,7.7,44600,70.1
+Austria,Europe,2017,82,0.919,7.94,45300,71.1
+Austria,Europe,2018,82.1,0.921,7.75,46300,70.9
+Azerbaijan,Asia,1998,66,0.619,3.97,1280,46.5
+Azerbaijan,Asia,1999,66.2,0.629,3.55,1370,46.4
+Azerbaijan,Asia,2000,66.5,0.635,3.64,1500,48
+Azerbaijan,Asia,2001,67.1,0.643,3.52,1640,49.3
+Azerbaijan,Asia,2002,67.2,0.651,3.58,1780,48.5
+Azerbaijan,Asia,2003,67.1,0.659,3.67,1950,48.6
+Azerbaijan,Asia,2004,67.2,0.667,3.8,2110,48.7
+Azerbaijan,Asia,2005,67.3,0.674,4.02,2670,48.7
+Azerbaijan,Asia,2006,67.7,0.701,4.54,3560,48.1
+Azerbaijan,Asia,2007,68.2,0.706,3.49,4410,48.8
+Azerbaijan,Asia,2008,68.5,0.716,4.02,4780,48.3
+Azerbaijan,Asia,2009,68.8,0.727,3.57,5120,49.2
+Azerbaijan,Asia,2010,69,0.726,3.39,5300,48.1
+Azerbaijan,Asia,2011,69.2,0.727,3.61,5150,48
+Azerbaijan,Asia,2012,69.5,0.73,3.79,5190,48.1
+Azerbaijan,Asia,2013,69.7,0.735,3.74,5430,48.5
+Azerbaijan,Asia,2014,69.9,0.74,3.88,5510,48.9
+Azerbaijan,Asia,2015,70.2,0.744,3.86,5500,49.6
+Azerbaijan,Asia,2016,70.3,0.751,3.82,5270,49.3
+Azerbaijan,Asia,2017,70.4,0.754,3.73,5230,49.3
+Azerbaijan,Asia,2018,70.8,0.754,3.7,5260,49
+Bahamas,North America,1998,71.4,,6.57,31400,81.2
+Bahamas,North America,1999,70.8,,6.65,34900,79.3
+Bahamas,North America,2000,71.3,0.797,6.55,35800,78.9
+Bahamas,North America,2001,71.3,0.798,6.18,36200,78.8
+Bahamas,North America,2002,71.9,0.8,6.27,36600,79.6
+Bahamas,North America,2003,72.4,0.799,6.28,35500,81.2
+Bahamas,North America,2004,72.4,0.8,6.19,35100,79.6
+Bahamas,North America,2005,73.2,0.801,5.63,35700,78.8
+Bahamas,North America,2006,73,0.804,5.37,35900,79.3
+Bahamas,North America,2007,73.6,0.804,5.33,35700,79.8
+Bahamas,North America,2008,73.5,0.804,6.87,34300,80.9
+Bahamas,North America,2009,73.2,0.803,4.59,32300,81.2
+Bahamas,North America,2010,73.2,0.805,6.73,32300,81.3
+Bahamas,North America,2011,73.2,0.805,5.01,32000,81.5
+Bahamas,North America,2012,73.3,0.807,5.24,32700,81.6
+Bahamas,North America,2013,73.5,0.806,7.82,31500,82
+Bahamas,North America,2014,73.6,0.805,6.34,31500,82.3
+Bahamas,North America,2015,73.3,0.808,5.39,31300,82.8
+Bahamas,North America,2016,73.7,0.81,4.73,31400,82.9
+Bahamas,North America,2017,73.8,0.812,4.72,32100,83
+Bahamas,North America,2018,73.8,0.812,4.7,32700,83.3
+Bahrain,Asia,1998,71,0.787,30,22900,70.2
+Bahrain,Asia,1999,71.2,0.789,28.3,23000,70.3
+Bahrain,Asia,2000,71.7,0.795,28.3,23200,69.9
+Bahrain,Asia,2001,73.4,0.796,20.2,22700,69.9
+Bahrain,Asia,2002,72.7,0.795,21.6,22300,69.8
+Bahrain,Asia,2003,72.2,0.797,21.6,22300,69.5
+Bahrain,Asia,2004,72.3,0.796,21.6,22400,68.6
+Bahrain,Asia,2005,72.7,0.795,22.3,22300,67.6
+Bahrain,Asia,2006,73,0.797,20.3,22100,66.5
+Bahrain,Asia,2007,73.6,0.799,25.9,22100,65.4
+Bahrain,Asia,2008,74,0.8,26.7,21800,64.3
+Bahrain,Asia,2009,74.5,0.798,23.7,21100,64.3
+Bahrain,Asia,2010,75,0.8,23.5,21000,63.2
+Bahrain,Asia,2011,75.3,0.801,22.4,20800,63.7
+Bahrain,Asia,2012,75.7,0.808,21,21200,63.9
+Bahrain,Asia,2013,76.2,0.815,23.7,22100,63.8
+Bahrain,Asia,2014,76.6,0.82,23.3,22700,63.7
+Bahrain,Asia,2015,76.8,0.848,23.8,22600,63.8
+Bahrain,Asia,2016,76.8,0.853,22.1,22600,63.6
+Bahrain,Asia,2017,76.8,0.854,21.3,22400,63.5
+Bahrain,Asia,2018,77,0.852,19.8,21700,63.6
+Bangladesh,Asia,1998,64.5,0.461,0.189,617,24.9
+Bangladesh,Asia,1999,65.1,0.469,0.2,633,24.7
+Bangladesh,Asia,2000,65.5,0.478,0.208,654,24.5
+Bangladesh,Asia,2001,66,0.486,0.239,674,26.4
+Bangladesh,Asia,2002,66.3,0.492,0.242,687,28.4
+Bangladesh,Asia,2003,66.7,0.499,0.248,708,30.5
+Bangladesh,Asia,2004,67.1,0.506,0.263,733,32.7
+Bangladesh,Asia,2005,67.4,0.514,0.271,769,35.1
+Bangladesh,Asia,2006,67.8,0.521,0.296,809,37.4
+Bangladesh,Asia,2007,68.2,0.528,0.299,856,36.9
+Bangladesh,Asia,2008,69,0.531,0.314,897,36.3
+Bangladesh,Asia,2009,69.6,0.543,0.337,932,35.7
+Bangladesh,Asia,2010,70,0.557,0.366,973,35.1
+Bangladesh,Asia,2011,71.1,0.566,0.379,1020,35.4
+Bangladesh,Asia,2012,72.3,0.575,0.402,1080,35.7
+Bangladesh,Asia,2013,72.8,0.579,0.405,1130,36
+Bangladesh,Asia,2014,73,0.579,0.427,1180,36.3
+Bangladesh,Asia,2015,73.6,0.595,0.467,1250,36.6
+Bangladesh,Asia,2016,73.9,0.606,0.481,1320,36.9
+Bangladesh,Asia,2017,73.9,0.616,0.494,1400,39
+Bangladesh,Asia,2018,74.2,0.625,0.531,1500,39.8
+Barbados,North America,1998,74.5,0.753,4.09,15600,74.7
+Barbados,North America,1999,74.8,0.76,4.3,15600,74.3
+Barbados,North America,2000,74.7,0.771,4.24,16200,75.1
+Barbados,North America,2001,75.2,0.77,4.36,15800,76.2
+Barbados,North America,2002,75.1,0.774,4.39,15900,77.2
+Barbados,North America,2003,74.9,0.778,4.54,16200,77.8
+Barbados,North America,2004,74.9,0.782,4.62,16300,79.2
+Barbados,North America,2005,75.2,0.787,4.78,16900,79.4
+Barbados,North America,2006,75.4,0.791,4.84,17800,79.7
+Barbados,North America,2007,75.5,0.796,4.89,18200,79.8
+Barbados,North America,2008,75.8,0.8,5.76,18200,79.6
+Barbados,North America,2009,76.1,0.8,5.69,17200,79.1
+Barbados,North America,2010,76.2,0.797,5.19,16800,78.3
+Barbados,North America,2011,76.2,0.799,5.36,16600,78.2
+Barbados,North America,2012,76.5,0.808,5.15,16500,78.7
+Barbados,North America,2013,76.5,0.807,5.06,16200,78.3
+Barbados,North America,2014,76.5,0.808,4.37,16200,77.8
+Barbados,North America,2015,76.5,0.809,4.36,16500,77.8
+Barbados,North America,2016,76.5,0.811,4.43,16900,77.8
+Barbados,North America,2017,76.5,0.81,4.44,17000,77.9
+Barbados,North America,2018,76.5,0.81,4.48,16800,78.1
+Belarus,Europe,1998,68.4,0.674,5.96,2370,51.1
+Belarus,Europe,1999,68.2,0.679,5.75,2460,51.7
+Belarus,Europe,2000,69,0.686,5.62,2620,52.3
+Belarus,Europe,2001,68.6,0.692,5.67,2750,53.1
+Belarus,Europe,2002,68,0.699,5.72,2910,53.7
+Belarus,Europe,2003,68.6,0.707,5.91,3140,54.3
+Belarus,Europe,2004,69,0.717,6.32,3520,54.8
+Belarus,Europe,2005,68.8,0.727,6.5,3880,55.4
+Belarus,Europe,2006,69.5,0.744,6.82,4290,55.7
+Belarus,Europe,2007,70.4,0.76,6.78,4680,56.1
+Belarus,Europe,2008,70.5,0.777,7.03,5180,56.4
+Belarus,Europe,2009,70.6,0.787,6.57,5200,56.7
+Belarus,Europe,2010,70.6,0.795,6.79,5620,57.1
+Belarus,Europe,2011,70.5,0.801,6.68,5930,57.4
+Belarus,Europe,2012,72.3,0.806,6.77,6040,57.9
+Belarus,Europe,2013,72.8,0.811,6.85,6100,58.2
+Belarus,Europe,2014,73.1,0.814,6.77,6200,58.6
+Belarus,Europe,2015,73.7,0.814,6.29,5950,59.2
+Belarus,Europe,2016,73.8,0.815,6.46,5790,58.7
+Belarus,Europe,2017,73.8,0.819,6.64,5940,58.5
+Belarus,Europe,2018,74,0.823,6.93,6140,58.1
+Belgium,Europe,1998,77.7,0.873,12.7,33400,70.5
+Belgium,Europe,1999,77.8,0.875,12.2,34500,71.8
+Belgium,Europe,2000,78,0.88,12.3,35700,72.3
+Belgium,Europe,2001,78.3,0.883,12.2,35900,73.1
+Belgium,Europe,2002,78.5,0.886,12.2,36400,72.4
+Belgium,Europe,2003,78.7,0.889,12.3,36600,73.4
+Belgium,Europe,2004,79.1,0.893,12.3,37700,72.8
+Belgium,Europe,2005,79.3,0.897,11.9,38400,73.3
+Belgium,Europe,2006,79.6,0.904,11.7,39100,73.4
+Belgium,Europe,2007,79.8,0.907,11.3,40300,73.7
+Belgium,Europe,2008,79.9,0.906,11.2,40100,73.8
+Belgium,Europe,2009,80,0.907,9.93,39000,75
+Belgium,Europe,2010,80.2,0.91,10.4,39800,75.3
+Belgium,Europe,2011,80.4,0.911,9.48,39900,75.5
+Belgium,Europe,2012,80.5,0.913,9.17,40000,77.1
+Belgium,Europe,2013,80.7,0.916,9.11,40000,76.9
+Belgium,Europe,2014,81,0.918,8.55,40400,77.4
+Belgium,Europe,2015,81.1,0.922,8.84,41000,77.4
+Belgium,Europe,2016,81.3,0.924,8.68,41300,77.5
+Belgium,Europe,2017,81.4,0.929,8.55,41800,78.1
+Belgium,Europe,2018,81.4,0.93,8.69,42400,77.9
+Belize,North America,1998,70.6,0.628,1.61,3740,57
+Belize,North America,1999,70.3,0.633,1.46,3920,55.5
+Belize,North America,2000,70,0.64,1.6,4280,56.6
+Belize,North America,2001,70.6,0.644,1.75,4340,57.9
+Belize,North America,2002,71.4,0.651,1.65,4420,59.1
+Belize,North America,2003,71.8,0.659,1.61,4710,60.4
+Belize,North America,2004,72,0.665,1.42,4810,61.5
+Belize,North America,2005,72.4,0.662,1.49,4770,62.6
+Belize,North America,2006,72.6,0.672,1.52,4870,62.9
+Belize,North America,2007,73.1,0.674,1.59,4770,63.4
+Belize,North America,2008,73.6,0.679,1.42,4810,63.7
+Belize,North America,2009,73.7,0.684,1.86,4700,64.2
+Belize,North America,2010,73.6,0.695,1.67,4730,64.7
+Belize,North America,2011,73.8,0.694,1.82,4710,65
+Belize,North America,2012,74.3,0.701,1.41,4710,65.4
+Belize,North America,2013,74.3,0.702,1.49,4660,65.8
+Belize,North America,2014,74.3,0.705,1.4,4750,66.1
+Belize,North America,2015,74.2,0.71,1.61,4770,66.5
+Belize,North America,2016,74.4,0.717,1.54,4670,65.7
+Belize,North America,2017,74.5,0.714,1.51,4660,66.9
+Belize,North America,2018,74.4,0.714,1.5,4710,67.4
+Benin,Africa,1998,57.2,0.403,0.185,862,30.7
+Benin,Africa,1999,57.3,0.409,0.232,882,31.1
+Benin,Africa,2000,57.4,0.416,0.229,906,31.7
+Benin,Africa,2001,57.6,0.428,0.253,926,32.3
+Benin,Africa,2002,57.9,0.438,0.282,940,32.8
+Benin,Africa,2003,58.1,0.445,0.31,943,33.3
+Benin,Africa,2004,58.5,0.453,0.32,956,33.9
+Benin,Africa,2005,58.8,0.459,0.297,944,34.3
+Benin,Africa,2006,59.1,0.467,0.452,953,34.9
+Benin,Africa,2007,59.5,0.475,0.511,981,35.6
+Benin,Africa,2008,60.1,0.482,0.49,1000,36.3
+Benin,Africa,2009,60.7,0.488,0.504,996,36.8
+Benin,Africa,2010,61.1,0.494,0.537,989,37.3
+Benin,Africa,2011,61.4,0.5,0.517,990,37.8
+Benin,Africa,2012,61.7,0.51,0.477,1010,38.5
+Benin,Africa,2013,62,0.522,0.488,1050,39.3
+Benin,Africa,2014,62.3,0.527,0.508,1090,40.1
+Benin,Africa,2015,62.6,0.532,0.555,1080,40.5
+Benin,Africa,2016,63,0.533,0.577,1080,41.1
+Benin,Africa,2017,63.4,0.536,0.618,1110,41.8
+Benin,Africa,2018,64,0.541,0.623,1160,42.6
+Bhutan,Asia,1998,65.4,,0.651,1040,25.9
+Bhutan,Asia,1999,66,,0.642,1100,26.2
+Bhutan,Asia,2000,65.7,,0.646,1110,26.6
+Bhutan,Asia,2001,67.1,,0.612,1180,27
+Bhutan,Asia,2002,67.7,,0.653,1280,27.4
+Bhutan,Asia,2003,68.2,,0.576,1350,27.9
+Bhutan,Asia,2004,68.6,,0.455,1410,28.5
+Bhutan,Asia,2005,69,0.52,0.583,1490,29
+Bhutan,Asia,2006,69.5,0.526,0.568,1570,29.7
+Bhutan,Asia,2007,69.9,0.542,0.56,1840,30.5
+Bhutan,Asia,2008,70.3,0.551,0.597,1910,31.4
+Bhutan,Asia,2009,70.5,0.561,0.543,2020,32.5
+Bhutan,Asia,2010,71,0.574,0.678,2240,33.8
+Bhutan,Asia,2011,71.3,0.585,0.964,2390,30.6
+Bhutan,Asia,2012,71.6,0.597,1.1,2480,31.7
+Bhutan,Asia,2013,71.8,0.61,1.2,2500,32.7
+Bhutan,Asia,2014,72.1,0.618,1.33,2610,32.5
+Bhutan,Asia,2015,72.3,0.628,1.34,2750,32.4
+Bhutan,Asia,2016,72.5,0.637,1.56,2940,32.8
+Bhutan,Asia,2017,72.7,0.646,1.58,3040,33.3
+Bhutan,Asia,2018,73,0.649,1.61,3100,33.6
+Bolivia,South America,1998,65.5,0.61,1.35,2080,40.5
+Bolivia,South America,1999,66,0.619,1.26,2050,41.1
+Bolivia,South America,2000,66.5,0.627,1.31,2060,42.4
+Bolivia,South America,2001,67.2,0.63,0.999,2050,40.1
+Bolivia,South America,2002,67.6,0.637,1.18,2070,39.9
+Bolivia,South America,2003,68.1,0.64,1.24,2080,44.4
+Bolivia,South America,2004,68.6,0.641,1.22,2130,44.4
+Bolivia,South America,2005,69,0.643,1.31,2190,42
+Bolivia,South America,2006,69.3,0.649,1.59,2250,43
+Bolivia,South America,2007,69.6,0.649,1.27,2310,44.2
+Bolivia,South America,2008,69.8,0.658,1.34,2410,48.7
+Bolivia,South America,2009,70.1,0.663,1.38,2450,49.2
+Bolivia,South America,2010,70.3,0.667,1.49,2510,49.3
+Bolivia,South America,2011,70.5,0.671,1.57,2600,49.3
+Bolivia,South America,2012,70.7,0.675,1.79,2690,51.6
+Bolivia,South America,2013,70.9,0.684,1.79,2830,50.9
+Bolivia,South America,2014,71.1,0.69,1.87,2940,48.5
+Bolivia,South America,2015,71.3,0.697,1.81,3040,49.6
+Bolivia,South America,2016,71.5,0.702,1.92,3120,49.5
+Bolivia,South America,2017,71.7,0.71,1.94,3200,49.5
+Bolivia,South America,2018,71.8,0.714,1.96,3290,49.5
+Bosnia and Herzegovina,Europe,1998,74.9,,2.83,2310,43.1
+Bosnia and Herzegovina,Europe,1999,75.4,,2.76,2530,44.2
+Bosnia and Herzegovina,Europe,2000,75.5,0.679,3.66,2660,45
+Bosnia and Herzegovina,Europe,2001,75.3,0.684,3.53,2780,45.9
+Bosnia and Herzegovina,Europe,2002,75.1,0.689,3.77,2920,46.7
+Bosnia and Herzegovina,Europe,2003,75.3,0.695,3.82,3040,47.4
+Bosnia and Herzegovina,Europe,2004,75.5,0.701,4.11,3220,47.9
+Bosnia and Herzegovina,Europe,2005,75.3,0.706,4.26,3500,48.3
+Bosnia and Herzegovina,Europe,2006,75.6,0.712,4.62,3690,48.7
+Bosnia and Herzegovina,Europe,2007,75.3,0.719,4.65,3910,47.6
+Bosnia and Herzegovina,Europe,2008,75.9,0.726,5.32,4130,47
+Bosnia and Herzegovina,Europe,2009,76.1,0.727,5.5,4030,47.3
+Bosnia and Herzegovina,Europe,2010,76.3,0.721,5.71,4090,49.4
+Bosnia and Herzegovina,Europe,2011,76.4,0.729,6.5,4180,51.5
+Bosnia and Herzegovina,Europe,2012,76.7,0.748,6.15,4210,49.1
+Bosnia and Herzegovina,Europe,2013,76.6,0.755,6.16,4390,51.2
+Bosnia and Herzegovina,Europe,2014,76.7,0.758,5.55,4520,52.9
+Bosnia and Herzegovina,Europe,2015,76.5,0.761,5.39,4730,51.9
+Bosnia and Herzegovina,Europe,2016,76.7,0.772,6.42,4940,50.8
+Bosnia and Herzegovina,Europe,2017,76.8,0.774,6.5,5150,51.5
+Bosnia and Herzegovina,Europe,2018,76.9,0.777,6.53,5380,52.1
+Botswana,Africa,1998,47.6,0.58,2.12,4340,57
+Botswana,Africa,1999,46.4,0.582,1.96,4660,58.1
+Botswana,Africa,2000,45.5,0.581,2.3,4650,58.9
+Botswana,Africa,2001,45,0.582,2.3,4580,57.9
+Botswana,Africa,2002,44.9,0.579,2.33,4770,57.1
+Botswana,Africa,2003,45.7,0.586,2.21,4910,56.2
+Botswana,Africa,2004,47.5,0.592,2.21,4950,56.4
+Botswana,Africa,2005,49.9,0.601,2.28,5080,56.6
+Botswana,Africa,2006,51.4,0.615,2.25,5390,56.9
+Botswana,Africa,2007,53.4,0.628,2.26,5720,56.9
+Botswana,Africa,2008,54.7,0.641,2.35,5950,56.9
+Botswana,Africa,2009,56.1,0.65,1.98,5380,56.8
+Botswana,Africa,2010,57,0.663,2.28,5750,57.3
+Botswana,Africa,2011,57.8,0.677,2,6010,57.9
+Botswana,Africa,2012,58.6,0.689,2.49,6200,58.4
+Botswana,Africa,2013,59.4,0.701,2.75,6830,59.2
+Botswana,Africa,2014,60.1,0.711,3.28,7020,59.7
+Botswana,Africa,2015,60.6,0.717,2.56,6800,60.1
+Botswana,Africa,2016,61.2,0.72,2.93,6960,60.7
+Botswana,Africa,2017,61.5,0.726,3.14,7020,61.3
+Botswana,Africa,2018,61.8,0.73,2.96,7170,61.9
+Brazil,South America,1998,70.4,0.67,1.82,6660,61
+Brazil,South America,1999,70.8,0.676,1.84,6600,61.2
+Brazil,South America,2000,71.2,0.685,1.86,6790,61.7
+Brazil,South America,2001,71.5,0.691,1.88,6790,62
+Brazil,South America,2002,71.8,0.699,1.83,6900,61.5
+Brazil,South America,2003,72,0.695,1.75,6900,61.8
+Brazil,South America,2004,72.3,0.698,1.81,7210,61.2
+Brazil,South America,2005,72.8,0.7,1.84,7350,61.4
+Brazil,South America,2006,73.1,0.702,1.82,7560,62.5
+Brazil,South America,2007,73.3,0.706,1.88,7940,62.8
+Brazil,South America,2008,73.5,0.717,1.98,8260,62.9
+Brazil,South America,2009,73.7,0.719,1.86,8170,63.9
+Brazil,South America,2010,73.8,0.727,2.1,8700,64.8
+Brazil,South America,2011,74,0.731,2.18,8970,65.7
+Brazil,South America,2012,74.3,0.735,2.31,9060,65.5
+Brazil,South America,2013,74.5,0.753,2.46,9250,65.9
+Brazil,South America,2014,74.8,0.756,2.59,9210,66.8
+Brazil,South America,2015,75,0.756,2.42,8810,67.6
+Brazil,South America,2016,75,0.758,2.2,8460,69
+Brazil,South America,2017,75.4,0.761,2.23,8500,70.1
+Brazil,South America,2018,75.7,0.762,2.18,8580,70.6
+Brunei,Asia,1998,72.2,0.794,16.2,33600,74.3
+Brunei,Asia,1999,72.3,0.8,11.7,33800,75.6
+Brunei,Asia,2000,72.5,0.802,13.8,34100,76.3
+Brunei,Asia,2001,72.8,0.803,12.9,34300,76.2
+Brunei,Asia,2002,72.9,0.807,12.3,34900,76.8
+Brunei,Asia,2003,72.9,0.813,12.7,35300,77.4
+Brunei,Asia,2004,72.9,0.818,13.6,34900,77.9
+Brunei,Asia,2005,73,0.822,13.3,34400,78.6
+Brunei,Asia,2006,73.2,0.825,12.8,35500,79
+Brunei,Asia,2007,73.5,0.825,22.2,35100,78.9
+Brunei,Asia,2008,73.8,0.825,23.7,34000,79.6
+Brunei,Asia,2009,73.8,0.827,20.2,33000,79.3
+Brunei,Asia,2010,73.8,0.827,20.8,33400,79.8
+Brunei,Asia,2011,73.9,0.831,24.3,34200,80.4
+Brunei,Asia,2012,74,0.839,23.8,34100,80.6
+Brunei,Asia,2013,73.9,0.839,18.9,32900,80.6
+Brunei,Asia,2014,74,0.838,21.8,31700,80.8
+Brunei,Asia,2015,74,0.838,16.8,31200,81.3
+Brunei,Asia,2016,74.1,0.839,18,30000,82
+Brunei,Asia,2017,74.1,0.838,17.9,30100,82.5
+Brunei,Asia,2018,74.2,0.836,18.5,29800,79.4
+Bulgaria,Europe,1998,69.4,0.718,6.54,3780,50.6
+Bulgaria,Europe,1999,70,0.716,5.74,3480,52.3
+Bulgaria,Europe,2000,70.2,0.72,5.66,3670,54
+Bulgaria,Europe,2001,70.4,0.73,6.17,3890,57.5
+Bulgaria,Europe,2002,70.7,0.736,5.87,4210,56.6
+Bulgaria,Europe,2003,70.9,0.745,6.47,4460,56.7
+Bulgaria,Europe,2004,71,0.752,6.4,4780,56.3
+Bulgaria,Europe,2005,71.1,0.758,6.59,5160,56.8
+Bulgaria,Europe,2006,71.2,0.765,6.8,5560,57.4
+Bulgaria,Europe,2007,71.5,0.773,7.35,5960,57
+Bulgaria,Europe,2008,71.9,0.78,7.18,6370,56.1
+Bulgaria,Europe,2009,72.1,0.782,6.12,6200,57.7
+Bulgaria,Europe,2010,72.3,0.788,6.44,6270,60.2
+Bulgaria,Europe,2011,72.7,0.791,7.2,6460,61.8
+Bulgaria,Europe,2012,73,0.795,6.59,6520,62.2
+Bulgaria,Europe,2013,73.3,0.801,5.84,6580,63.2
+Bulgaria,Europe,2014,73,0.806,6.23,6740,62.9
+Bulgaria,Europe,2015,73.2,0.809,6.69,7060,63.2
+Bulgaria,Europe,2016,73.3,0.811,6.33,7380,63.5
+Bulgaria,Europe,2017,73.3,0.811,6.68,7690,63.1
+Bulgaria,Europe,2018,73.3,0.813,6.32,7990,63.3
+Burkina Faso,Africa,1998,51.6,,0.0783,426,11.1
+Burkina Faso,Africa,1999,52.1,,0.0811,444,12.2
+Burkina Faso,Africa,2000,52.5,0.293,0.0889,440,13.2
+Burkina Faso,Africa,2001,52.9,0.298,0.0831,456,14.5
+Burkina Faso,Africa,2002,53.4,0.303,0.0815,462,15.9
+Burkina Faso,Africa,2003,54,0.31,0.085,484,17.5
+Burkina Faso,Africa,2004,54.6,0.32,0.0845,491,19.1
+Burkina Faso,Africa,2005,55.3,0.332,0.0837,518,21
+Burkina Faso,Africa,2006,56,0.341,0.0982,534,22.9
+Burkina Faso,Africa,2007,56.5,0.352,0.112,540,24.8
+Burkina Faso,Africa,2008,57.1,0.364,0.118,554,26.8
+Burkina Faso,Africa,2009,57.6,0.373,0.121,554,28.8
+Burkina Faso,Africa,2010,57.9,0.384,0.131,582,31
+Burkina Faso,Africa,2011,58.3,0.394,0.133,603,33.1
+Burkina Faso,Africa,2012,58.6,0.403,0.158,623,35
+Burkina Faso,Africa,2013,58.9,0.41,0.168,639,36.6
+Burkina Faso,Africa,2014,59.4,0.413,0.166,647,38.1
+Burkina Faso,Africa,2015,59.9,0.422,0.182,653,40.4
+Burkina Faso,Africa,2016,60.3,0.428,0.181,672,42.9
+Burkina Faso,Africa,2017,60.8,0.439,0.196,694,45.3
+Burkina Faso,Africa,2018,61.3,0.443,0.198,719,47.7
+Burundi,Africa,1998,43.9,0.294,0.0403,322,5.59
+Burundi,Africa,1999,44.3,0.295,0.0404,315,5.79
+Burundi,Africa,2000,44.7,0.3,0.0425,307,5.98
+Burundi,Africa,2001,45.8,0.301,0.0315,306,6.22
+Burundi,Africa,2002,46.9,0.311,0.0317,311,6.48
+Burundi,Africa,2003,47.9,0.319,0.0233,298,6.66
+Burundi,Africa,2004,49.2,0.33,0.0278,303,6.94
+Burundi,Africa,2005,50.3,0.337,0.0209,296,7.16
+Burundi,Africa,2006,54.5,0.359,0.0246,302,7.48
+Burundi,Africa,2007,55.7,0.371,0.0238,302,7.76
+Burundi,Africa,2008,56.8,0.384,0.0235,307,8.09
+Burundi,Africa,2009,57.7,0.401,0.0227,308,8.41
+Burundi,Africa,2010,58.5,0.411,0.0355,313,8.77
+Burundi,Africa,2011,59.4,0.419,0.047,316,9.12
+Burundi,Africa,2012,60.2,0.426,0.0411,319,9.51
+Burundi,Africa,2013,60.8,0.432,0.0419,325,9.92
+Burundi,Africa,2014,61.4,0.438,0.0383,328,10.3
+Burundi,Africa,2015,61.8,0.437,0.0386,306,10.2
+Burundi,Africa,2016,62.4,0.438,0.0461,294,10.2
+Burundi,Africa,2017,63,0.434,0.047,286,10.2
+Burundi,Africa,2018,63.4,0.431,0.0467,282,10.3
+Cambodia,Asia,1998,59.6,0.406,0.167,411,16.4
+Cambodia,Asia,1999,60,0.411,0.16,452,17
+Cambodia,Asia,2000,60.4,0.424,0.163,486,18
+Cambodia,Asia,2001,60.9,0.438,0.181,515,20.1
+Cambodia,Asia,2002,61.5,0.457,0.175,539,21.3
+Cambodia,Asia,2003,62.2,0.47,0.185,575,22.1
+Cambodia,Asia,2004,62.9,0.482,0.187,624,23.6
+Cambodia,Asia,2005,63.7,0.494,0.209,695,24.7
+Cambodia,Asia,2006,64.5,0.506,0.223,759,25.9
+Cambodia,Asia,2007,65.2,0.52,0.253,824,27.2
+Cambodia,Asia,2008,65.9,0.525,0.274,866,26.8
+Cambodia,Asia,2009,66.5,0.528,0.324,854,26.3
+Cambodia,Asia,2010,66.9,0.539,0.352,891,26.6
+Cambodia,Asia,2011,67.4,0.546,0.351,939,27
+Cambodia,Asia,2012,67.9,0.552,0.361,991,29
+Cambodia,Asia,2013,68.2,0.559,0.365,1050,31.2
+Cambodia,Asia,2014,68.6,0.565,0.427,1100,30.2
+Cambodia,Asia,2015,68.9,0.57,0.545,1160,32.6
+Cambodia,Asia,2016,69.2,0.576,0.617,1220,36.7
+Cambodia,Asia,2017,69.4,0.582,0.626,1290,36.3
+Cambodia,Asia,2018,69.7,0.585,0.64,1360,36.6
+Cameroon,Africa,1998,55.2,0.434,0.213,1030,23.2
+Cameroon,Africa,1999,54.8,0.436,0.199,1050,23.5
+Cameroon,Africa,2000,54.5,0.44,0.216,1060,23.9
+Cameroon,Africa,2001,54.3,0.456,0.209,1070,24.3
+Cameroon,Africa,2002,54.2,0.458,0.203,1090,25
+Cameroon,Africa,2003,54.3,0.464,0.22,1110,25.7
+Cameroon,Africa,2004,54.6,0.469,0.223,1150,26.6
+Cameroon,Africa,2005,55,0.47,0.203,1140,27.3
+Cameroon,Africa,2006,55.4,0.471,0.206,1150,28.1
+Cameroon,Africa,2007,55.9,0.482,0.305,1180,29
+Cameroon,Africa,2008,56.6,0.49,0.282,1180,30.2
+Cameroon,Africa,2009,57.2,0.498,0.334,1180,31.4
+Cameroon,Africa,2010,57.7,0.505,0.328,1180,32.7
+Cameroon,Africa,2011,58.2,0.514,0.295,1200,34.1
+Cameroon,Africa,2012,58.8,0.525,0.274,1220,35.4
+Cameroon,Africa,2013,59.1,0.534,0.22,1250,36.9
+Cameroon,Africa,2014,59.5,0.54,0.293,1290,38.3
+Cameroon,Africa,2015,60,0.549,0.333,1330,39.2
+Cameroon,Africa,2016,60.9,0.553,0.334,1350,40
+Cameroon,Africa,2017,61.9,0.557,0.326,1360,40.7
+Cameroon,Africa,2018,62.6,0.56,0.323,1380,41.4
+Canada,North America,1998,78.8,0.861,17.8,31800,73.9
+Canada,North America,1999,79.1,0.864,18.1,32800,74.1
+Canada,North America,2000,79.4,0.867,18.7,34100,74.2
+Canada,North America,2001,79.6,0.871,18.3,34200,74.8
+Canada,North America,2002,79.8,0.877,18.3,35000,74.7
+Canada,North America,2003,80,0.882,18.7,36000,74.9
+Canada,North America,2004,80.2,0.888,18.4,37100,74.9
+Canada,North America,2005,80.4,0.894,17.9,38600,75.2
+Canada,North America,2006,80.7,0.898,17.6,39800,75.8
+Canada,North America,2007,80.9,0.896,18.1,42100,76.3
+Canada,North America,2008,81.1,0.898,17.3,42100,76.6
+Canada,North America,2009,81.4,0.898,16.1,40400,77.8
+Canada,North America,2010,81.6,0.901,16.3,41200,78
+Canada,North America,2011,81.9,0.903,16.4,42000,77.9
+Canada,North America,2012,82,0.906,16.3,42300,77.8
+Canada,North America,2013,82.1,0.913,16.4,42800,77.9
+Canada,North America,2014,82.2,0.918,16.2,43600,78.1
+Canada,North America,2015,82.3,0.921,16,43600,78.4
+Canada,North America,2016,82.3,0.923,15.5,43500,78.7
+Canada,North America,2017,82.4,0.926,15.6,44300,78.9
+Canada,North America,2018,82.2,0.928,15.3,44800,78.9
+Cape Verde,Africa,1998,69.7,,0.382,1610,54.7
+Cape Verde,Africa,1999,69.7,,0.436,1760,55.3
+Cape Verde,Africa,2000,70.3,0.569,0.505,1970,55.9
+Cape Verde,Africa,2001,70.6,0.573,0.539,1980,56.1
+Cape Verde,Africa,2002,70.8,0.583,0.621,2050,56.5
+Cape Verde,Africa,2003,71.2,0.588,0.685,2110,56.8
+Cape Verde,Africa,2004,71.5,0.59,0.723,2290,57.4
+Cape Verde,Africa,2005,71.8,0.596,0.95,2410,57.9
+Cape Verde,Africa,2006,72.9,0.611,1.01,2570,58.4
+Cape Verde,Africa,2007,73.2,0.617,1.07,2920,59.2
+Cape Verde,Africa,2008,73.9,0.625,0.976,3080,59.7
+Cape Verde,Africa,2009,74.1,0.63,1.08,3000,59.9
+Cape Verde,Africa,2010,74.4,0.632,1.13,3010,60.4
+Cape Verde,Africa,2011,74.5,0.639,1.23,3090,61
+Cape Verde,Africa,2012,74.6,0.644,1,3090,61.5
+Cape Verde,Africa,2013,74.8,0.647,0.975,3070,62.1
+Cape Verde,Africa,2014,75,0.654,0.948,3050,62.6
+Cape Verde,Africa,2015,74.9,0.656,0.943,3040,63.1
+Cape Verde,Africa,2016,74.8,0.657,1.02,3150,63.9
+Cape Verde,Africa,2017,74.8,0.66,1.13,3230,64.5
+Cape Verde,Africa,2018,73.5,0.663,1.16,3330,66.3
+Central African Republic,Africa,1998,43.8,0.32,0.0717,477,16
+Central African Republic,Africa,1999,43.8,0.323,0.0742,483,16.2
+Central African Republic,Africa,2000,43.8,0.325,0.0735,460,16.3
+Central African Republic,Africa,2001,43.9,0.327,0.066,470,16.7
+Central African Republic,Africa,2002,44.2,0.328,0.0646,477,17
+Central African Republic,Africa,2003,44.5,0.328,0.0605,442,17
+Central African Republic,Africa,2004,44.8,0.331,0.0593,459,17.4
+Central African Republic,Africa,2005,45.2,0.336,0.0581,455,17.7
+Central African Republic,Africa,2006,45.6,0.342,0.0605,467,18.1
+Central African Republic,Africa,2007,46.1,0.347,0.0603,479,18.5
+Central African Republic,Africa,2008,46.8,0.352,0.0592,480,18.9
+Central African Republic,Africa,2009,47.4,0.356,0.0583,514,19.5
+Central African Republic,Africa,2010,47.8,0.365,0.0602,532,20.1
+Central African Republic,Africa,2011,48.3,0.374,0.0631,550,20.7
+Central African Republic,Africa,2012,48.8,0.381,0.0661,576,21.3
+Central African Republic,Africa,2013,47.5,0.363,0.0643,365,20.5
+Central African Republic,Africa,2014,47.5,0.368,0.0649,364,21
+Central African Republic,Africa,2015,49.7,0.375,0.0653,377,21.6
+Central African Republic,Africa,2016,50.3,0.382,0.0655,391,22.2
+Central African Republic,Africa,2017,50.4,0.391,0.0645,404,22.9
+Central African Republic,Africa,2018,51.5,0.395,0.0651,413,23.4
+Chad,Africa,1998,52.5,,0.0595,410,15.9
+Chad,Africa,1999,52.5,,0.0592,392,15.9
+Chad,Africa,2000,52.3,0.293,0.0584,375,15.9
+Chad,Africa,2001,52.5,0.301,0.0579,403,16.4
+Chad,Africa,2002,52.6,0.307,0.0565,421,16.8
+Chad,Africa,2003,52.8,0.305,0.0794,465,17.4
+Chad,Africa,2004,53.2,0.324,0.0769,598,18.4
+Chad,Africa,2005,53.7,0.327,0.0759,676,19.1
+Chad,Africa,2006,53.9,0.33,0.0757,657,19.2
+Chad,Africa,2007,54.8,0.34,0.079,656,19.4
+Chad,Africa,2008,55.2,0.346,0.083,654,19.7
+Chad,Africa,2009,56,0.361,0.0815,659,20
+Chad,Africa,2010,56.5,0.369,0.0834,724,20.7
+Chad,Africa,2011,56.9,0.38,0.0664,701,20.8
+Chad,Africa,2012,57.3,0.388,0.0707,738,21.4
+Chad,Africa,2013,57.8,0.394,0.0715,754,21.8
+Chad,Africa,2014,58.3,0.401,0.0717,780,22.3
+Chad,Africa,2015,58.8,0.398,0.0694,776,22.6
+Chad,Africa,2016,59.3,0.393,0.0682,705,22.4
+Chad,Africa,2017,59.5,0.396,0.0661,663,22.4
+Chad,Africa,2018,59.9,0.397,0.0656,659,22.7
+Chile,South America,1998,76.2,0.743,3.8,8480,60
+Chile,South America,1999,76.5,0.75,4.02,8340,62.1
+Chile,South America,2000,76.9,0.756,3.79,8690,62.2
+Chile,South America,2001,77,0.767,3.39,8870,62.5
+Chile,South America,2002,77.4,0.769,3.48,9050,62.6
+Chile,South America,2003,77.4,0.776,3.47,9320,63
+Chile,South America,2004,77.6,0.785,3.69,9890,63
+Chile,South America,2005,77.9,0.791,3.77,10300,63.9
+Chile,South America,2006,78.2,0.791,3.91,10900,63.9
+Chile,South America,2007,78.4,0.804,4.28,11300,64.3
+Chile,South America,2008,78.7,0.814,4.24,11600,64.7
+Chile,South America,2009,78.6,0.822,3.91,11300,65.7
+Chile,South America,2010,78.6,0.803,4.18,11800,66.4
+Chile,South America,2011,79,0.815,4.53,12400,66.4
+Chile,South America,2012,79.2,0.821,4.58,12900,66.2
+Chile,South America,2013,79.3,0.826,4.65,13300,66.6
+Chile,South America,2014,79.5,0.837,4.36,13400,67.1
+Chile,South America,2015,79.6,0.842,4.55,13600,67.3
+Chile,South America,2016,80,0.845,4.62,13600,67.5
+Chile,South America,2017,80,0.847,4.52,13600,68
+Chile,South America,2018,80.1,0.849,4.59,13900,68.5
+China,Asia,1998,70.9,0.571,2.57,1910,26.7
+China,Asia,1999,71.2,0.579,2.54,2040,26.9
+China,Asia,2000,71.3,0.588,2.6,2190,27.5
+China,Asia,2001,71.7,0.596,2.64,2360,27.7
+China,Asia,2002,72,0.606,2.9,2560,28.6
+China,Asia,2003,72.3,0.618,3.39,2800,29.3
+China,Asia,2004,72.5,0.628,3.88,3060,30.6
+China,Asia,2005,73,0.64,4.34,3390,31.4
+China,Asia,2006,73.7,0.653,4.77,3800,32.2
+China,Asia,2007,74.2,0.667,5.1,4320,32.4
+China,Asia,2008,74.3,0.678,5.45,4710,33.2
+China,Asia,2009,74.7,0.687,5.7,5130,34.1
+China,Asia,2010,74.9,0.699,6.22,5650,34.6
+China,Asia,2011,75.3,0.707,6.83,6160,35.7
+China,Asia,2012,75.7,0.716,6.97,6610,36.1
+China,Asia,2013,76.1,0.724,7.04,7090,38.5
+China,Asia,2014,76.4,0.731,7.02,7570,40.6
+China,Asia,2015,76.8,0.739,6.91,8070,42.2
+China,Asia,2016,77,0.746,6.87,8570,43.5
+China,Asia,2017,77.2,0.75,6.93,9120,44.9
+China,Asia,2018,77.4,0.755,7.06,9690,45.6
+Colombia,South America,1998,74,0.662,1.7,4150,58.6
+Colombia,South America,1999,74.1,0.662,1.41,3910,58.9
+Colombia,South America,2000,74.2,0.666,1.42,3960,59
+Colombia,South America,2001,74.4,0.668,1.39,3970,59.4
+Colombia,South America,2002,73.4,0.671,1.36,4000,59.6
+Colombia,South America,2003,75.2,0.67,1.38,4100,59.9
+Colombia,South America,2004,75.6,0.684,1.3,4260,60.2
+Colombia,South America,2005,76.5,0.689,1.41,4400,60.4
+Colombia,South America,2006,76.7,0.698,1.44,4640,60.8
+Colombia,South America,2007,77.3,0.711,1.41,4890,61.1
+Colombia,South America,2008,77.6,0.718,1.52,4990,61.3
+Colombia,South America,2009,77.5,0.72,1.62,4990,61.6
+Colombia,South America,2010,77.9,0.729,1.69,5160,61.6
+Colombia,South America,2011,78.7,0.734,1.67,5470,61.5
+Colombia,South America,2012,79,0.739,1.73,5630,61.9
+Colombia,South America,2013,79.3,0.742,1.98,5870,63.8
+Colombia,South America,2014,79.7,0.753,1.83,6070,64
+Colombia,South America,2015,79.7,0.756,1.96,6180,64.2
+Colombia,South America,2016,79.8,0.76,2.01,6220,64.6
+Colombia,South America,2017,80,0.763,1.91,6210,64
+Colombia,South America,2018,80.1,0.764,1.96,6270,63.3
+Comoros,Africa,1998,60.3,,0.171,1110,26.6
+Comoros,Africa,1999,61.2,,0.173,1100,27
+Comoros,Africa,2000,61.4,0.465,0.189,1190,27.7
+Comoros,Africa,2001,62.2,0.47,0.185,1190,28.3
+Comoros,Africa,2002,62.5,0.475,0.18,1190,28.8
+Comoros,Africa,2003,63.3,0.481,0.226,1180,29.4
+Comoros,Africa,2004,63.8,0.483,0.239,1180,30
+Comoros,Africa,2005,64.1,0.489,0.228,1180,31.3
+Comoros,Africa,2006,64.4,0.495,0.258,1180,32.5
+Comoros,Africa,2007,64.5,0.501,0.16,1170,33.6
+Comoros,Africa,2008,65.3,0.508,0.162,1180,35
+Comoros,Africa,2009,64.8,0.514,0.196,1190,36.2
+Comoros,Africa,2010,65.9,0.521,0.234,1210,37.5
+Comoros,Africa,2011,65.7,0.533,0.192,1230,38.9
+Comoros,Africa,2012,66.3,0.538,0.198,1240,40.1
+Comoros,Africa,2013,66.7,0.542,0.237,1260,41.4
+Comoros,Africa,2014,67.2,0.543,0.203,1260,42.7
+Comoros,Africa,2015,67.5,0.545,0.217,1240,43.3
+Comoros,Africa,2016,67.9,0.547,0.254,1250,44.1
+Comoros,Africa,2017,68.2,0.55,0.261,1270,44.9
+Comoros,Africa,2018,68.5,0.552,0.263,1290,45.7
+"Congo, Dem. Rep.",Africa,1998,53.3,0.349,0.0369,414,18.6
+"Congo, Dem. Rep.",Africa,1999,53.5,0.347,0.0287,387,18.6
+"Congo, Dem. Rep.",Africa,2000,53.9,0.349,0.019,351,18.5
+"Congo, Dem. Rep.",Africa,2001,54.2,0.35,0.0159,334,18.5
+"Congo, Dem. Rep.",Africa,2002,54.4,0.358,0.0171,334,18.7
+"Congo, Dem. Rep.",Africa,2003,54.8,0.366,0.0202,342,19.1
+"Congo, Dem. Rep.",Africa,2004,55.5,0.374,0.0217,354,19.5
+"Congo, Dem. Rep.",Africa,2005,56.1,0.381,0.0264,364,19.9
+"Congo, Dem. Rep.",Africa,2006,56.7,0.389,0.0275,371,20.3
+"Congo, Dem. Rep.",Africa,2007,57.1,0.4,0.029,381,20.7
+"Congo, Dem. Rep.",Africa,2008,57.5,0.412,0.03,392,21.1
+"Congo, Dem. Rep.",Africa,2009,58,0.419,0.0272,390,21.3
+"Congo, Dem. Rep.",Africa,2010,58.8,0.435,0.0304,404,21.8
+"Congo, Dem. Rep.",Africa,2011,59.4,0.438,0.0366,418,22.2
+"Congo, Dem. Rep.",Africa,2012,60.1,0.442,0.0342,433,22.7
+"Congo, Dem. Rep.",Africa,2013,60.9,0.448,0.0496,454,23.2
+"Congo, Dem. Rep.",Africa,2014,61.8,0.46,0.0628,481,23.9
+"Congo, Dem. Rep.",Africa,2015,62.6,0.464,0.0367,497,24.3
+"Congo, Dem. Rep.",Africa,2016,63.3,0.471,0.0254,493,24.6
+"Congo, Dem. Rep.",Africa,2017,63.9,0.475,0.0244,495,25
+"Congo, Dem. Rep.",Africa,2018,64.7,0.478,0.0243,507,25.5
+"Congo, Rep.",Africa,1998,50.3,0.48,0.263,2080,32.8
+"Congo, Rep.",Africa,1999,52.2,0.467,0.27,1970,33
+"Congo, Rep.",Africa,2000,53,0.461,0.335,2060,33.8
+"Congo, Rep.",Africa,2001,54,0.468,0.238,2080,34.3
+"Congo, Rep.",Africa,2002,54.7,0.471,0.174,2110,34.9
+"Congo, Rep.",Africa,2003,55.3,0.471,0.269,2070,35.3
+"Congo, Rep.",Africa,2004,56.1,0.473,0.271,2080,35.8
+"Congo, Rep.",Africa,2005,57,0.469,0.268,2170,36.6
+"Congo, Rep.",Africa,2006,57.8,0.47,0.296,2270,37.3
+"Congo, Rep.",Africa,2007,58.5,0.486,0.31,2050,37.4
+"Congo, Rep.",Africa,2008,59.4,0.501,0.323,2100,38.1
+"Congo, Rep.",Africa,2009,60.3,0.514,0.416,2270,38.7
+"Congo, Rep.",Africa,2010,60.9,0.52,0.459,2420,39.7
+"Congo, Rep.",Africa,2011,61.6,0.522,0.51,2410,40.2
+"Congo, Rep.",Africa,2012,61.9,0.535,0.653,2580,40.9
+"Congo, Rep.",Africa,2013,62.4,0.545,0.695,2500,41.5
+"Congo, Rep.",Africa,2014,62.9,0.56,0.656,2600,42.4
+"Congo, Rep.",Africa,2015,63.5,0.58,0.649,2450,43
+"Congo, Rep.",Africa,2016,64.2,0.578,0.638,2130,43.3
+"Congo, Rep.",Africa,2017,64.7,0.574,0.623,1990,43.7
+"Congo, Rep.",Africa,2018,65,0.573,0.617,1840,44.5
+Costa Rica,North America,1998,77.4,0.713,1.38,7390,60
+Costa Rica,North America,1999,77.3,0.717,1.4,7540,60.2
+Costa Rica,North America,2000,77.9,0.721,1.36,7680,61.3
+Costa Rica,North America,2001,77.9,0.725,1.41,7810,60.9
+Costa Rica,North America,2002,78.4,0.728,1.52,7940,61.5
+Costa Rica,North America,2003,78.5,0.731,1.57,8160,62.5
+Costa Rica,North America,2004,78.6,0.735,1.61,8400,63
+Costa Rica,North America,2005,79.4,0.738,1.56,8610,63.1
+Costa Rica,North America,2006,79.1,0.745,1.6,9110,64.2
+Costa Rica,North America,2007,80.3,0.753,1.79,9730,64.5
+Costa Rica,North America,2008,80.3,0.761,1.77,10100,65.9
+Costa Rica,North America,2009,80.6,0.762,1.7,9840,68.1
+Costa Rica,North America,2010,79.5,0.765,1.62,10200,69
+Costa Rica,North America,2011,80.2,0.778,1.56,10600,69.8
+Costa Rica,North America,2012,80.3,0.783,1.53,10900,71.5
+Costa Rica,North America,2013,80.4,0.788,1.59,11100,73.6
+Costa Rica,North America,2014,80.5,0.796,1.6,11400,71.2
+Costa Rica,North America,2015,80.2,0.797,1.51,11600,68.5
+Costa Rica,North America,2016,79.8,0.801,1.6,12000,69.2
+Costa Rica,North America,2017,79.8,0.804,1.58,12400,69
+Costa Rica,North America,2018,80,0.808,1.61,12500,67.9
+Cote d'Ivoire,Africa,1998,50.9,0.414,0.423,1940,35.6
+Cote d'Ivoire,Africa,1999,51,0.419,0.371,1920,36
+Cote d'Ivoire,Africa,2000,51.1,0.421,0.393,1830,36.2
+Cote d'Ivoire,Africa,2001,51.5,0.424,0.439,1790,36.7
+Cote d'Ivoire,Africa,2002,51.7,0.426,0.404,1720,37
+Cote d'Ivoire,Africa,2003,52.1,0.429,0.292,1660,37.4
+Cote d'Ivoire,Africa,2004,52.6,0.433,0.409,1650,37.9
+Cote d'Ivoire,Africa,2005,53.5,0.438,0.409,1640,38.5
+Cote d'Ivoire,Africa,2006,54.4,0.443,0.363,1630,39
+Cote d'Ivoire,Africa,2007,55.3,0.449,0.341,1620,39.5
+Cote d'Ivoire,Africa,2008,56.3,0.455,0.336,1630,40.1
+Cote d'Ivoire,Africa,2009,57,0.462,0.275,1640,40.7
+Cote d'Ivoire,Africa,2010,57.4,0.468,0.296,1630,41.2
+Cote d'Ivoire,Africa,2011,57.8,0.472,0.302,1530,41.2
+Cote d'Ivoire,Africa,2012,58.8,0.482,0.387,1650,42.1
+Cote d'Ivoire,Africa,2013,59.4,0.49,0.432,1750,42.9
+Cote d'Ivoire,Africa,2014,60.2,0.492,0.43,1860,43.5
+Cote d'Ivoire,Africa,2015,61.1,0.503,0.405,1970,44.1
+Cote d'Ivoire,Africa,2016,62,0.513,0.331,2060,44.7
+Cote d'Ivoire,Africa,2017,62.8,0.525,0.327,2160,45.4
+Cote d'Ivoire,Africa,2018,63.6,0.534,0.335,2250,46.1
+Croatia,Europe,1998,73.8,0.738,4.3,8440,53.3
+Croatia,Europe,1999,74.1,0.747,4.52,8400,54.1
+Croatia,Europe,2000,74.7,0.757,4.45,8720,54.3
+Croatia,Europe,2001,74.9,0.768,4.73,9330,54.3
+Croatia,Europe,2002,75,0.774,4.99,9860,54.6
+Croatia,Europe,2003,75.1,0.78,5.31,10400,52.9
+Croatia,Europe,2004,75.6,0.786,5.23,10800,53.4
+Croatia,Europe,2005,75.6,0.792,5.35,11300,54.1
+Croatia,Europe,2006,76,0.798,5.4,11900,56.4
+Croatia,Europe,2007,75.9,0.808,5.72,12500,57
+Croatia,Europe,2008,75.9,0.813,5.44,12700,56.3
+Croatia,Europe,2009,76.5,0.812,5.04,11800,57.7
+Croatia,Europe,2010,76.8,0.815,4.87,11600,58.3
+Croatia,Europe,2011,77.1,0.823,4.8,11700,57.5
+Croatia,Europe,2012,77.4,0.825,4.45,11400,59.8
+Croatia,Europe,2013,77.8,0.83,4.32,11400,61.6
+Croatia,Europe,2014,77.9,0.835,4.16,11400,63.5
+Croatia,Europe,2015,77.7,0.84,4.22,11800,64.1
+Croatia,Europe,2016,78.4,0.841,4.3,12300,65.4
+Croatia,Europe,2017,78.5,0.845,4.48,12900,66.6
+Croatia,Europe,2018,78.6,0.848,4.48,13300,66.3
+Cuba,North America,1998,76.3,0.677,2.21,3680,52.6
+Cuba,North America,1999,76.6,0.684,2.27,3890,53.5
+Cuba,North America,2000,77,0.691,2.33,4110,53.6
+Cuba,North America,2001,77.2,0.696,2.27,4220,55.1
+Cuba,North America,2002,77.9,0.698,2.32,4270,56.7
+Cuba,North America,2003,77.8,0.708,2.26,4420,58.1
+Cuba,North America,2004,77.8,0.722,2.21,4670,59.5
+Cuba,North America,2005,77.7,0.734,2.3,5180,60.8
+Cuba,North America,2006,78.4,0.756,2.34,5810,62
+Cuba,North America,2007,78.5,0.772,2.29,6240,63.2
+Cuba,North America,2008,78.4,0.783,2.47,6500,63.4
+Cuba,North America,2009,78.5,0.785,2.5,6600,63.7
+Cuba,North America,2010,78.5,0.781,3.02,6760,64.3
+Cuba,North America,2011,79.1,0.78,2.6,6940,63.2
+Cuba,North America,2012,78.8,0.769,2.62,7140,61.6
+Cuba,North America,2013,78.8,0.766,2.46,7320,64.3
+Cuba,North America,2014,78.7,0.767,2.43,7380,64.3
+Cuba,North America,2015,78.4,0.772,2.57,7690,64.3
+Cuba,North America,2016,78.5,0.773,2.48,7730,64.7
+Cuba,North America,2017,78.3,0.777,2.48,7860,65.1
+Cuba,North America,2018,78.3,0.781,2.53,8040,65.3
+Cyprus,Asia,1998,76,0.803,7.28,24500,68.4
+Cyprus,Asia,1999,76.3,0.802,7.43,25500,69.6
+Cyprus,Asia,2000,76.7,0.804,7.56,26700,70.8
+Cyprus,Asia,2001,77.1,0.81,7.3,27400,71.5
+Cyprus,Asia,2002,77.3,0.819,7.37,28100,71.6
+Cyprus,Asia,2003,77.7,0.828,7.64,28500,71.9
+Cyprus,Asia,2004,77.9,0.831,7.74,29600,71.5
+Cyprus,Asia,2005,77.9,0.836,7.79,30600,71.2
+Cyprus,Asia,2006,78.2,0.842,7.84,31500,73.1
+Cyprus,Asia,2007,78.3,0.849,8.01,32400,73.1
+Cyprus,Asia,2008,78.8,0.858,8.03,32700,72.7
+Cyprus,Asia,2009,79.1,0.862,7.68,31200,74.2
+Cyprus,Asia,2010,79.5,0.856,7.25,31000,75.8
+Cyprus,Asia,2011,79.8,0.86,6.89,30400,75.3
+Cyprus,Asia,2012,80.1,0.859,6.36,28900,76.9
+Cyprus,Asia,2013,80.3,0.86,5.72,27000,79.3
+Cyprus,Asia,2014,80.4,0.862,6.01,26800,79.1
+Cyprus,Asia,2015,80.5,0.865,5.99,27900,79.8
+Cyprus,Asia,2016,80.7,0.873,6.29,29500,79.3
+Cyprus,Asia,2017,80.8,0.878,6.39,30800,80.4
+Cyprus,Asia,2018,80.8,0.885,6.3,32000,81.2
+Czech Republic,Europe,1998,74.7,0.783,12.1,11600,52.9
+Czech Republic,Europe,1999,75,0.793,11.3,11800,54.1
+Czech Republic,Europe,2000,75.2,0.804,12.4,12300,54.8
+Czech Republic,Europe,2001,75.5,0.814,12.4,12700,54.6
+Czech Republic,Europe,2002,75.7,0.821,12.1,13000,55
+Czech Republic,Europe,2003,75.6,0.83,12.5,13400,55.6
+Czech Republic,Europe,2004,76.1,0.834,12.5,14100,56.3
+Czech Republic,Europe,2005,76.4,0.843,12.3,15000,56.5
+Czech Republic,Europe,2006,77,0.852,12.3,15900,56.3
+Czech Republic,Europe,2007,77.2,0.858,12.4,16700,56.2
+Czech Republic,Europe,2008,77.3,0.863,11.8,17000,56.3
+Czech Republic,Europe,2009,77.6,0.866,11,16200,58.3
+Czech Republic,Europe,2010,77.8,0.87,11.2,16500,58.9
+Czech Republic,Europe,2011,78,0.874,10.9,16800,58.6
+Czech Republic,Europe,2012,78.3,0.874,10.5,16600,58.8
+Czech Republic,Europe,2013,78.5,0.882,10.1,16600,59.5
+Czech Republic,Europe,2014,79,0.888,9.83,17000,59.2
+Czech Republic,Europe,2015,79,0.891,9.89,17800,59
+Czech Republic,Europe,2016,79.2,0.893,10,18200,59
+Czech Republic,Europe,2017,79.3,0.896,9.93,19100,59.1
+Czech Republic,Europe,2018,79.3,0.898,9.94,19700,59.7
+Denmark,Europe,1998,76.7,0.856,11.6,46400,69.8
+Denmark,Europe,1999,76.7,0.868,11,47600,69.8
+Denmark,Europe,2000,77.2,0.87,10.2,49200,71
+Denmark,Europe,2001,77.3,0.883,10.4,49500,71.1
+Denmark,Europe,2002,77.4,0.89,10.3,49500,73.3
+Denmark,Europe,2003,77.7,0.901,11.3,49600,73.6
+Denmark,Europe,2004,78,0.905,10.2,50800,73
+Denmark,Europe,2005,78.3,0.91,9.51,51800,72.9
+Denmark,Europe,2006,78.5,0.912,10.9,53700,73.6
+Denmark,Europe,2007,78.7,0.911,10,53900,73.5
+Denmark,Europe,2008,79,0.917,9.33,53300,74
+Denmark,Europe,2009,79.2,0.914,8.84,50500,76.7
+Denmark,Europe,2010,79.5,0.917,8.86,51200,77.6
+Denmark,Europe,2011,79.9,0.93,7.93,51600,77.5
+Denmark,Europe,2012,80.3,0.931,7.11,51600,77.6
+Denmark,Europe,2013,80.5,0.933,7.41,51800,77.7
+Denmark,Europe,2014,80.8,0.935,6.63,52400,78.1
+Denmark,Europe,2015,81,0.933,6.19,53300,78
+Denmark,Europe,2016,81,0.935,6.49,54600,78.6
+Denmark,Europe,2017,81.1,0.936,6.07,55700,78.9
+Denmark,Europe,2018,81.1,0.939,6.06,56600,78.9
+Djibouti,Africa,1998,60.2,0.355,0.501,,44.7
+Djibouti,Africa,1999,60.3,0.359,0.487,,45.3
+Djibouti,Africa,2000,60.4,0.36,0.511,,45.8
+Djibouti,Africa,2001,60.5,0.369,0.5,,46.5
+Djibouti,Africa,2002,60.6,0.375,0.535,,47.3
+Djibouti,Africa,2003,60.9,0.385,0.555,,48.1
+Djibouti,Africa,2004,61,0.393,0.528,,48.9
+Djibouti,Africa,2005,61.4,0.402,0.529,,49.7
+Djibouti,Africa,2006,61.4,0.413,0.517,,50.6
+Djibouti,Africa,2007,62.1,0.423,0.574,,51.6
+Djibouti,Africa,2008,62.5,0.432,0.611,,52.5
+Djibouti,Africa,2009,62.9,0.442,0.554,,53.2
+Djibouti,Africa,2010,63.2,0.454,0.615,,54
+Djibouti,Africa,2011,63.6,0.463,0.554,,55
+Djibouti,Africa,2012,64.1,0.474,0.553,,55.9
+Djibouti,Africa,2013,64.5,0.484,0.629,2390,56.6
+Djibouti,Africa,2014,64.9,0.492,0.661,2510,57.6
+Djibouti,Africa,2015,65.3,0.499,0.665,2660,58.5
+Djibouti,Africa,2016,65.8,0.505,0.646,2790,59.4
+Djibouti,Africa,2017,66.2,0.51,0.666,2890,60.1
+Djibouti,Africa,2018,66.7,0.518,0.672,3090,61.1
+Dominican Republic,North America,1998,73.2,0.648,2.22,3920,56.8
+Dominican Republic,North America,1999,73.4,0.654,2.21,4080,57.2
+Dominican Republic,North America,2000,73.7,0.659,2.31,4210,59.8
+Dominican Republic,North America,2001,73.8,0.663,2.28,4250,62
+Dominican Republic,North America,2002,73.9,0.668,2.42,4380,63.2
+Dominican Republic,North America,2003,73.5,0.669,2.4,4260,63.5
+Dominican Republic,North America,2004,72.6,0.672,2.02,4300,62.6
+Dominican Republic,North America,2005,72.6,0.681,2.02,4650,63.7
+Dominican Republic,North America,2006,72.7,0.688,2.11,5010,64
+Dominican Republic,North America,2007,72.9,0.694,2.22,5310,64.7
+Dominican Republic,North America,2008,73.3,0.698,2.14,5410,65.9
+Dominican Republic,North America,2009,73.4,0.7,2.07,5390,68.7
+Dominican Republic,North America,2010,73.5,0.706,2.12,5770,69.1
+Dominican Republic,North America,2011,73.4,0.71,2.17,5880,69.8
+Dominican Republic,North America,2012,72.9,0.714,2.17,5970,70.1
+Dominican Republic,North America,2013,72.3,0.718,2.09,6190,71.8
+Dominican Republic,North America,2014,72.2,0.73,2.12,6550,71
+Dominican Republic,North America,2015,72,0.738,2.29,6920,71.9
+Dominican Republic,North America,2016,72.1,0.743,2.37,7300,72.1
+Dominican Republic,North America,2017,72.5,0.746,2.32,7560,71
+Dominican Republic,North America,2018,72.9,0.751,2.34,8000,71
+Ecuador,South America,1998,74.1,0.675,1.83,4540,49.2
+Ecuador,South America,1999,74.2,0.673,1.72,4240,49.5
+Ecuador,South America,2000,74.5,0.675,1.62,4210,49.7
+Ecuador,South America,2001,75,0.68,1.78,4300,50.2
+Ecuador,South America,2002,74.1,0.684,1.88,4400,50.9
+Ecuador,South America,2003,73.9,0.687,2,4440,51.6
+Ecuador,South America,2004,73.9,0.693,2.12,4730,51.6
+Ecuador,South America,2005,73.6,0.698,2.17,4890,52.1
+Ecuador,South America,2006,73.6,0.701,2.03,5020,51.8
+Ecuador,South America,2007,73.7,0.71,2.21,5050,52.9
+Ecuador,South America,2008,73.8,0.717,2.29,5280,53.3
+Ecuador,South America,2009,74.1,0.719,2.4,5220,52.7
+Ecuador,South America,2010,74.3,0.726,2.39,5320,53.6
+Ecuador,South America,2011,74.9,0.732,2.35,5650,54.1
+Ecuador,South America,2012,74.9,0.751,2.06,5890,54.5
+Ecuador,South America,2013,75.2,0.754,2.59,6080,54.3
+Ecuador,South America,2014,75.6,0.756,2.85,6220,54.8
+Ecuador,South America,2015,75.9,0.764,2.63,6120,54.1
+Ecuador,South America,2016,75.9,0.758,2.46,5950,54.4
+Ecuador,South America,2017,76,0.76,2.36,5980,53.8
+Ecuador,South America,2018,76.2,0.762,2.46,5950,52.6
+Egypt,Africa,1998,67.5,0.594,1.84,2410,47.9
+Egypt,Africa,1999,67.9,0.607,1.85,2500,48.7
+Egypt,Africa,2000,68.5,0.613,2.04,2610,49.1
+Egypt,Africa,2001,68.3,0.618,1.77,2650,50.2
+Egypt,Africa,2002,68.3,0.622,1.76,2660,51.9
+Egypt,Africa,2003,68.2,0.625,2.01,2700,50.4
+Egypt,Africa,2004,68.5,0.631,2.01,2760,48.2
+Egypt,Africa,2005,68.8,0.637,2.19,2830,47.5
+Egypt,Africa,2006,68.9,0.645,2.29,2970,46.7
+Egypt,Africa,2007,69.2,0.653,2.38,3130,46.1
+Egypt,Africa,2008,69.3,0.66,2.45,3290,45.4
+Egypt,Africa,2009,69.3,0.662,2.5,3380,46.3
+Egypt,Africa,2010,69.4,0.668,2.4,3490,46.3
+Egypt,Africa,2011,69.6,0.671,2.53,3470,47.2
+Egypt,Africa,2012,69.7,0.677,2.49,3470,48.1
+Egypt,Africa,2013,70.1,0.683,2.37,3470,47.9
+Egypt,Africa,2014,70.3,0.685,2.47,3490,48
+Egypt,Africa,2015,69.9,0.691,2.37,3560,49.1
+Egypt,Africa,2016,70.2,0.696,2.47,3640,48.9
+Egypt,Africa,2017,70.5,0.698,2.46,3710,48.4
+Egypt,Africa,2018,70.7,0.701,2.43,3830,50.8
+El Salvador,North America,1998,71.4,0.606,0.989,2930,50.3
+El Salvador,North America,1999,72.8,0.608,0.957,2970,52.9
+El Salvador,North America,2000,73.1,0.615,0.964,2980,54.1
+El Salvador,North America,2001,73,0.62,0.989,2990,54.6
+El Salvador,North America,2002,74.3,0.627,1.02,3020,55.9
+El Salvador,North America,2003,73.9,0.633,1.07,3050,57.2
+El Salvador,North America,2004,73.6,0.639,1.04,3060,57.2
+El Salvador,North America,2005,73.6,0.646,1.04,3130,57.8
+El Salvador,North America,2006,73.7,0.653,1.11,3250,58.2
+El Salvador,North America,2007,74.1,0.652,1.12,3290,58.6
+El Salvador,North America,2008,74.7,0.655,1.05,3360,57.8
+El Salvador,North America,2009,74.1,0.656,1.03,3280,58.4
+El Salvador,North America,2010,75.2,0.668,1.02,3330,57.9
+El Salvador,North America,2011,75.1,0.664,1.05,3450,57.1
+El Salvador,North America,2012,74.5,0.669,1.04,3530,58.1
+El Salvador,North America,2013,74.3,0.67,0.973,3590,60.1
+El Salvador,North America,2014,73.5,0.668,0.981,3640,60.3
+El Salvador,North America,2015,73.4,0.668,1.07,3710,59.7
+El Salvador,North America,2016,75.2,0.671,1.11,3780,60.2
+El Salvador,North America,2017,75.4,0.671,1.1,3850,59.5
+El Salvador,North America,2018,75.6,0.67,1.11,3920,61.1
+Equatorial Guinea,Africa,1998,55.5,,0.328,3250,37.6
+Equatorial Guinea,Africa,1999,56.6,,0.838,3930,37.6
+Equatorial Guinea,Africa,2000,57.6,0.525,0.756,4450,37.5
+Equatorial Guinea,Africa,2001,58.9,0.534,6.86,6980,37.5
+Equatorial Guinea,Africa,2002,60,0.546,9.65,8000,37.2
+Equatorial Guinea,Africa,2003,60.5,0.547,11.2,8750,36.9
+Equatorial Guinea,Africa,2004,60.9,0.554,9.85,11600,36.8
+Equatorial Guinea,Africa,2005,61.1,0.565,10,12900,36.6
+Equatorial Guinea,Africa,2006,62,0.576,10.4,13300,36.4
+Equatorial Guinea,Africa,2007,62.5,0.582,9.57,14600,36.3
+Equatorial Guinea,Africa,2008,62.9,0.583,7.47,16400,36.3
+Equatorial Guinea,Africa,2009,63.5,0.585,7.52,15900,36.4
+Equatorial Guinea,Africa,2010,63.5,0.576,7.31,13800,36.4
+Equatorial Guinea,Africa,2011,63.1,0.58,9.52,14100,36.7
+Equatorial Guinea,Africa,2012,63.4,0.584,6.77,14600,37.3
+Equatorial Guinea,Africa,2013,64.5,0.585,7.15,13400,37.7
+Equatorial Guinea,Africa,2014,65,0.586,6.51,12900,38.3
+Equatorial Guinea,Africa,2015,64.8,0.589,5.16,11300,38.8
+Equatorial Guinea,Africa,2016,64.9,0.588,4.65,9890,39.3
+Equatorial Guinea,Africa,2017,65.6,0.584,4.54,8990,39.7
+Equatorial Guinea,Africa,2018,65.8,0.582,4.35,8120,40.5
+Estonia,Europe,1998,69.9,0.766,12,9150,57.7
+Estonia,Europe,1999,70.7,0.773,11.2,9090,59.8
+Estonia,Europe,2000,71,0.787,11,9960,58.6
+Estonia,Europe,2001,70.8,0.797,11.3,10600,59.9
+Estonia,Europe,2002,71.4,0.805,11,11400,63.6
+Estonia,Europe,2003,72.1,0.813,12.5,12400,63.1
+Estonia,Europe,2004,72.5,0.821,12.7,13300,61
+Estonia,Europe,2005,73,0.832,12.6,14600,60.7
+Estonia,Europe,2006,73.3,0.839,12.2,16100,61.4
+Estonia,Europe,2007,73.3,0.846,14.9,17500,60.1
+Estonia,Europe,2008,74.4,0.848,13.3,16600,60.8
+Estonia,Europe,2009,75.2,0.846,10.9,14200,64.5
+Estonia,Europe,2010,76.3,0.852,14.3,14600,65.5
+Estonia,Europe,2011,76.3,0.86,14.4,15700,63.2
+Estonia,Europe,2012,76.5,0.865,13.6,16300,64.4
+Estonia,Europe,2013,77.2,0.869,14.9,16500,65.5
+Estonia,Europe,2014,77.3,0.871,14.4,17100,66
+Estonia,Europe,2015,77.8,0.877,12.1,17400,65.4
+Estonia,Europe,2016,77.7,0.881,13.3,17900,66.4
+Estonia,Europe,2017,77.8,0.885,14.2,19000,66.5
+Estonia,Europe,2018,77.9,0.889,14.8,19700,67.1
+Eswatini,Africa,1998,53,0.49,1.24,2420,49.7
+Eswatini,Africa,1999,50.7,0.479,1.25,2460,50.4
+Eswatini,Africa,2000,48.3,0.465,1.19,2470,50.9
+Eswatini,Africa,2001,46.3,0.454,1.13,2480,51.6
+Eswatini,Africa,2002,45,0.442,1.11,2570,52.4
+Eswatini,Africa,2003,43.9,0.437,1.03,2660,53.3
+Eswatini,Africa,2004,43.1,0.445,1.01,2750,54
+Eswatini,Africa,2005,43.3,0.456,1,2900,54.8
+Eswatini,Africa,2006,44.1,0.469,0.995,3060,55.6
+Eswatini,Africa,2007,44.9,0.478,1.03,3180,56.3
+Eswatini,Africa,2008,45.5,0.487,1.06,3180,56.9
+Eswatini,Africa,2009,46.4,0.498,1.01,3210,57.5
+Eswatini,Africa,2010,48,0.51,0.995,3310,58.2
+Eswatini,Africa,2011,49.8,0.524,1,3360,58.9
+Eswatini,Africa,2012,50.9,0.539,1.15,3510,59.6
+Eswatini,Africa,2013,52.1,0.554,1.4,3620,60.4
+Eswatini,Africa,2014,53.5,0.568,0.824,3630,60.9
+Eswatini,Africa,2015,54.9,0.581,0.89,3680,61.6
+Eswatini,Africa,2016,56.1,0.588,1.04,3690,62.3
+Eswatini,Africa,2017,57,0.597,1.08,3730,63
+Eswatini,Africa,2018,57.8,0.605,1.06,3780,63.8
+Ethiopia,Africa,1998,51.1,,0.0504,249,17
+Ethiopia,Africa,1999,50.8,,0.0481,254,17.1
+Ethiopia,Africa,2000,51.1,0.292,0.0524,262,16.7
+Ethiopia,Africa,2001,53.3,0.306,0.0626,276,16.4
+Ethiopia,Africa,2002,54.2,0.315,0.0632,272,15.7
+Ethiopia,Africa,2003,55,0.319,0.0675,259,15
+Ethiopia,Africa,2004,55.9,0.334,0.0695,286,14.9
+Ethiopia,Africa,2005,57,0.355,0.065,310,14.5
+Ethiopia,Africa,2006,58.2,0.371,0.0678,335,15.1
+Ethiopia,Africa,2007,59.5,0.386,0.0724,363,15.8
+Ethiopia,Africa,2008,60.8,0.403,0.0775,391,16.5
+Ethiopia,Africa,2009,61.9,0.411,0.0761,414,17.2
+Ethiopia,Africa,2010,63,0.421,0.0724,453,18
+Ethiopia,Africa,2011,64,0.432,0.0765,490,18.9
+Ethiopia,Africa,2012,64.9,0.438,0.0874,518,19.6
+Ethiopia,Africa,2013,65.6,0.447,0.104,556,20.6
+Ethiopia,Africa,2014,66.3,0.455,0.121,596,21.2
+Ethiopia,Africa,2015,66.8,0.462,0.128,641,21.8
+Ethiopia,Africa,2016,67.4,0.467,0.135,682,22.4
+Ethiopia,Africa,2017,67.9,0.474,0.138,728,23
+Ethiopia,Africa,2018,68.4,0.478,0.137,757,23.5
+Fiji,Oceania,1998,66.5,0.687,0.952,3890,45.7
+Fiji,Oceania,1999,65.9,0.692,0.962,4200,45.9
+Fiji,Oceania,2000,65.8,0.695,1.03,4110,46.8
+Fiji,Oceania,2001,66.2,0.698,1.29,4170,47.7
+Fiji,Oceania,2002,66.6,0.7,1.08,4300,48.4
+Fiji,Oceania,2003,66.5,0.702,1.27,4340,49.3
+Fiji,Oceania,2004,67.1,0.709,1.64,4560,50
+Fiji,Oceania,2005,67.1,0.705,1.32,4570,50.9
+Fiji,Oceania,2006,67.1,0.708,1.45,4620,52.4
+Fiji,Oceania,2007,67.1,0.711,1.37,4530,54
+Fiji,Oceania,2008,67.1,0.712,1.04,4530,55.7
+Fiji,Oceania,2009,67.5,0.715,0.913,4430,57.3
+Fiji,Oceania,2010,67.6,0.715,1.4,4520,58.8
+Fiji,Oceania,2011,67.7,0.719,1.24,4630,60.1
+Fiji,Oceania,2012,67.7,0.722,1.2,4680,61.6
+Fiji,Oceania,2013,67.9,0.728,1.52,4900,62.8
+Fiji,Oceania,2014,68,0.733,1.87,5170,64.3
+Fiji,Oceania,2015,68,0.737,2.45,5390,65.6
+Fiji,Oceania,2016,68,0.738,2.32,5500,66.7
+Fiji,Oceania,2017,68.2,0.74,2.36,5760,67.3
+Fiji,Oceania,2018,68.3,0.742,2.41,5940,67.8
+Finland,Europe,1998,77.6,0.846,11.5,34500,64.6
+Finland,Europe,1999,77.8,0.854,11.4,35900,65.9
+Finland,Europe,2000,78,0.864,11,37900,65.8
+Finland,Europe,2001,78.4,0.871,12,38800,67.1
+Finland,Europe,2002,78.6,0.874,12.5,39300,67.3
+Finland,Europe,2003,78.8,0.877,13.9,40000,68
+Finland,Europe,2004,79,0.904,13.2,41500,68.9
+Finland,Europe,2005,79.3,0.908,10.9,42500,69.4
+Finland,Europe,2006,79.6,0.912,13,44100,69.6
+Finland,Europe,2007,79.7,0.915,12.6,46200,69.7
+Finland,Europe,2008,80,0.917,11,46300,70.3
+Finland,Europe,2009,80.2,0.912,10.5,42400,71.4
+Finland,Europe,2010,80.4,0.916,12,43500,72.3
+Finland,Europe,2011,80.7,0.92,10.5,44400,72.8
+Finland,Europe,2012,80.9,0.921,9.47,43600,73.1
+Finland,Europe,2013,81.2,0.928,9.52,43000,73
+Finland,Europe,2014,81.4,0.928,8.73,42700,73.8
+Finland,Europe,2015,81.7,0.93,8.06,42800,74.1
+Finland,Europe,2016,81.8,0.932,8.6,43900,74
+Finland,Europe,2017,81.8,0.935,8.12,45200,74.1
+Finland,Europe,2018,81.8,0.937,8.52,45600,74
+France,Europe,1998,78.8,0.845,7.29,31600,69.3
+France,Europe,1999,78.9,0.851,7.19,32500,69.5
+France,Europe,2000,79.2,0.849,7.06,33600,69.6
+France,Europe,2001,79.3,0.851,7.09,34000,69.9
+France,Europe,2002,79.5,0.852,6.96,34100,70.5
+France,Europe,2003,79.7,0.855,7.02,34200,71.6
+France,Europe,2004,80.3,0.858,6.99,34900,71.9
+France,Europe,2005,80.6,0.867,6.99,35200,72.6
+France,Europe,2006,80.8,0.871,6.77,35800,72.5
+France,Europe,2007,81.1,0.874,6.56,36500,73.2
+France,Europe,2008,81.2,0.875,6.42,36300,74
+France,Europe,2009,81.4,0.876,6.12,35100,74.4
+France,Europe,2010,81.6,0.879,6.2,35600,74.8
+France,Europe,2011,81.8,0.882,5.78,36200,74.9
+France,Europe,2012,82,0.885,5.76,36200,75.3
+France,Europe,2013,82.3,0.889,5.75,36200,75.6
+France,Europe,2014,82.6,0.893,5.23,36400,76.6
+France,Europe,2015,82.5,0.895,5.3,36600,77
+France,Europe,2016,82.8,0.894,5.31,36900,76.9
+France,Europe,2017,82.9,0.897,5.35,37700,77
+France,Europe,2018,82.9,0.898,5.2,38300,77.3
+Gabon,Africa,1998,60.1,0.63,4.24,9270,49.8
+Gabon,Africa,1999,59.8,0.625,4,8240,49.8
+Gabon,Africa,2000,59.6,0.621,3.8,7890,50.1
+Gabon,Africa,2001,59.5,0.624,3.8,7870,50.6
+Gabon,Africa,2002,59.8,0.626,3.53,7660,51
+Gabon,Africa,2003,59.8,0.627,3.5,7650,51.5
+Gabon,Africa,2004,60.2,0.626,3.44,7510,51.9
+Gabon,Africa,2005,61.1,0.632,3.5,7500,52.5
+Gabon,Africa,2006,61.7,0.632,2.9,7090,52.7
+Gabon,Africa,2007,62,0.637,2.78,7300,53.4
+Gabon,Africa,2008,62.2,0.639,2.74,6850,53.6
+Gabon,Africa,2009,62.7,0.646,2.69,6630,53.9
+Gabon,Africa,2010,63.3,0.652,2.94,6860,54.6
+Gabon,Africa,2011,63.7,0.657,2.92,7090,55.2
+Gabon,Africa,2012,64.5,0.666,2.88,7180,55.7
+Gabon,Africa,2013,65.3,0.673,2.9,7300,56.3
+Gabon,Africa,2014,65.9,0.682,2.82,7350,56.8
+Gabon,Africa,2015,66.3,0.685,2.69,7380,57.4
+Gabon,Africa,2016,66.6,0.69,2.64,7310,57.8
+Gabon,Africa,2017,67,0.694,2.58,7150,58.3
+Gabon,Africa,2018,67.5,0.697,2.53,7020,58.7
+Gambia,Africa,1998,61.5,0.388,0.195,691,46
+Gambia,Africa,1999,61.5,0.396,0.215,713,46.6
+Gambia,Africa,2000,61.6,0.403,0.209,729,47.2
+Gambia,Africa,2001,61.7,0.411,0.221,747,47.8
+Gambia,Africa,2002,61.7,0.415,0.214,700,47.9
+Gambia,Africa,2003,61.8,0.422,0.207,724,48.6
+Gambia,Africa,2004,62,0.431,0.216,751,49.4
+Gambia,Africa,2005,62.2,0.435,0.211,711,49.6
+Gambia,Africa,2006,62.4,0.44,0.221,686,49.9
+Gambia,Africa,2007,62.6,0.446,0.215,686,50.5
+Gambia,Africa,2008,62.9,0.453,0.217,708,51.3
+Gambia,Africa,2009,63.3,0.456,0.219,733,52.1
+Gambia,Africa,2010,63.7,0.459,0.241,753,52.9
+Gambia,Africa,2011,64.2,0.455,0.242,671,52.8
+Gambia,Africa,2012,64.5,0.461,0.239,685,53.6
+Gambia,Africa,2013,64.8,0.467,0.22,684,54.2
+Gambia,Africa,2014,65,0.468,0.254,654,54.4
+Gambia,Africa,2015,65.4,0.471,0.251,661,55.1
+Gambia,Africa,2016,65.7,0.475,0.247,654,55.7
+Gambia,Africa,2017,66,0.48,0.266,665,56.4
+Gambia,Africa,2018,66.4,0.487,0.268,693,57.2
+Georgia,Asia,1998,70.6,,1.08,1440,41.3
+Georgia,Asia,1999,70.7,,0.968,1510,38.3
+Georgia,Asia,2000,70.7,0.69,1.03,1570,38
+Georgia,Asia,2001,70.8,0.694,0.87,1670,37.9
+Georgia,Asia,2002,70.4,0.699,0.788,1770,38
+Georgia,Asia,2003,70.6,0.708,0.882,1980,36.7
+Georgia,Asia,2004,70.7,0.715,1.01,2110,37.2
+Georgia,Asia,2005,71,0.725,1.19,2330,36.4
+Georgia,Asia,2006,71.5,0.731,1.46,2560,35.6
+Georgia,Asia,2007,72,0.743,1.53,2900,36.2
+Georgia,Asia,2008,71.5,0.742,1.28,2980,38.4
+Georgia,Asia,2009,71.7,0.746,1.49,2900,40.4
+Georgia,Asia,2010,71.9,0.751,1.52,3100,41.3
+Georgia,Asia,2011,72.2,0.757,1.91,3360,40.4
+Georgia,Asia,2012,72.5,0.767,2.03,3600,42
+Georgia,Asia,2013,72.9,0.775,1.98,3740,41.9
+Georgia,Asia,2014,73.2,0.783,2.18,3900,42.8
+Georgia,Asia,2015,73.3,0.79,2.38,4010,44.9
+Georgia,Asia,2016,73.1,0.792,2.47,4130,44.3
+Georgia,Asia,2017,73.2,0.799,2.66,4330,43.8
+Georgia,Asia,2018,73.3,0.805,2.64,4540,46.9
+Germany,Europe,1998,77.8,0.86,11.4,32900,62.8
+Germany,Europe,1999,78.1,0.868,11,33500,63.3
+Germany,Europe,2000,78.4,0.876,11.1,34500,63.8
+Germany,Europe,2001,78.7,0.884,11.3,35000,64.6
+Germany,Europe,2002,78.8,0.89,11.1,34900,65.1
+Germany,Europe,2003,78.9,0.896,11.1,34600,66.2
+Germany,Europe,2004,79.3,0.907,10.9,35000,66.4
+Germany,Europe,2005,79.6,0.908,10.6,35300,67.8
+Germany,Europe,2006,79.9,0.918,10.8,36700,68.1
+Germany,Europe,2007,80,0.921,10.5,37800,67.8
+Germany,Europe,2008,80.2,0.924,10.5,38300,68.9
+Germany,Europe,2009,80.3,0.924,9.76,36200,69.5
+Germany,Europe,2010,80.5,0.927,10.3,37700,70
+Germany,Europe,2011,80.7,0.933,10,40000,70.1
+Germany,Europe,2012,80.8,0.934,10.1,40100,70.2
+Germany,Europe,2013,80.8,0.935,10.3,40100,70.8
+Germany,Europe,2014,81,0.937,9.74,40800,70.5
+Germany,Europe,2015,80.9,0.938,9.74,41100,70.9
+Germany,Europe,2016,81,0.941,9.76,41700,71.3
+Germany,Europe,2017,81.1,0.943,9.66,42600,71.3
+Germany,Europe,2018,81.2,0.946,9.14,43000,71.4
+Ghana,Africa,1998,59.7,0.487,0.341,970,30.7
+Ghana,Africa,1999,59.7,0.489,0.339,989,31.1
+Ghana,Africa,2000,59.6,0.494,0.317,1000,31
+Ghana,Africa,2001,59.5,0.493,0.341,1020,30.9
+Ghana,Africa,2002,59.5,0.499,0.357,1040,30.8
+Ghana,Africa,2003,59.6,0.5,0.359,1060,30.8
+Ghana,Africa,2004,59.8,0.509,0.336,1090,30.8
+Ghana,Africa,2005,60,0.52,0.312,1130,30.9
+Ghana,Africa,2006,60.3,0.529,0.41,1170,30.8
+Ghana,Africa,2007,60.5,0.541,0.419,1190,32
+Ghana,Africa,2008,61,0.553,0.379,1270,33.4
+Ghana,Africa,2009,61.3,0.558,0.31,1300,34.6
+Ghana,Africa,2010,61.8,0.565,0.392,1360,36
+Ghana,Africa,2011,62.4,0.574,0.443,1520,37.7
+Ghana,Africa,2012,63,0.577,0.551,1620,39.2
+Ghana,Africa,2013,63.5,0.586,0.533,1700,40.6
+Ghana,Africa,2014,63.9,0.59,0.542,1710,43.4
+Ghana,Africa,2015,64.2,0.59,0.579,1710,46.1
+Ghana,Africa,2016,64.7,0.598,0.57,1720,47
+Ghana,Africa,2017,65.1,0.602,0.606,1820,47.8
+Ghana,Africa,2018,65.8,0.606,0.615,1890,48.5
+Greece,Europe,1998,78.2,0.795,9,17500,58.9
+Greece,Europe,1999,78.2,0.797,8.89,18000,59.6
+Greece,Europe,2000,78.4,0.804,9.3,18600,60
+Greece,Europe,2001,78.7,0.814,9.47,19300,61.1
+Greece,Europe,2002,78.9,0.826,9.4,20000,62
+Greece,Europe,2003,79.1,0.833,9.73,21100,62.4
+Greece,Europe,2004,79.2,0.843,9.76,22100,65.2
+Greece,Europe,2005,79.4,0.853,10.2,22200,65.5
+Greece,Europe,2006,79.7,0.859,10.1,23400,66.3
+Greece,Europe,2007,79.6,0.857,10.3,24100,66.2
+Greece,Europe,2008,80,0.865,10.1,23900,66.6
+Greece,Europe,2009,80.2,0.867,9.53,22800,67.2
+Greece,Europe,2010,80.4,0.865,8.95,21600,68
+Greece,Europe,2011,80.5,0.862,8.74,19400,70
+Greece,Europe,2012,80.6,0.865,8.49,18100,70.5
+Greece,Europe,2013,80.9,0.867,7.62,17800,70.7
+Greece,Europe,2014,81,0.875,7.36,18000,71.5
+Greece,Europe,2015,80.9,0.877,7.04,18100,72.2
+Greece,Europe,2016,81,0.874,6.73,18000,72.4
+Greece,Europe,2017,81.1,0.879,7.09,18300,72.5
+Greece,Europe,2018,81,0.881,7.03,18600,72.5
+Guatemala,North America,1998,65.4,0.534,0.777,3120,39.2
+Guatemala,North America,1999,66.4,0.542,0.774,3160,38.4
+Guatemala,North America,2000,66.7,0.549,0.839,3200,37.7
+Guatemala,North America,2001,67.2,0.557,0.859,3190,39.8
+Guatemala,North America,2002,67.8,0.563,0.879,3240,41.2
+Guatemala,North America,2003,68.1,0.567,0.836,3250,42.8
+Guatemala,North America,2004,68.4,0.571,0.874,3280,43.7
+Guatemala,North America,2005,68.4,0.574,0.925,3320,43.8
+Guatemala,North America,2006,68.9,0.583,0.91,3430,44
+Guatemala,North America,2007,69.5,0.592,0.887,3570,44.1
+Guatemala,North America,2008,69.9,0.597,0.778,3620,44.3
+Guatemala,North America,2009,69.9,0.601,0.8,3570,44.4
+Guatemala,North America,2010,70.3,0.606,0.759,3610,44.5
+Guatemala,North America,2011,70.7,0.612,0.752,3690,46.4
+Guatemala,North America,2012,71.1,0.618,0.758,3730,48.2
+Guatemala,North America,2013,71.3,0.621,0.807,3800,51
+Guatemala,North America,2014,71.6,0.648,0.852,3900,49
+Guatemala,North America,2015,71.8,0.652,0.95,3990,49.2
+Guatemala,North America,2016,72,0.653,0.988,4030,49.6
+Guatemala,North America,2017,72.3,0.655,0.959,4090,49.2
+Guatemala,North America,2018,72.4,0.657,1.07,4160,49.6
+Guinea,Africa,1998,54.3,0.326,0.174,619,22.4
+Guinea,Africa,1999,54.4,0.333,0.178,627,22.7
+Guinea,Africa,2000,54.3,0.34,0.181,628,23
+Guinea,Africa,2001,54.7,0.347,0.186,637,23.5
+Guinea,Africa,2002,55.1,0.356,0.189,657,24
+Guinea,Africa,2003,55.4,0.347,0.194,653,24.4
+Guinea,Africa,2004,55.7,0.372,0.198,655,24.8
+Guinea,Africa,2005,56,0.383,0.2,661,25.3
+Guinea,Africa,2006,56.3,0.392,0.203,655,25.6
+Guinea,Africa,2007,56.5,0.4,0.207,684,26.3
+Guinea,Africa,2008,56.9,0.408,0.205,696,26.8
+Guinea,Africa,2009,57.1,0.408,0.212,673,27
+Guinea,Africa,2010,57.6,0.416,0.244,689,27.6
+Guinea,Africa,2011,57.9,0.429,0.249,712,28.2
+Guinea,Africa,2012,58.2,0.439,0.228,738,28.9
+Guinea,Africa,2013,58.4,0.445,0.194,750,29.4
+Guinea,Africa,2014,57.9,0.452,0.194,760,29.9
+Guinea,Africa,2015,58.5,0.457,0.215,769,30.4
+Guinea,Africa,2016,59.3,0.465,0.234,830,31.4
+Guinea,Africa,2017,59.9,0.471,0.254,891,32.3
+Guinea,Africa,2018,60.6,0.473,0.256,921,32.9
+Guinea-Bissau,Africa,1998,49.8,,0.149,564,21.5
+Guinea-Bissau,Africa,1999,50,,0.165,559,21.8
+Guinea-Bissau,Africa,2000,51.5,,0.122,577,22.3
+Guinea-Bissau,Africa,2001,51.8,,0.123,578,22.7
+Guinea-Bissau,Africa,2002,52.1,,0.123,560,22.9
+Guinea-Bissau,Africa,2003,52.4,,0.151,550,23.2
+Guinea-Bissau,Africa,2004,52.7,,0.154,552,23.6
+Guinea-Bissau,Africa,2005,52.8,0.403,0.158,562,24.1
+Guinea-Bissau,Africa,2006,53.6,0.411,0.157,562,24.4
+Guinea-Bissau,Africa,2007,54.3,0.417,0.164,566,24.9
+Guinea-Bissau,Africa,2008,54.8,0.424,0.157,570,25.3
+Guinea-Bissau,Africa,2009,55.5,0.43,0.158,574,25.7
+Guinea-Bissau,Africa,2010,56.2,0.436,0.157,586,26.2
+Guinea-Bissau,Africa,2011,56.9,0.445,0.157,617,26.9
+Guinea-Bissau,Africa,2012,57.4,0.448,0.158,590,27.1
+Guinea-Bissau,Africa,2013,57.9,0.452,0.156,593,27.5
+Guinea-Bissau,Africa,2014,58.3,0.459,0.16,584,27.8
+Guinea-Bissau,Africa,2015,58.8,0.464,0.16,603,28.5
+Guinea-Bissau,Africa,2016,59.3,0.468,0.165,625,29.1
+Guinea-Bissau,Africa,2017,59.8,0.47,0.179,645,29.8
+Guinea-Bissau,Africa,2018,60.3,0.472,0.181,638,30.3
+Guyana,South America,1998,63.5,0.607,2.2,3760,49.3
+Guyana,South America,1999,64.1,0.611,2.24,3890,50.3
+Guyana,South America,2000,64,0.616,2.16,3850,51
+Guyana,South America,2001,63.9,0.619,2.14,3950,51.7
+Guyana,South America,2002,63.9,0.622,2.12,3990,52.4
+Guyana,South America,2003,64.1,0.618,2.1,3970,53
+Guyana,South America,2004,64.3,0.625,2.18,4030,53.4
+Guyana,South America,2005,64.4,0.629,1.93,3940,53.5
+Guyana,South America,2006,65,0.63,1.73,4150,53.3
+Guyana,South America,2007,65.2,0.634,2.09,4440,53.7
+Guyana,South America,2008,65.3,0.638,2.09,4510,54.2
+Guyana,South America,2009,65.9,0.641,2.09,4680,54.6
+Guyana,South America,2010,65.8,0.649,2.29,4850,54.9
+Guyana,South America,2011,65.7,0.658,2.37,5090,55.5
+Guyana,South America,2012,65.7,0.662,2.64,5340,55.9
+Guyana,South America,2013,66,0.666,2.55,5510,56.7
+Guyana,South America,2014,66,0.671,2.63,5570,57.2
+Guyana,South America,2015,66.4,0.674,2.61,5580,57.9
+Guyana,South America,2016,66.7,0.676,3.04,5760,58.1
+Guyana,South America,2017,66.9,0.677,3.03,5950,58.7
+Guyana,South America,2018,67.1,0.68,3.12,6180,59.2
+Haiti,North America,1998,56.5,0.435,0.151,1270,53.7
+Haiti,North America,1999,57,0.439,0.158,1280,54.1
+Haiti,North America,2000,57.4,0.442,0.159,1270,54.7
+Haiti,North America,2001,57.8,0.444,0.181,1240,55.2
+Haiti,North America,2002,58.2,0.446,0.206,1230,55.8
+Haiti,North America,2003,58.5,0.449,0.192,1250,56.4
+Haiti,North America,2004,57.5,0.45,0.217,1220,56.9
+Haiti,North America,2005,59,0.453,0.223,1240,57.5
+Haiti,North America,2006,59.5,0.458,0.223,1240,57.6
+Haiti,North America,2007,60,0.463,0.249,1290,57.9
+Haiti,North America,2008,60.2,0.466,0.245,1300,58.5
+Haiti,North America,2009,60.7,0.47,0.228,1360,59.1
+Haiti,North America,2010,32.5,0.471,0.211,1290,59.9
+Haiti,North America,2011,60,0.478,0.207,1350,60.4
+Haiti,North America,2012,61.4,0.482,0.214,1340,61.3
+Haiti,North America,2013,61.6,0.487,0.221,1360,61.8
+Haiti,North America,2014,61.9,0.492,0.264,1390,62.3
+Haiti,North America,2015,62.2,0.496,0.272,1390,62.7
+Haiti,North America,2016,62.4,0.5,0.273,1390,63.3
+Haiti,North America,2017,63.1,0.505,0.271,1410,63.9
+Haiti,North America,2018,63.5,0.508,0.27,1410,64.4
+Honduras,North America,1998,63.4,0.556,0.737,1780,42.4
+Honduras,North America,1999,69.9,0.56,0.73,1710,42.9
+Honduras,North America,2000,70.1,0.566,0.751,1790,41.8
+Honduras,North America,2001,70.2,0.57,0.831,1790,40.9
+Honduras,North America,2002,70.4,0.575,0.865,1810,39.3
+Honduras,North America,2003,70.5,0.58,0.938,1850,41.2
+Honduras,North America,2004,70.7,0.586,0.995,1910,42.7
+Honduras,North America,2005,70.9,0.593,0.996,1980,43.4
+Honduras,North America,2006,71.1,0.599,0.978,2060,42.3
+Honduras,North America,2007,71.2,0.607,1.1,2140,43.7
+Honduras,North America,2008,71.3,0.603,1.06,2180,43.7
+Honduras,North America,2009,71.3,0.605,0.943,2090,43.7
+Honduras,North America,2010,71.1,0.61,0.954,2120,44.5
+Honduras,North America,2011,71,0.613,1.02,2160,44.9
+Honduras,North America,2012,69.3,0.612,1.04,2210,43.1
+Honduras,North America,2013,69.6,0.613,1.05,2230,46.6
+Honduras,North America,2014,69.9,0.616,1.04,2260,49.2
+Honduras,North America,2015,69.9,0.618,1.08,2300,49.5
+Honduras,North America,2016,71.5,0.626,1.04,2350,51.1
+Honduras,North America,2017,71.7,0.63,1.02,2420,47.3
+Honduras,North America,2018,71.9,0.633,1.04,2480,49.1
+"Hong Kong, China",Asia,1998,79.6,0.82,6.07,24900,77.2
+"Hong Kong, China",Asia,1999,80,0.824,6.53,25200,78.6
+"Hong Kong, China",Asia,2000,80.4,0.83,6.1,26900,79.4
+"Hong Kong, China",Asia,2001,80.7,0.838,5.68,26900,80.4
+"Hong Kong, China",Asia,2002,81.1,0.845,5.9,27200,81.5
+"Hong Kong, China",Asia,2003,81.4,0.854,6.43,28100,82.7
+"Hong Kong, China",Asia,2004,81.7,0.865,6.17,30300,84.2
+"Hong Kong, China",Asia,2005,81.9,0.874,6.47,32400,84.7
+"Hong Kong, China",Asia,2006,82.1,0.886,6.17,34500,85
+"Hong Kong, China",Asia,2007,82.3,0.89,6.38,36400,85.7
+"Hong Kong, China",Asia,2008,82.5,0.899,6.22,36900,86.3
+"Hong Kong, China",Asia,2009,82.7,0.901,6.01,35900,86.6
+"Hong Kong, China",Asia,2010,82.8,0.904,5.76,38100,86.9
+"Hong Kong, China",Asia,2011,83,0.907,6.16,39700,87.2
+"Hong Kong, China",Asia,2012,83.2,0.914,6.07,39900,87.4
+"Hong Kong, China",Asia,2013,83.4,0.918,6.26,41000,87.6
+"Hong Kong, China",Asia,2014,83.6,0.926,6.38,41800,87.8
+"Hong Kong, China",Asia,2015,83.7,0.93,5.9,42400,87.9
+"Hong Kong, China",Asia,2016,83.9,0.936,5.99,43100,88
+"Hong Kong, China",Asia,2017,84.1,0.941,5.92,44400,88.3
+"Hong Kong, China",Asia,2018,84.3,0.946,5.86,45300,88.5
+Hungary,Europe,1998,71,0.758,5.97,8280,57.9
+Hungary,Europe,1999,71.1,0.765,6.04,8560,58.7
+Hungary,Europe,2000,71.9,0.772,5.73,8970,59.8
+Hungary,Europe,2001,72.5,0.781,5.91,9350,59.4
+Hungary,Europe,2002,72.6,0.788,5.83,9830,59.7
+Hungary,Europe,2003,72.7,0.797,6.11,10300,61.2
+Hungary,Europe,2004,73.1,0.799,5.98,10800,61.8
+Hungary,Europe,2005,73.1,0.805,6,11300,62.7
+Hungary,Europe,2006,73.5,0.815,5.96,11700,62.9
+Hungary,Europe,2007,73.6,0.818,5.85,11800,62.9
+Hungary,Europe,2008,74.2,0.822,5.75,11900,63.5
+Hungary,Europe,2009,74.4,0.828,5.21,11100,64.2
+Hungary,Europe,2010,74.8,0.831,5.26,11300,64.8
+Hungary,Europe,2011,75.1,0.828,5.09,11500,64.3
+Hungary,Europe,2012,75.4,0.831,4.75,11400,65.1
+Hungary,Europe,2013,75.9,0.839,4.46,11700,65.3
+Hungary,Europe,2014,76,0.838,4.48,12200,64.8
+Hungary,Europe,2015,75.9,0.842,4.78,12700,64.8
+Hungary,Europe,2016,76.3,0.844,4.87,13000,64.5
+Hungary,Europe,2017,76.3,0.846,5.11,13600,63.4
+Hungary,Europe,2018,76.3,0.85,5.14,14400,62.7
+Iceland,Europe,1998,79.5,0.855,9.58,39600,64.7
+Iceland,Europe,1999,79.9,0.86,10.2,40700,67.9
+Iceland,Europe,2000,80.3,0.867,10.5,42200,69.2
+Iceland,Europe,2001,80.6,0.872,10.1,43300,69.4
+Iceland,Europe,2002,80.8,0.881,10.5,43100,70.1
+Iceland,Europe,2003,81.2,0.887,10.4,43800,71.4
+Iceland,Europe,2004,81.4,0.891,10.7,46800,70.3
+Iceland,Europe,2005,81.6,0.896,10.1,48900,71.8
+Iceland,Europe,2006,81.7,0.899,10.5,50700,72.1
+Iceland,Europe,2007,81.9,0.905,11.5,53600,73.2
+Iceland,Europe,2008,82.2,0.899,12.2,53800,73.4
+Iceland,Europe,2009,82.4,0.898,11.8,49500,75.7
+Iceland,Europe,2010,82.6,0.898,11.3,48200,76
+Iceland,Europe,2011,82.8,0.907,10.8,48900,76
+Iceland,Europe,2012,82.9,0.915,10.7,49200,76.2
+Iceland,Europe,2013,83.2,0.927,10.7,50900,76.9
+Iceland,Europe,2014,83.7,0.931,10.5,51200,77
+Iceland,Europe,2015,83.7,0.934,10.7,53000,77.9
+Iceland,Europe,2016,83.8,0.941,10.5,55500,78.6
+Iceland,Europe,2017,83.9,0.943,10.8,56500,78.8
+Iceland,Europe,2018,84,0.946,10.8,57700,79.2
+India,Asia,1998,62.1,0.481,0.916,695,23.4
+India,Asia,1999,62.6,0.489,0.96,743,23.7
+India,Asia,2000,62.9,0.495,0.975,758,24
+India,Asia,2001,63.3,0.499,0.964,781,24.3
+India,Asia,2002,63.8,0.506,0.959,797,24.5
+India,Asia,2003,64.5,0.518,0.983,845,24.7
+India,Asia,2004,65.2,0.527,1.01,898,25
+India,Asia,2005,65.4,0.536,1.06,954,25.2
+India,Asia,2006,65.6,0.546,1.11,1010,25.5
+India,Asia,2007,65.8,0.555,1.18,1080,25.8
+India,Asia,2008,66.1,0.563,1.29,1090,26.1
+India,Asia,2009,66.8,0.569,1.41,1160,26.4
+India,Asia,2010,67.3,0.579,1.38,1240,26.7
+India,Asia,2011,67.6,0.588,1.45,1290,27.6
+India,Asia,2012,68,0.597,1.56,1350,28.6
+India,Asia,2013,68.4,0.604,1.56,1420,29.1
+India,Asia,2014,69,0.616,1.7,1500,29.7
+India,Asia,2015,69.4,0.624,1.76,1610,30.2
+India,Asia,2016,70,0.63,1.79,1720,30.7
+India,Asia,2017,70.3,0.64,1.84,1820,31.2
+India,Asia,2018,70.5,0.642,1.96,1920,31.7
+Indonesia,Asia,1998,66.8,0.586,1.05,1820,37.3
+Indonesia,Asia,1999,67,0.594,1.17,1800,37.2
+Indonesia,Asia,2000,67.2,0.603,1.26,1870,37.3
+Indonesia,Asia,2001,67.5,0.609,1.39,1910,37.5
+Indonesia,Asia,2002,67.7,0.615,1.42,1970,36.9
+Indonesia,Asia,2003,67.8,0.622,1.44,2030,35.9
+Indonesia,Asia,2004,66.3,0.628,1.52,2110,38.7
+Indonesia,Asia,2005,68.3,0.632,1.52,2200,37.2
+Indonesia,Asia,2006,68.4,0.642,1.51,2290,39.3
+Indonesia,Asia,2007,68.7,0.643,1.62,2400,39.9
+Indonesia,Asia,2008,68.9,0.647,1.77,2510,40.5
+Indonesia,Asia,2009,69.1,0.658,1.88,2600,41.3
+Indonesia,Asia,2010,69.3,0.665,1.77,2720,42.2
+Indonesia,Asia,2011,69.6,0.673,2.07,2850,42.8
+Indonesia,Asia,2012,69.8,0.681,2.12,2980,43
+Indonesia,Asia,2013,70,0.687,1.63,3100,44.1
+Indonesia,Asia,2014,70.2,0.69,1.44,3220,44.3
+Indonesia,Asia,2015,70.4,0.695,1.96,3330,44.9
+Indonesia,Asia,2016,70.7,0.703,2.15,3460,46.5
+Indonesia,Asia,2017,70.9,0.707,2.21,3590,47.2
+Indonesia,Asia,2018,71.1,0.712,2.3,3730,48.1
+Iran,Asia,1998,71.3,0.647,4.79,3730,45.8
+Iran,Asia,1999,71.6,0.652,5.86,3720,45.7
+Iran,Asia,2000,71.9,0.658,5.63,3890,45.6
+Iran,Asia,2001,72.2,0.665,5.95,3870,45.6
+Iran,Asia,2002,72.5,0.67,5.92,4100,45.2
+Iran,Asia,2003,71.8,0.677,6.08,4410,44.8
+Iran,Asia,2004,73.2,0.678,6.42,4540,44.8
+Iran,Asia,2005,73.5,0.683,6.65,4630,44.9
+Iran,Asia,2006,74,0.719,7.15,4810,45.1
+Iran,Asia,2007,74.4,0.723,7.2,5150,45.1
+Iran,Asia,2008,74.8,0.728,7.42,5100,46.5
+Iran,Asia,2009,75.1,0.734,7.51,5100,47.3
+Iran,Asia,2010,75.5,0.742,7.65,5330,48.6
+Iran,Asia,2011,75.8,0.753,7.76,5410,48.2
+Iran,Asia,2012,76,0.768,7.96,4950,48.3
+Iran,Asia,2013,76.2,0.771,7.97,4880,48.5
+Iran,Asia,2014,76.5,0.774,8.29,5040,48.3
+Iran,Asia,2015,76.7,0.774,8.17,4900,49.4
+Iran,Asia,2016,77.1,0.784,8.21,5490,50.1
+Iran,Asia,2017,77.3,0.787,8.51,5610,50.4
+Iran,Asia,2018,77.6,0.785,8.81,5200,50.3
+Iraq,Asia,1998,67.9,0.583,3.26,3350,50.7
+Iraq,Asia,1999,68.3,0.591,3.15,3820,50.1
+Iraq,Asia,2000,68.6,0.595,3.05,4340,50.6
+Iraq,Asia,2001,69,0.601,3.5,4280,51.3
+Iraq,Asia,2002,69.3,0.603,3.47,3820,52.6
+Iraq,Asia,2003,68.1,0.589,3.54,2350,52.9
+Iraq,Asia,2004,68.3,0.615,4.32,3520,54.2
+Iraq,Asia,2005,67.7,0.617,4.2,3490,54.1
+Iraq,Asia,2006,66.6,0.62,3.58,3620,53.9
+Iraq,Asia,2007,67.2,0.623,2.2,3630,54.6
+Iraq,Asia,2008,69.3,0.63,3.25,3860,54.6
+Iraq,Asia,2009,70.1,0.632,3.57,3910,55.4
+Iraq,Asia,2010,70.6,0.636,3.73,4050,55.3
+Iraq,Asia,2011,71,0.642,4.41,4220,55.4
+Iraq,Asia,2012,71.3,0.646,4.8,4630,55
+Iraq,Asia,2013,70.9,0.646,4.94,4790,55.3
+Iraq,Asia,2014,69.9,0.645,4.8,4630,55.8
+Iraq,Asia,2015,70.7,0.649,4.66,4690,56.9
+Iraq,Asia,2016,70.9,0.656,5.15,5180,56.6
+Iraq,Asia,2017,71.5,0.667,4.99,4960,57.5
+Iraq,Asia,2018,73.3,0.671,5.32,4790,58.4
+Ireland,Europe,1998,76.3,0.851,11,35300,62.2
+Ireland,Europe,1999,76.4,0.859,11.4,38500,63.1
+Ireland,Europe,2000,76.8,0.867,12,41600,63.6
+Ireland,Europe,2001,77.3,0.873,12.4,43100,64
+Ireland,Europe,2002,77.8,0.881,11.8,44900,65.3
+Ireland,Europe,2003,78.3,0.889,11.5,45500,65.8
+Ireland,Europe,2004,78.7,0.898,11.4,47700,66
+Ireland,Europe,2005,79.1,0.904,11.6,49400,66.5
+Ireland,Europe,2006,79.4,0.906,11.3,50400,66.5
+Ireland,Europe,2007,79.7,0.909,11,51600,68.8
+Ireland,Europe,2008,80,0.911,10.7,48300,71.4
+Ireland,Europe,2009,80.2,0.906,9.38,45400,74.6
+Ireland,Europe,2010,80.8,0.901,9.16,45900,76.2
+Ireland,Europe,2011,80.8,0.902,8.28,46200,76.8
+Ireland,Europe,2012,81,0.908,8.29,46000,77.2
+Ireland,Europe,2013,81.2,0.917,8.06,46300,77
+Ireland,Europe,2014,81.5,0.928,7.93,50000,77.3
+Ireland,Europe,2015,81.7,0.935,8.27,62000,76.6
+Ireland,Europe,2016,81.9,0.943,8.5,62500,76.2
+Ireland,Europe,2017,81.9,0.947,8.15,67400,76.1
+Ireland,Europe,2018,82,0.951,8.09,72600,76.4
+Israel,Asia,1998,78.4,0.852,9.84,28500,73.9
+Israel,Asia,1999,78.7,0.859,9.41,28600,74.7
+Israel,Asia,2000,78.9,0.861,10,30000,75.2
+Israel,Asia,2001,79,0.865,10.4,29300,76.1
+Israel,Asia,2002,78.9,0.873,9.62,28700,76.8
+Israel,Asia,2003,79.5,0.874,9.95,28500,77.5
+Israel,Asia,2004,79.9,0.876,9.18,29200,78
+Israel,Asia,2005,80.3,0.88,8.66,29800,78.5
+Israel,Asia,2006,80.4,0.88,9.31,30900,78.9
+Israel,Asia,2007,80.8,0.889,9.18,32100,79.3
+Israel,Asia,2008,81,0.889,9.69,32500,79.8
+Israel,Asia,2009,81.4,0.89,8.89,32000,80.3
+Israel,Asia,2010,81.9,0.895,9.3,33200,80.7
+Israel,Asia,2011,82,0.901,9.17,34100,81
+Israel,Asia,2012,82.3,0.903,9.83,34300,81.4
+Israel,Asia,2013,82.5,0.905,8.41,35100,81
+Israel,Asia,2014,82,0.909,7.88,35700,81.2
+Israel,Asia,2015,82.7,0.91,8.15,35800,81.4
+Israel,Asia,2016,83,0.913,7.89,36500,81.5
+Israel,Asia,2017,83,0.913,7.85,37000,81.6
+Israel,Asia,2018,83,0.916,7.67,37600,81.8
+Italy,Europe,1998,79,0.827,8.11,30700,61.5
+Italy,Europe,1999,79.3,0.832,8.2,31200,62.2
+Italy,Europe,2000,79.6,0.838,8.3,32300,63
+Italy,Europe,2001,79.9,0.845,8.38,33000,63.1
+Italy,Europe,2002,80.2,0.85,8.36,33000,63.5
+Italy,Europe,2003,80.3,0.855,8.53,32900,63.5
+Italy,Europe,2004,80.8,0.86,8.54,33100,65
+Italy,Europe,2005,81,0.865,8.49,33200,65.1
+Italy,Europe,2006,81.3,0.87,8.36,33700,65.7
+Italy,Europe,2007,81.5,0.874,8.16,34100,65.9
+Italy,Europe,2008,81.6,0.876,7.94,33500,66.5
+Italy,Europe,2009,81.8,0.876,7.06,31600,67.1
+Italy,Europe,2010,82.1,0.879,7.19,32000,67.6
+Italy,Europe,2011,82.2,0.883,6.95,32200,68
+Italy,Europe,2012,82.4,0.882,6.56,31200,68.7
+Italy,Europe,2013,82.6,0.881,6.06,30200,69.4
+Italy,Europe,2014,82.8,0.882,5.77,30000,69.5
+Italy,Europe,2015,82.7,0.882,5.88,30200,69.6
+Italy,Europe,2016,83,0.884,5.83,30700,70
+Italy,Europe,2017,83.1,0.886,5.76,31200,70.2
+Italy,Europe,2018,83.1,0.89,5.58,31600,70.1
+Jamaica,North America,1998,74.9,0.678,3.72,4830,60.7
+Jamaica,North America,1999,74.5,0.68,3.79,4840,61.4
+Jamaica,North America,2000,74.6,0.678,3.89,4840,62.2
+Jamaica,North America,2001,74.7,0.689,3.96,4870,62.1
+Jamaica,North America,2002,75.5,0.692,3.79,4930,62.6
+Jamaica,North America,2003,76.3,0.687,3.94,5080,62.2
+Jamaica,North America,2004,76.8,0.704,3.88,5120,63.3
+Jamaica,North America,2005,77.4,0.706,3.78,5140,64.1
+Jamaica,North America,2006,77.5,0.711,4.15,5260,64
+Jamaica,North America,2007,76.3,0.719,3.48,5310,64.6
+Jamaica,North America,2008,75.2,0.737,3.57,5240,65.1
+Jamaica,North America,2009,74.6,0.733,2.73,4990,65.6
+Jamaica,North America,2010,76.3,0.732,2.54,4890,66
+Jamaica,North America,2011,75.8,0.731,2.72,4950,66.3
+Jamaica,North America,2012,77,0.731,2.58,4890,66.3
+Jamaica,North America,2013,77.1,0.729,2.78,4880,66.5
+Jamaica,North America,2014,76.3,0.729,2.54,4890,66.6
+Jamaica,North America,2015,76.1,0.731,2.62,4910,67.3
+Jamaica,North America,2016,76.2,0.731,2.81,4950,67.7
+Jamaica,North America,2017,76.3,0.734,2.8,4970,67.5
+Jamaica,North America,2018,76.3,0.734,2.79,5040,67.7
+Japan,Asia,1998,81,0.849,9.49,30800,62.5
+Japan,Asia,1999,81.2,0.852,9.76,30600,62.9
+Japan,Asia,2000,81.6,0.858,9.93,31400,63.5
+Japan,Asia,2001,81.9,0.861,9.8,31500,64.4
+Japan,Asia,2002,82.2,0.864,10,31400,65.3
+Japan,Asia,2003,82.3,0.867,10.1,31800,66.2
+Japan,Asia,2004,82.5,0.871,10,32500,67
+Japan,Asia,2005,82.5,0.875,10.1,33100,67.6
+Japan,Asia,2006,82.8,0.879,9.88,33500,67.9
+Japan,Asia,2007,82.9,0.882,10.1,34000,68.2
+Japan,Asia,2008,83.1,0.883,9.59,33600,68.6
+Japan,Asia,2009,83.3,0.882,9.05,31700,69.6
+Japan,Asia,2010,83.3,0.887,9.46,32900,70.4
+Japan,Asia,2011,83.2,0.892,9.85,33000,70.7
+Japan,Asia,2012,83.6,0.897,10.2,33500,70.9
+Japan,Asia,2013,83.9,0.902,10.3,34200,71
+Japan,Asia,2014,84.1,0.906,9.88,34400,71.2
+Japan,Asia,2015,84.3,0.908,9.58,35000,71.4
+Japan,Asia,2016,84.5,0.912,9.45,35300,71.8
+Japan,Asia,2017,84.7,0.915,9.33,35900,71.9
+Japan,Asia,2018,84.8,0.917,9.14,36200,72.1
+Jordan,Asia,1998,72.3,0.702,2.89,3450,74.6
+Jordan,Asia,1999,72.5,0.706,2.84,3500,74.8
+Jordan,Asia,2000,72.9,0.711,2.97,3590,74.9
+Jordan,Asia,2001,73,0.717,2.99,3710,74.9
+Jordan,Asia,2002,73.3,0.715,3.09,3850,74.9
+Jordan,Asia,2003,73.8,0.72,3.13,3920,72.8
+Jordan,Asia,2004,74,0.726,3.35,4150,70.1
+Jordan,Asia,2005,74.1,0.738,3.55,4340,69.9
+Jordan,Asia,2006,74.5,0.741,3.43,4520,70
+Jordan,Asia,2007,75.5,0.744,3.43,4680,69.9
+Jordan,Asia,2008,76.2,0.745,3.16,4790,70
+Jordan,Asia,2009,76.7,0.743,3.1,4780,70
+Jordan,Asia,2010,76.9,0.737,2.84,4640,70.3
+Jordan,Asia,2011,77.2,0.734,2.77,4520,70.9
+Jordan,Asia,2012,77.5,0.735,2.95,4390,71.2
+Jordan,Asia,2013,77.9,0.729,2.8,4270,71.5
+Jordan,Asia,2014,78.1,0.729,2.91,4220,71.9
+Jordan,Asia,2015,78.2,0.73,2.75,4160,72.2
+Jordan,Asia,2016,78.1,0.729,2.55,4120,72.6
+Jordan,Asia,2017,78.2,0.726,2.47,4110,72.9
+Jordan,Asia,2018,77.9,0.728,2.42,4110,73.2
+Kazakhstan,Asia,1998,64.5,0.672,8.9,3890,46.3
+Kazakhstan,Asia,1999,64.8,0.676,7.2,4040,46.7
+Kazakhstan,Asia,2000,64.7,0.685,8.95,4450,47.3
+Kazakhstan,Asia,2001,64.7,0.7,8.57,5060,48.2
+Kazakhstan,Asia,2002,64.7,0.714,9.76,5550,48.2
+Kazakhstan,Asia,2003,64.6,0.726,10.8,6050,47.8
+Kazakhstan,Asia,2004,64.6,0.737,11.2,6580,49.1
+Kazakhstan,Asia,2005,64.6,0.747,11.9,7160,49.6
+Kazakhstan,Asia,2006,64.8,0.754,13.3,7840,50
+Kazakhstan,Asia,2007,65.3,0.758,13.6,8440,49.9
+Kazakhstan,Asia,2008,66.3,0.758,13.4,8550,50.9
+Kazakhstan,Asia,2009,67.3,0.762,13,8490,52.3
+Kazakhstan,Asia,2010,67.6,0.764,14.5,8980,53
+Kazakhstan,Asia,2011,68.1,0.772,13.8,9510,54.6
+Kazakhstan,Asia,2012,68.6,0.782,14,9820,55.1
+Kazakhstan,Asia,2013,69.4,0.791,14.1,10300,56
+Kazakhstan,Asia,2014,70.1,0.798,14.8,10500,58.8
+Kazakhstan,Asia,2015,70.6,0.806,15,10500,61.4
+Kazakhstan,Asia,2016,71.1,0.808,15,10500,62.2
+Kazakhstan,Asia,2017,71.5,0.815,15.7,10800,62.8
+Kazakhstan,Asia,2018,71.7,0.819,17.6,11100,63.4
+Kenya,Africa,1998,55.1,0.463,0.327,1030,41
+Kenya,Africa,1999,54.9,0.462,0.323,1020,41.2
+Kenya,Africa,2000,54.8,0.461,0.323,1000,39.7
+Kenya,Africa,2001,54.9,0.465,0.281,1010,38.3
+Kenya,Africa,2002,55,0.465,0.232,991,36.7
+Kenya,Africa,2003,55.2,0.478,0.19,992,35.1
+Kenya,Africa,2004,55.7,0.49,0.209,1020,33.7
+Kenya,Africa,2005,56.5,0.5,0.228,1050,32.2
+Kenya,Africa,2006,57.5,0.515,0.248,1080,32.4
+Kenya,Africa,2007,58.5,0.523,0.247,1130,32.7
+Kenya,Africa,2008,59.4,0.532,0.249,1100,32.8
+Kenya,Africa,2009,60.3,0.541,0.293,1100,33
+Kenya,Africa,2010,61.2,0.551,0.28,1160,33.7
+Kenya,Africa,2011,62,0.559,0.3,1200,34.3
+Kenya,Africa,2012,62.6,0.566,0.271,1220,34.8
+Kenya,Africa,2013,63.2,0.573,0.281,1260,35.4
+Kenya,Africa,2014,63.8,0.58,0.295,1300,36
+Kenya,Africa,2015,64.4,0.587,0.341,1340,36.7
+Kenya,Africa,2016,65.1,0.591,0.35,1380,37.3
+Kenya,Africa,2017,65.7,0.595,0.36,1410,38
+Kenya,Africa,2018,66.1,0.599,0.36,1470,38.7
+Kuwait,Asia,1998,78.5,0.78,28.2,32500,75.8
+Kuwait,Asia,1999,77.8,0.781,27.6,30000,76
+Kuwait,Asia,2000,78.1,0.781,26.1,30000,75.6
+Kuwait,Asia,2001,79.2,0.778,27.4,29200,76.4
+Kuwait,Asia,2002,78.6,0.78,27.2,29600,77
+Kuwait,Asia,2003,78.9,0.788,27.6,34300,76.8
+Kuwait,Asia,2004,78.8,0.789,28.7,37200,76.5
+Kuwait,Asia,2005,78.7,0.783,31.4,39800,76.6
+Kuwait,Asia,2006,78.8,0.788,30.9,41000,75.4
+Kuwait,Asia,2007,79,0.788,29.9,41200,74.2
+Kuwait,Asia,2008,78.1,0.79,31,39800,72.4
+Kuwait,Asia,2009,78.7,0.789,30.8,34800,73.6
+Kuwait,Asia,2010,80.1,0.788,29.9,32000,73.9
+Kuwait,Asia,2011,80.9,0.792,27.3,33200,73.7
+Kuwait,Asia,2012,81,0.796,29.9,33500,73.7
+Kuwait,Asia,2013,81.3,0.793,26.8,32100,74
+Kuwait,Asia,2014,81.6,0.796,23.8,30900,74.4
+Kuwait,Asia,2015,81.5,0.801,24.1,29900,75.3
+Kuwait,Asia,2016,81.6,0.804,24.8,29800,75.6
+Kuwait,Asia,2017,81.6,0.805,24.1,27700,76
+Kuwait,Asia,2018,81.6,0.807,23.7,27500,76
+Kyrgyz Republic,Asia,1998,67.2,0.606,1.24,675,38
+Kyrgyz Republic,Asia,1999,67.6,0.613,0.957,689,36.1
+Kyrgyz Republic,Asia,2000,67.2,0.62,0.936,718,36.5
+Kyrgyz Republic,Asia,2001,67.3,0.628,0.779,749,36.7
+Kyrgyz Republic,Asia,2002,67.2,0.63,0.986,742,38.9
+Kyrgyz Republic,Asia,2003,67.1,0.637,1.07,786,41.8
+Kyrgyz Republic,Asia,2004,67.4,0.64,1.15,831,43.5
+Kyrgyz Republic,Asia,2005,67.4,0.642,1.09,821,43.9
+Kyrgyz Republic,Asia,2006,67.2,0.647,1.06,837,44.3
+Kyrgyz Republic,Asia,2007,67.6,0.654,1.26,900,45.2
+Kyrgyz Republic,Asia,2008,68.3,0.656,1.44,966,45.3
+Kyrgyz Republic,Asia,2009,69.3,0.661,1.26,982,46.1
+Kyrgyz Republic,Asia,2010,69.6,0.662,1.17,966,46.7
+Kyrgyz Republic,Asia,2011,70.3,0.664,1.37,1010,47.5
+Kyrgyz Republic,Asia,2012,70.7,0.674,1.78,994,48.2
+Kyrgyz Republic,Asia,2013,71.2,0.68,1.69,1080,48.1
+Kyrgyz Republic,Asia,2014,71.6,0.686,1.73,1100,48
+Kyrgyz Republic,Asia,2015,71.9,0.69,1.73,1120,49.8
+Kyrgyz Republic,Asia,2016,72.7,0.691,1.59,1150,51.1
+Kyrgyz Republic,Asia,2017,73,0.694,1.53,1180,53.8
+Kyrgyz Republic,Asia,2018,73.3,0.696,1.6,1200,54.9
+Lao,Asia,1998,57.3,0.46,0.16,851,12.6
+Lao,Asia,1999,57.8,0.467,0.162,897,13
+Lao,Asia,2000,58.4,0.471,0.18,933,13.6
+Lao,Asia,2001,59,0.477,0.196,971,14.1
+Lao,Asia,2002,59.7,0.486,0.212,1010,14.6
+Lao,Asia,2003,60.4,0.494,0.218,1060,15.2
+Lao,Asia,2004,61.1,0.503,0.226,1110,16
+Lao,Asia,2005,61.7,0.512,0.233,1170,16.7
+Lao,Asia,2006,62.3,0.514,0.3,1250,17.2
+Lao,Asia,2007,62.9,0.527,0.308,1320,18
+Lao,Asia,2008,63.6,0.535,0.352,1400,18.9
+Lao,Asia,2009,64.2,0.545,0.434,1480,19.4
+Lao,Asia,2010,64.9,0.552,0.48,1580,20.2
+Lao,Asia,2011,65.6,0.565,0.499,1680,20.8
+Lao,Asia,2012,66.2,0.575,0.528,1790,21.4
+Lao,Asia,2013,66.7,0.582,0.613,1910,22.1
+Lao,Asia,2014,67.2,0.589,0.653,2020,22.9
+Lao,Asia,2015,67.6,0.598,1.31,2130,23.4
+Lao,Asia,2016,68,0.605,2.56,2250,23.9
+Lao,Asia,2017,68.4,0.608,2.62,2370,24.5
+Lao,Asia,2018,68.6,0.609,2.74,2480,25
+Latvia,Europe,1998,69.3,0.711,3.41,6020,53.9
+Latvia,Europe,1999,70.1,0.723,3.2,6240,56.8
+Latvia,Europe,2000,70.7,0.735,2.97,6660,58.3
+Latvia,Europe,2001,70.1,0.753,3.17,7170,58.3
+Latvia,Europe,2002,70.5,0.767,3.22,7770,58.2
+Latvia,Europe,2003,71,0.781,3.35,8500,58.7
+Latvia,Europe,2004,71.3,0.795,3.4,9330,59.8
+Latvia,Europe,2005,70.9,0.809,3.47,10400,61.5
+Latvia,Europe,2006,70.5,0.816,3.74,11800,61.2
+Latvia,Europe,2007,70.9,0.825,3.93,13100,61.2
+Latvia,Europe,2008,72.1,0.828,3.78,12800,62.6
+Latvia,Europe,2009,72.9,0.826,3.48,11100,66.9
+Latvia,Europe,2010,73.3,0.824,4.04,10900,68.3
+Latvia,Europe,2011,73.9,0.829,3.73,11800,68.2
+Latvia,Europe,2012,74.2,0.832,3.64,12400,68.1
+Latvia,Europe,2013,74.2,0.839,3.61,12900,68
+Latvia,Europe,2014,74.7,0.845,3.56,13100,68.6
+Latvia,Europe,2015,75.1,0.849,3.65,13800,68.4
+Latvia,Europe,2016,75.7,0.854,3.67,14200,68.2
+Latvia,Europe,2017,75.8,0.859,3.71,14800,69.8
+Latvia,Europe,2018,75.8,0.863,3.73,15500,69.4
+Lebanon,Asia,1998,74.2,,4.41,6950,55.6
+Lebanon,Asia,1999,74.6,,4.39,6820,56.2
+Lebanon,Asia,2000,74.8,,4.03,6740,56.8
+Lebanon,Asia,2001,75.1,,4.11,6730,57.2
+Lebanon,Asia,2002,75.3,,3.89,6650,57.7
+Lebanon,Asia,2003,75.3,,4.23,6540,58.1
+Lebanon,Asia,2004,75.4,,3.77,6700,58.2
+Lebanon,Asia,2005,75.4,0.74,3.55,6690,58.7
+Lebanon,Asia,2006,75.1,0.739,3.11,6710,59.2
+Lebanon,Asia,2007,75.5,0.751,2.89,7320,59.1
+Lebanon,Asia,2008,75.4,0.757,3.66,7990,59.1
+Lebanon,Asia,2009,75.5,0.764,4.36,8720,58.9
+Lebanon,Asia,2010,75.6,0.766,4.04,9150,59.2
+Lebanon,Asia,2011,75.7,0.768,3.9,8780,59.8
+Lebanon,Asia,2012,75.7,0.759,4.04,8460,60.2
+Lebanon,Asia,2013,75.8,0.757,3.76,8230,60.5
+Lebanon,Asia,2014,75.8,0.748,3.79,7960,61.1
+Lebanon,Asia,2015,75.9,0.744,3.69,7640,61.9
+Lebanon,Asia,2016,76.1,0.741,3.64,7550,62.5
+Lebanon,Asia,2017,76.2,0.748,3.53,7500,63.2
+Lebanon,Asia,2018,76.2,0.747,3.53,7310,64.1
+Lesotho,Africa,1998,52,0.47,0.903,697,27.6
+Lesotho,Africa,1999,50.2,0.461,0.904,693,27.9
+Lesotho,Africa,2000,48.5,0.459,0.911,715,28.5
+Lesotho,Africa,2001,47.3,0.451,0.922,739,29.1
+Lesotho,Africa,2002,46.1,0.446,0.939,747,29.6
+Lesotho,Africa,2003,45,0.444,0.957,785,30.4
+Lesotho,Africa,2004,44.2,0.44,0.989,804,31
+Lesotho,Africa,2005,43.9,0.436,1.01,836,31.8
+Lesotho,Africa,2006,44.2,0.436,1.02,874,32.5
+Lesotho,Africa,2007,45.1,0.441,1.04,912,33.4
+Lesotho,Africa,2008,46.3,0.446,1.07,962,34.3
+Lesotho,Africa,2009,47.4,0.455,1.11,948,35
+Lesotho,Africa,2010,48.1,0.46,1.14,996,35.6
+Lesotho,Africa,2011,48.2,0.469,1.16,1040,36.5
+Lesotho,Africa,2012,47.9,0.48,1.19,1100,37.4
+Lesotho,Africa,2013,47.9,0.489,1.19,1110,38.2
+Lesotho,Africa,2014,47.9,0.498,1.19,1120,38.9
+Lesotho,Africa,2015,48.5,0.503,1.14,1150,39.6
+Lesotho,Africa,2016,49.6,0.512,1.21,1180,40.5
+Lesotho,Africa,2017,50.8,0.517,1.33,1130,41.1
+Lesotho,Africa,2018,51.4,0.522,1.26,1110,41.6
+Liberia,Africa,1998,53,,0.192,,35.6
+Liberia,Africa,1999,53.8,0.399,0.145,,36.3
+Liberia,Africa,2000,54.8,0.435,0.148,764,37.4
+Liberia,Africa,2001,55.7,0.435,0.152,758,37.6
+Liberia,Africa,2002,55.4,0.437,0.144,768,38.2
+Liberia,Africa,2003,55.5,0.417,0.152,527,37.2
+Liberia,Africa,2004,58.5,0.427,0.174,531,37.8
+Liberia,Africa,2005,59.2,0.432,0.204,545,38.5
+Liberia,Africa,2006,60,0.438,0.202,569,39.3
+Liberia,Africa,2007,60.6,0.445,0.181,599,40.1
+Liberia,Africa,2008,61.1,0.45,0.148,616,40.7
+Liberia,Africa,2009,61.5,0.452,0.127,624,41.3
+Liberia,Africa,2010,61.9,0.455,0.196,638,41.9
+Liberia,Africa,2011,62.4,0.472,0.212,669,42.7
+Liberia,Africa,2012,62.9,0.469,0.233,702,43.6
+Liberia,Africa,2013,63.4,0.477,0.207,743,44.6
+Liberia,Africa,2014,59.9,0.478,0.273,729,45
+Liberia,Africa,2015,62.5,0.477,0.27,710,45.4
+Liberia,Africa,2016,64.5,0.478,0.296,682,45.8
+Liberia,Africa,2017,65.1,0.481,0.32,681,46.4
+Liberia,Africa,2018,65.7,0.48,0.324,673,46.9
+Libya,Africa,1998,74.8,0.77,8.7,,46.1
+Libya,Africa,1999,74.9,0.775,8.4,6460,46.1
+Libya,Africa,2000,74.9,0.78,8.74,6590,46.5
+Libya,Africa,2001,75,0.785,8.78,6370,47.3
+Libya,Africa,2002,75,0.79,8.59,6210,47.8
+Libya,Africa,2003,75.5,0.797,8.69,6910,47.6
+Libya,Africa,2004,76.4,0.798,8.76,7100,48.1
+Libya,Africa,2005,76.8,0.8,8.92,7830,47.9
+Libya,Africa,2006,76.9,0.8,8.95,8210,48.2
+Libya,Africa,2007,76,0.8,8.26,8600,48.5
+Libya,Africa,2008,75.9,0.8,9.14,8710,48.7
+Libya,Africa,2009,75.7,0.799,9.33,8530,49.3
+Libya,Africa,2010,76.2,0.798,9.87,8870,49.9
+Libya,Africa,2011,73.2,0.764,6.29,3340,51.8
+Libya,Africa,2012,76.5,0.789,8.34,7400,53.2
+Libya,Africa,2013,76.7,0.761,8.87,6360,55.1
+Libya,Africa,2014,74.3,0.728,9.23,4800,56.9
+Libya,Africa,2015,74.6,0.697,8.79,4340,58.3
+Libya,Africa,2016,74.3,0.687,7.72,4170,59.3
+Libya,Africa,2017,75.6,0.714,7.96,5210,58.8
+Libya,Africa,2018,75.7,0.721,8.09,5910,58.6
+Lithuania,Europe,1998,71.5,0.743,4.47,6180,51.4
+Lithuania,Europe,1999,71.9,0.751,3.8,6150,52.9
+Lithuania,Europe,2000,72.2,0.762,3.37,6420,54
+Lithuania,Europe,2001,71.7,0.774,3.6,6900,55.8
+Lithuania,Europe,2002,72,0.785,3.66,7420,54
+Lithuania,Europe,2003,72,0.797,3.69,8270,54.1
+Lithuania,Europe,2004,72,0.805,3.9,8920,55.5
+Lithuania,Europe,2005,71.3,0.817,4.22,9760,56.7
+Lithuania,Europe,2006,70.9,0.826,4.36,10700,56.6
+Lithuania,Europe,2007,70.6,0.833,4.84,12000,58.1
+Lithuania,Europe,2008,71.4,0.838,4.7,12400,61.4
+Lithuania,Europe,2009,73,0.828,4.05,10700,64.2
+Lithuania,Europe,2010,73.2,0.831,4.39,11100,66.6
+Lithuania,Europe,2011,73.7,0.838,4.57,12000,67
+Lithuania,Europe,2012,74,0.841,4.65,12700,66.1
+Lithuania,Europe,2013,74,0.847,4.36,13300,66.1
+Lithuania,Europe,2014,74.6,0.859,4.34,13800,66.1
+Lithuania,Europe,2015,74.7,0.862,4.48,14300,65.9
+Lithuania,Europe,2016,74.9,0.867,4.54,14800,66.9
+Lithuania,Europe,2017,76,0.873,4.72,15700,67.1
+Lithuania,Europe,2018,76.1,0.876,4.84,16400,67.1
+Luxembourg,Europe,1998,77.5,0.844,18.1,77000,75.5
+Luxembourg,Europe,1999,77.8,0.856,18.9,82400,76.1
+Luxembourg,Europe,2000,78,0.86,20,88000,76.8
+Luxembourg,Europe,2001,78.4,0.865,21,89200,77
+Luxembourg,Europe,2002,78.7,0.869,22.6,91600,77.9
+Luxembourg,Europe,2003,79,0.873,23.4,92000,78
+Luxembourg,Europe,2004,79.2,0.876,26.2,94000,79.2
+Luxembourg,Europe,2005,79.5,0.88,26.5,95500,81
+Luxembourg,Europe,2006,79.8,0.884,25.7,98800,81.5
+Luxembourg,Europe,2007,80.2,0.888,23.9,105000,81.2
+Luxembourg,Europe,2008,80.6,0.89,23.1,102000,83.1
+Luxembourg,Europe,2009,80.8,0.893,21.5,96000,85.7
+Luxembourg,Europe,2010,81,0.898,22.1,98900,85.6
+Luxembourg,Europe,2011,81.3,0.899,21.4,99100,85.4
+Luxembourg,Europe,2012,81.5,0.9,20.5,96400,86
+Luxembourg,Europe,2013,81.7,0.9,19,97700,86.4
+Luxembourg,Europe,2014,82,0.903,17.7,99500,87.6
+Luxembourg,Europe,2015,82.3,0.906,16.5,101000,86.4
+Luxembourg,Europe,2016,82.7,0.91,15.7,104000,86.9
+Luxembourg,Europe,2017,82.8,0.913,15.6,103000,87.8
+Luxembourg,Europe,2018,82.9,0.913,15.9,104000,87.2
+Madagascar,Africa,1998,58.6,,0.116,475,14.3
+Madagascar,Africa,1999,59.1,,0.119,482,14.5
+Madagascar,Africa,2000,59.5,0.462,0.119,488,14.7
+Madagascar,Africa,2001,60,0.468,0.107,501,15
+Madagascar,Africa,2002,60,0.464,0.0735,426,14.8
+Madagascar,Africa,2003,60.3,0.473,0.0973,453,15.3
+Madagascar,Africa,2004,60.6,0.48,0.101,463,15
+Madagascar,Africa,2005,61.1,0.486,0.0942,471,14.6
+Madagascar,Africa,2006,61.5,0.49,0.0883,482,15.8
+Madagascar,Africa,2007,61.9,0.498,0.0918,495,17
+Madagascar,Africa,2008,62.1,0.506,0.0935,514,18.3
+Madagascar,Africa,2009,62.3,0.51,0.0853,480,19.4
+Madagascar,Africa,2010,62.6,0.511,0.0917,469,20.6
+Madagascar,Africa,2011,62.9,0.512,0.109,464,22
+Madagascar,Africa,2012,63.2,0.514,0.123,465,23.4
+Madagascar,Africa,2013,63.5,0.517,0.137,463,24.1
+Madagascar,Africa,2014,63.8,0.52,0.139,465,24.6
+Madagascar,Africa,2015,64.2,0.522,0.149,467,25.2
+Madagascar,Africa,2016,64.5,0.523,0.156,473,25.7
+Madagascar,Africa,2017,64.8,0.526,0.163,479,26.2
+Madagascar,Africa,2018,65.1,0.527,0.163,481,26.6
+Malawi,Africa,1998,45.5,0.395,0.0874,297,12.7
+Malawi,Africa,1999,45.5,0.395,0.0849,298,12.9
+Malawi,Africa,2000,45.9,0.388,0.0776,294,13
+Malawi,Africa,2001,46.3,0.388,0.0693,273,12.9
+Malawi,Africa,2002,46.7,0.357,0.0723,271,13.1
+Malawi,Africa,2003,47.4,0.361,0.0754,279,13.4
+Malawi,Africa,2004,48,0.363,0.0742,287,13.7
+Malawi,Africa,2005,48.9,0.367,0.0718,289,13.9
+Malawi,Africa,2006,50.1,0.377,0.0708,295,14.2
+Malawi,Africa,2007,51.6,0.388,0.0727,314,14.6
+Malawi,Africa,2008,53.4,0.405,0.0793,328,15
+Malawi,Africa,2009,55,0.42,0.0775,346,15.4
+Malawi,Africa,2010,56.3,0.431,0.0707,359,15.7
+Malawi,Africa,2011,57.7,0.44,0.0762,366,16
+Malawi,Africa,2012,59.3,0.446,0.0737,362,16.2
+Malawi,Africa,2013,60.6,0.456,0.0734,370,16.5
+Malawi,Africa,2014,61.5,0.465,0.0628,381,16.8
+Malawi,Africa,2015,62,0.468,0.0669,381,17.1
+Malawi,Africa,2016,62.6,0.472,0.0735,380,17.3
+Malawi,Africa,2017,63.4,0.473,0.0764,384,17.6
+Malawi,Africa,2018,64.1,0.478,0.0762,391,17.9
+Malaysia,Asia,1998,72.9,0.708,5.17,5800,49.4
+Malaysia,Asia,1999,72.1,0.713,4.78,6010,49.9
+Malaysia,Asia,2000,73,0.723,5.46,6390,49.5
+Malaysia,Asia,2001,73.3,0.721,5.7,6290,51.8
+Malaysia,Asia,2002,73.5,0.723,5.64,6490,53.1
+Malaysia,Asia,2003,73.5,0.73,6.37,6730,53.7
+Malaysia,Asia,2004,73.8,0.733,6.82,7040,55.3
+Malaysia,Asia,2005,74.1,0.73,7.08,7270,55.6
+Malaysia,Asia,2006,74.4,0.737,6.83,7530,55.1
+Malaysia,Asia,2007,74.5,0.75,6.85,7850,56.8
+Malaysia,Asia,2008,74.3,0.761,7.44,8070,57.4
+Malaysia,Asia,2009,74.2,0.765,7.11,7810,59.5
+Malaysia,Asia,2010,74.4,0.772,7.68,8250,59.1
+Malaysia,Asia,2011,74.6,0.778,7.6,8550,59.7
+Malaysia,Asia,2012,74.8,0.781,7.43,8890,59.2
+Malaysia,Asia,2013,75.3,0.785,7.96,9180,59.4
+Malaysia,Asia,2014,75.1,0.791,8.08,9600,59.7
+Malaysia,Asia,2015,75,0.796,7.71,9960,60
+Malaysia,Asia,2016,75,0.8,8.05,10300,61.1
+Malaysia,Asia,2017,75.1,0.805,7.93,10700,61
+Malaysia,Asia,2018,75.2,0.805,8.08,11100,62.3
+Maldives,Asia,1998,70.8,0.597,1.12,6590,53.5
+Maldives,Asia,1999,71.6,0.611,1.54,6870,54.1
+Maldives,Asia,2000,72.2,0.622,1.61,6980,55
+Maldives,Asia,2001,72.8,0.626,1.61,6540,56
+Maldives,Asia,2002,73.7,0.63,2.02,6830,57.1
+Maldives,Asia,2003,74.4,0.644,1.67,7550,58.2
+Maldives,Asia,2004,73.9,0.649,2.14,7790,60.4
+Maldives,Asia,2005,75.8,0.645,1.88,6590,62.5
+Maldives,Asia,2006,76.3,0.659,2.32,8110,64.4
+Maldives,Asia,2007,76.8,0.664,2.33,8530,66.3
+Maldives,Asia,2008,77.2,0.673,2.46,9120,67.9
+Maldives,Asia,2009,77.5,0.674,2.5,8220,69.5
+Maldives,Asia,2010,77.8,0.685,2.56,8520,70
+Maldives,Asia,2011,78,0.697,2.59,8890,70.3
+Maldives,Asia,2012,78.3,0.704,2.8,8730,70.8
+Maldives,Asia,2013,78.5,0.709,2.63,8950,71.3
+Maldives,Asia,2014,78.7,0.718,3.03,9180,71.6
+Maldives,Asia,2015,78.9,0.724,2.86,9030,71.8
+Maldives,Asia,2016,78.9,0.728,3.04,9190,72
+Maldives,Asia,2017,78.9,0.731,2.99,9440,72.2
+Maldives,Asia,2018,79,0.734,2.96,9820,72.3
+Mali,Africa,1998,51,0.294,0.0743,572,19
+Mali,Africa,1999,52.9,0.306,0.0755,588,19.3
+Mali,Africa,2000,53.3,0.312,0.076,572,19.3
+Mali,Africa,2001,53.8,0.325,0.0745,641,20.1
+Mali,Africa,2002,54.3,0.334,0.0739,641,20.3
+Mali,Africa,2003,54.9,0.347,0.0716,678,20.8
+Mali,Africa,2004,55.6,0.356,0.072,667,21
+Mali,Africa,2005,56.2,0.367,0.0718,688,21.4
+Mali,Africa,2006,56.6,0.376,0.0819,697,21.7
+Mali,Africa,2007,57.1,0.371,0.0951,697,22
+Mali,Africa,2008,57.6,0.394,0.11,707,22.4
+Mali,Africa,2009,58,0.401,0.122,717,22.8
+Mali,Africa,2010,58.4,0.408,0.131,732,23.2
+Mali,Africa,2011,58.9,0.413,0.139,732,23.8
+Mali,Africa,2012,59.1,0.413,0.144,705,24
+Mali,Africa,2013,59.2,0.413,0.161,701,24.3
+Mali,Africa,2014,59.5,0.419,0.172,729,25.3
+Mali,Africa,2015,59.9,0.417,0.178,751,29.5
+Mali,Africa,2016,60.4,0.422,0.173,772,28.3
+Mali,Africa,2017,60.8,0.427,0.186,789,28.6
+Mali,Africa,2018,61.2,0.431,0.187,802,29.3
+Malta,Europe,1998,78.5,0.789,6.42,13900,64.3
+Malta,Europe,1999,78.6,0.793,6.49,14500,64.7
+Malta,Europe,2000,78.8,0.795,6.42,17200,65.2
+Malta,Europe,2001,79,0.801,6.13,16900,66.7
+Malta,Europe,2002,79.1,0.804,6.08,17200,66.1
+Malta,Europe,2003,79.3,0.81,6.56,17700,67.7
+Malta,Europe,2004,79.6,0.819,6.31,17700,68.3
+Malta,Europe,2005,80,0.834,6.42,18100,68
+Malta,Europe,2006,80.3,0.832,6.41,18500,69.6
+Malta,Europe,2007,80.4,0.837,6.58,19300,71.9
+Malta,Europe,2008,80.6,0.839,6.74,19900,72.6
+Malta,Europe,2009,80.8,0.84,6.15,19600,73.5
+Malta,Europe,2010,81.1,0.853,6.12,20600,73.1
+Malta,Europe,2011,81.2,0.853,6.26,20600,74.3
+Malta,Europe,2012,81.4,0.86,6.58,21200,76.8
+Malta,Europe,2013,81.6,0.867,5.73,22100,77.2
+Malta,Europe,2014,81.8,0.874,5.64,23300,78
+Malta,Europe,2015,82.2,0.88,3.96,24900,78.5
+Malta,Europe,2016,82.3,0.885,3.24,25400,79
+Malta,Europe,2017,82.4,0.888,3.68,26700,79.2
+Malta,Europe,2018,82.5,0.894,3.61,27100,80.4
+Mauritania,Africa,1998,62.6,0.459,0.429,1370,40
+Mauritania,Africa,1999,63.1,0.464,0.428,1390,40.5
+Mauritania,Africa,2000,63.6,0.464,0.424,1300,40.8
+Mauritania,Africa,2001,64.1,0.463,0.434,1250,41.1
+Mauritania,Africa,2002,64.5,0.467,0.45,1230,41.6
+Mauritania,Africa,2003,65,0.472,0.452,1280,42.3
+Mauritania,Africa,2004,65.5,0.482,0.472,1310,42.8
+Mauritania,Africa,2005,65.8,0.486,0.475,1380,43.6
+Mauritania,Africa,2006,66.5,0.496,0.457,1590,44.8
+Mauritania,Africa,2007,66.9,0.495,0.512,1510,45
+Mauritania,Africa,2008,67.4,0.494,0.538,1460,45.3
+Mauritania,Africa,2009,67.8,0.502,0.578,1420,45.7
+Mauritania,Africa,2010,68.1,0.505,0.561,1420,46.2
+Mauritania,Africa,2011,68.4,0.509,0.587,1430,46.8
+Mauritania,Africa,2012,68.7,0.517,0.629,1450,47.3
+Mauritania,Africa,2013,69,0.525,0.536,1470,47.9
+Mauritania,Africa,2014,69.3,0.531,0.636,1490,48.5
+Mauritania,Africa,2015,69.6,0.536,0.609,1520,49.1
+Mauritania,Africa,2016,69.9,0.542,0.552,1500,49.6
+Mauritania,Africa,2017,70.2,0.54,0.599,1510,50.2
+Mauritania,Africa,2018,70.5,0.542,0.605,1500,50.7
+Mauritius,Africa,1998,71.8,0.667,1.86,5100,49.8
+Mauritius,Africa,1999,71.9,0.672,2.06,5160,50.3
+Mauritius,Africa,2000,72.3,0.678,2.27,5530,49.3
+Mauritius,Africa,2001,72.6,0.687,2.4,5670,51.7
+Mauritius,Africa,2002,72.7,0.692,2.4,5730,52.6
+Mauritius,Africa,2003,72.9,0.701,2.53,6020,53.2
+Mauritius,Africa,2004,73.2,0.708,2.54,6240,56.4
+Mauritius,Africa,2005,73.2,0.717,2.7,6320,57.5
+Mauritius,Africa,2006,73.3,0.724,2.96,6590,58.1
+Mauritius,Africa,2007,73.8,0.731,2.99,6940,58.6
+Mauritius,Africa,2008,73.7,0.738,3.04,7290,59.1
+Mauritius,Africa,2009,73.8,0.745,2.98,7510,61.3
+Mauritius,Africa,2010,74.2,0.751,3.14,7820,62.7
+Mauritius,Africa,2011,74.6,0.76,3.13,8120,64.1
+Mauritius,Africa,2012,74.7,0.771,3.17,8380,64.3
+Mauritius,Africa,2013,75.1,0.779,3.24,8650,65.2
+Mauritius,Africa,2014,75,0.789,3.35,8950,66.1
+Mauritius,Africa,2015,75.2,0.789,3.35,9260,67
+Mauritius,Africa,2016,75.2,0.794,3.45,9610,67.9
+Mauritius,Africa,2017,75.3,0.797,3.75,9970,68.8
+Mauritius,Africa,2018,75.3,0.801,3.83,10300,69.7
+Mexico,North America,1998,73.2,0.695,4.05,8460,55.8
+Mexico,North America,1999,73.7,0.699,4.01,8570,55.7
+Mexico,North America,2000,74.2,0.708,4.01,8860,55.5
+Mexico,North America,2001,74.6,0.712,4.1,8700,56.5
+Mexico,North America,2002,74.6,0.718,4.05,8580,57.2
+Mexico,North America,2003,74.7,0.722,4.25,8590,57.9
+Mexico,North America,2004,75,0.731,4.2,8800,58.4
+Mexico,North America,2005,75,0.737,4.38,8880,59
+Mexico,North America,2006,75.3,0.745,4.43,9140,59.6
+Mexico,North America,2007,75.6,0.746,4.4,9210,60
+Mexico,North America,2008,75.2,0.748,4.45,9180,60.7
+Mexico,North America,2009,75,0.748,4.24,8570,61.9
+Mexico,North America,2010,75.3,0.748,4.07,8880,61.7
+Mexico,North America,2011,75.5,0.755,4.19,9080,62
+Mexico,North America,2012,75.7,0.759,4.24,9280,62.2
+Mexico,North America,2013,75.5,0.756,4.13,9280,62
+Mexico,North America,2014,75.6,0.761,4,9430,61.4
+Mexico,North America,2015,75.7,0.766,3.96,9620,61.4
+Mexico,North America,2016,75.5,0.768,3.94,9750,61.1
+Mexico,North America,2017,75.5,0.771,3.95,9840,60.9
+Mexico,North America,2018,75.5,0.776,3.79,9950,61.1
+Moldova,Europe,1998,68.8,0.637,1.52,1350,39.6
+Moldova,Europe,1999,68.8,0.64,1.11,1310,37.3
+Moldova,Europe,2000,68.9,0.643,0.851,1340,35.1
+Moldova,Europe,2001,69.2,0.651,0.905,1420,35
+Moldova,Europe,2002,69.1,0.663,0.971,1540,35.9
+Moldova,Europe,2003,69.1,0.673,1.06,1640,40.9
+Moldova,Europe,2004,69.4,0.684,1.11,1770,43.3
+Moldova,Europe,2005,68.9,0.692,1.19,1910,43.3
+Moldova,Europe,2006,69.4,0.699,1.21,2000,48.2
+Moldova,Europe,2007,69.6,0.704,1.21,2070,48.5
+Moldova,Europe,2008,69.9,0.71,1.26,2230,49.3
+Moldova,Europe,2009,70.1,0.706,1.11,2100,52.5
+Moldova,Europe,2010,70,0.713,1.18,2250,53.8
+Moldova,Europe,2011,71.7,0.719,1.21,2390,53.7
+Moldova,Europe,2012,72,0.726,1.17,2370,54.3
+Moldova,Europe,2013,72.7,0.735,1.2,2590,53.5
+Moldova,Europe,2014,72.3,0.737,1.16,2720,51.6
+Moldova,Europe,2015,72.1,0.736,1.18,2730,48
+Moldova,Europe,2016,72.6,0.738,1.21,2890,49.2
+Moldova,Europe,2017,73.7,0.743,1.18,3070,51
+Moldova,Europe,2018,74,0.746,1.27,3260,55.9
+Mongolia,Asia,1998,60.4,0.575,3.27,1570,34.4
+Mongolia,Asia,1999,60.7,0.581,3.17,1610,35
+Mongolia,Asia,2000,61,0.588,3.13,1610,37.2
+Mongolia,Asia,2001,61.3,0.599,3.26,1640,38
+Mongolia,Asia,2002,61.7,0.608,3.38,1700,40.7
+Mongolia,Asia,2003,62.1,0.621,3.25,1800,41.4
+Mongolia,Asia,2004,62.5,0.636,3.44,1970,43.7
+Mongolia,Asia,2005,62.9,0.649,3.4,2090,43.3
+Mongolia,Asia,2006,63.5,0.659,3.68,2240,43.9
+Mongolia,Asia,2007,64,0.671,4.66,2440,44.7
+Mongolia,Asia,2008,64.5,0.682,4.57,2620,44.2
+Mongolia,Asia,2009,64.8,0.687,4.89,2540,45
+Mongolia,Asia,2010,65.1,0.696,5.09,2660,50.2
+Mongolia,Asia,2011,65.5,0.71,7.74,3060,49.6
+Mongolia,Asia,2012,66.1,0.718,12.4,3370,46.8
+Mongolia,Asia,2013,66.6,0.727,15.1,3690,49.8
+Mongolia,Asia,2014,67.2,0.732,10.1,3900,51.3
+Mongolia,Asia,2015,67.7,0.735,7.76,3920,51.3
+Mongolia,Asia,2016,67.8,0.729,8.29,3890,50.6
+Mongolia,Asia,2017,67.9,0.728,8.49,4020,52
+Mongolia,Asia,2018,68,0.735,8.88,4240,52.5
+Montenegro,Europe,1998,73.7,,2.85,4720,64.1
+Montenegro,Europe,1999,73.6,,1.97,4290,64.7
+Montenegro,Europe,2000,73.7,,2.48,4430,65.1
+Montenegro,Europe,2001,73.8,,2.72,4460,65.7
+Montenegro,Europe,2002,73.9,,2.88,4530,66.4
+Montenegro,Europe,2003,73.8,,3.07,4620,67.3
+Montenegro,Europe,2004,73.8,,3.32,4820,69.8
+Montenegro,Europe,2005,73.8,,2.84,5010,72.2
+Montenegro,Europe,2006,73.9,0.773,3.34,5440,73
+Montenegro,Europe,2007,74.1,0.784,3.32,5800,73.8
+Montenegro,Europe,2008,74.3,0.794,4.2,6210,74.2
+Montenegro,Europe,2009,74.4,0.797,2.7,5830,74.9
+Montenegro,Europe,2010,74.7,0.802,3.88,5980,75.1
+Montenegro,Europe,2011,74.9,0.806,3.85,6170,75
+Montenegro,Europe,2012,75.2,0.807,3.54,6000,76.8
+Montenegro,Europe,2013,75.1,0.811,3.44,6200,77.7
+Montenegro,Europe,2014,75.2,0.813,3.36,6310,76.8
+Montenegro,Europe,2015,75.3,0.816,3.57,6520,74.8
+Montenegro,Europe,2016,75.4,0.818,3.22,6710,74.8
+Montenegro,Europe,2017,75.5,0.822,3.23,7020,75
+Montenegro,Europe,2018,75.6,0.826,3.2,7380,73.1
+Morocco,Africa,1998,68.8,0.509,1.11,1970,34.2
+Morocco,Africa,1999,68.9,0.519,1.14,1960,34.5
+Morocco,Africa,2000,69.5,0.529,1.17,1980,34.8
+Morocco,Africa,2001,69.9,0.541,1.29,2100,35.1
+Morocco,Africa,2002,70.3,0.551,1.29,2130,35.5
+Morocco,Africa,2003,70.3,0.562,1.26,2240,35.9
+Morocco,Africa,2004,70.5,0.572,1.44,2320,34.7
+Morocco,Africa,2005,70.8,0.58,1.5,2360,35
+Morocco,Africa,2006,71,0.586,1.54,2510,36.3
+Morocco,Africa,2007,71.2,0.594,1.61,2570,36.7
+Morocco,Africa,2008,71.4,0.602,1.68,2690,37
+Morocco,Africa,2009,71.6,0.608,1.65,2770,37.5
+Morocco,Africa,2010,71.9,0.616,1.74,2840,37.9
+Morocco,Africa,2011,72.1,0.626,1.73,2950,38.4
+Morocco,Africa,2012,72.3,0.635,1.78,3000,39.4
+Morocco,Africa,2013,72.1,0.644,1.74,3090,39.9
+Morocco,Africa,2014,72.3,0.652,1.75,3130,40.6
+Morocco,Africa,2015,72.5,0.658,1.76,3220,41.1
+Morocco,Africa,2016,72.8,0.667,1.74,3210,41.8
+Morocco,Africa,2017,72.9,0.673,1.79,3310,42.3
+Morocco,Africa,2018,73.1,0.68,1.84,3370,43
+Mozambique,Africa,1998,52.6,0.287,0.0662,275,14.3
+Mozambique,Africa,1999,52.4,0.301,0.0677,299,14.7
+Mozambique,Africa,2000,52.2,0.307,0.0747,295,14.8
+Mozambique,Africa,2001,52.3,0.32,0.0853,321,15.4
+Mozambique,Africa,2002,52.2,0.327,0.0821,341,15.8
+Mozambique,Africa,2003,52.1,0.34,0.0961,353,16.1
+Mozambique,Africa,2004,52.1,0.349,0.0937,370,16.4
+Mozambique,Africa,2005,52.1,0.36,0.0865,384,16.6
+Mozambique,Africa,2006,52.3,0.366,0.0909,409,17
+Mozambique,Africa,2007,52.8,0.378,0.101,429,17.4
+Mozambique,Africa,2008,53.4,0.387,0.0979,448,17.7
+Mozambique,Africa,2009,53.5,0.394,0.107,463,17.9
+Mozambique,Africa,2010,53.5,0.401,0.112,480,18.2
+Mozambique,Africa,2011,53.6,0.397,0.129,502,18.6
+Mozambique,Africa,2012,53.6,0.403,0.12,523,19
+Mozambique,Africa,2013,54,0.417,0.159,544,19.3
+Mozambique,Africa,2014,54.9,0.425,0.314,569,19.7
+Mozambique,Africa,2015,55.8,0.433,0.233,590,20.1
+Mozambique,Africa,2016,56.6,0.441,0.278,595,20.4
+Mozambique,Africa,2017,57.3,0.446,0.28,600,20.7
+Mozambique,Africa,2018,57.9,0.452,0.281,603,21
+Myanmar,Asia,1998,58.1,0.396,0.176,238,25.2
+Myanmar,Asia,1999,58.5,0.404,0.194,261,25.3
+Myanmar,Asia,2000,58.9,0.414,0.215,293,26
+Myanmar,Asia,2001,59.4,0.423,0.184,323,26.3
+Myanmar,Asia,2002,59.8,0.432,0.192,358,26.8
+Myanmar,Asia,2003,60.3,0.442,0.203,404,27.7
+Myanmar,Asia,2004,60.8,0.452,0.255,455,28.2
+Myanmar,Asia,2005,61.4,0.461,0.236,513,28.6
+Myanmar,Asia,2006,62,0.471,0.259,576,29.1
+Myanmar,Asia,2007,62.6,0.482,0.258,640,29.4
+Myanmar,Asia,2008,57.7,0.493,0.195,702,30
+Myanmar,Asia,2009,64,0.504,0.202,771,30.4
+Myanmar,Asia,2010,64.8,0.515,0.259,839,30.3
+Myanmar,Asia,2011,65.4,0.526,0.296,879,30.7
+Myanmar,Asia,2012,66.1,0.533,0.232,936,30.9
+Myanmar,Asia,2013,66.7,0.543,0.25,1010,31.1
+Myanmar,Asia,2014,67.3,0.55,0.31,1080,31.1
+Myanmar,Asia,2015,67.7,0.557,0.421,1140,31.5
+Myanmar,Asia,2016,68.2,0.563,0.471,1200,32.4
+Myanmar,Asia,2017,68.3,0.572,0.476,1270,33.4
+Myanmar,Asia,2018,69.1,0.579,0.491,1350,34.6
+Namibia,Africa,1998,56.5,0.557,1.05,3030,50.3
+Namibia,Africa,1999,55.2,0.547,0.944,3070,53.4
+Namibia,Africa,2000,53.9,0.544,0.915,3120,56.4
+Namibia,Africa,2001,53.1,0.543,1.11,3110,56.1
+Namibia,Africa,2002,52.5,0.541,0.951,3210,55.8
+Namibia,Africa,2003,52.1,0.543,0.997,3300,55.5
+Namibia,Africa,2004,52.4,0.545,1.03,3650,55.2
+Namibia,Africa,2005,53.5,0.545,1.19,3680,55.6
+Namibia,Africa,2006,55.3,0.551,1.18,3880,56.1
+Namibia,Africa,2007,57.4,0.559,1.18,4010,56.6
+Namibia,Africa,2008,59.2,0.567,1.63,4040,57
+Namibia,Africa,2009,60.1,0.576,1.47,3980,57.3
+Namibia,Africa,2010,60.9,0.589,1.46,4150,57.8
+Namibia,Africa,2011,61.9,0.602,1.28,4280,58.3
+Namibia,Africa,2012,62.9,0.613,1.53,4420,58.7
+Namibia,Africa,2013,63.3,0.624,1.17,4590,54.2
+Namibia,Africa,2014,63.3,0.631,1.63,4780,55.8
+Namibia,Africa,2015,63.5,0.638,1.71,4900,58.5
+Namibia,Africa,2016,63.7,0.639,1.78,4810,60.6
+Namibia,Africa,2017,64.1,0.644,1.76,4670,61
+Namibia,Africa,2018,64.7,0.645,1.75,4630,61.2
+Nepal,Asia,1998,64,0.44,0.0965,527,14.1
+Nepal,Asia,1999,64.8,0.447,0.136,539,14
+Nepal,Asia,2000,65.4,0.453,0.127,562,14.2
+Nepal,Asia,2001,66.1,0.454,0.133,579,14.4
+Nepal,Asia,2002,66.2,0.464,0.105,571,14.6
+Nepal,Asia,2003,67,0.47,0.112,585,14.8
+Nepal,Asia,2004,67.2,0.476,0.104,605,15.1
+Nepal,Asia,2005,67.7,0.482,0.119,618,15.4
+Nepal,Asia,2006,68,0.493,0.0971,631,15.7
+Nepal,Asia,2007,68.3,0.498,0.0978,644,16
+Nepal,Asia,2008,68.5,0.509,0.127,676,16.3
+Nepal,Asia,2009,68.8,0.522,0.156,701,16.6
+Nepal,Asia,2010,69,0.537,0.181,732,17
+Nepal,Asia,2011,69.2,0.545,0.195,756,17.3
+Nepal,Asia,2012,69.5,0.559,0.205,791,17.7
+Nepal,Asia,2013,69.7,0.568,0.234,821,18.1
+Nepal,Asia,2014,69.9,0.576,0.285,871,18.5
+Nepal,Asia,2015,69.3,0.583,0.223,902,18.9
+Nepal,Asia,2016,70.4,0.586,0.325,897,19.3
+Nepal,Asia,2017,70.6,0.588,0.33,965,19.7
+Nepal,Asia,2018,70.8,0.596,0.337,1020,20.1
+Netherlands,Europe,1998,78.1,0.874,11.2,37500,73.8
+Netherlands,Europe,1999,78.1,0.877,10.8,39100,74.5
+Netherlands,Europe,2000,78.3,0.882,10.8,40400,75.1
+Netherlands,Europe,2001,78.4,0.886,11.1,41100,75.3
+Netherlands,Europe,2002,78.6,0.885,11,40900,76.1
+Netherlands,Europe,2003,78.9,0.89,11.1,40800,77
+Netherlands,Europe,2004,79.3,0.892,11.1,41400,76.6
+Netherlands,Europe,2005,79.6,0.897,10.9,42200,75.3
+Netherlands,Europe,2006,80,0.903,10.5,43600,75.7
+Netherlands,Europe,2007,80.3,0.91,10.5,45100,76.9
+Netherlands,Europe,2008,80.5,0.913,10.6,45900,77.7
+Netherlands,Europe,2009,80.8,0.912,10.2,44000,78.4
+Netherlands,Europe,2010,81,0.917,10.9,44400,79.2
+Netherlands,Europe,2011,81.1,0.928,10.1,44900,80
+Netherlands,Europe,2012,81.2,0.928,9.89,44200,80.1
+Netherlands,Europe,2013,81.4,0.93,9.85,44000,81.4
+Netherlands,Europe,2014,81.6,0.932,9.41,44500,81.5
+Netherlands,Europe,2015,81.7,0.934,9.83,45200,81.2
+Netherlands,Europe,2016,81.7,0.936,9.81,45900,81.3
+Netherlands,Europe,2017,81.7,0.939,9.67,47000,81.2
+Netherlands,Europe,2018,81.7,0.942,9.48,47800,81.7
+New Zealand,Oceania,1998,77.9,0.87,7.91,28800,67.2
+New Zealand,Oceania,1999,78,0.872,8.25,30200,67.5
+New Zealand,Oceania,2000,78.4,0.876,8.38,30900,68
+New Zealand,Oceania,2001,78.6,0.88,8.83,31800,68
+New Zealand,Oceania,2002,78.8,0.888,8.75,32700,68.4
+New Zealand,Oceania,2003,79.1,0.891,9.05,33500,69.6
+New Zealand,Oceania,2004,79.4,0.894,8.82,34300,69.7
+New Zealand,Oceania,2005,79.8,0.896,9.1,35100,70.7
+New Zealand,Oceania,2006,80,0.898,8.96,35600,70.4
+New Zealand,Oceania,2007,80.2,0.901,8.65,36400,70.8
+New Zealand,Oceania,2008,80.4,0.902,8.79,35700,71.5
+New Zealand,Oceania,2009,80.6,0.905,8.05,35300,72.6
+New Zealand,Oceania,2010,80.9,0.906,8.01,35400,72.6
+New Zealand,Oceania,2011,80.9,0.909,7.77,35900,73
+New Zealand,Oceania,2012,81.2,0.911,8.06,36500,73.4
+New Zealand,Oceania,2013,81.5,0.914,7.82,37200,73.7
+New Zealand,Oceania,2014,81.5,0.916,7.81,38000,73.3
+New Zealand,Oceania,2015,81.7,0.921,7.77,38600,72.3
+New Zealand,Oceania,2016,81.9,0.924,7.36,39200,73.3
+New Zealand,Oceania,2017,82,0.926,7.67,39800,73.2
+New Zealand,Oceania,2018,81.8,0.928,7.34,40300,74.3
+Nicaragua,North America,1998,70.4,0.559,0.691,1340,49.3
+Nicaragua,North America,1999,73.3,0.568,0.722,1410,49.8
+Nicaragua,North America,2000,73.7,0.577,0.735,1440,50.1
+Nicaragua,North America,2001,73.7,0.583,0.763,1470,50.7
+Nicaragua,North America,2002,73.6,0.589,0.765,1460,51.1
+Nicaragua,North America,2003,73.6,0.592,0.82,1470,51.5
+Nicaragua,North America,2004,73.7,0.597,0.817,1530,51.3
+Nicaragua,North America,2005,73.5,0.601,0.786,1570,51.4
+Nicaragua,North America,2006,74.3,0.605,0.802,1620,51.6
+Nicaragua,North America,2007,73.9,0.611,0.815,1670,50.1
+Nicaragua,North America,2008,74,0.616,0.771,1710,52.2
+Nicaragua,North America,2009,74.1,0.617,0.774,1630,52.7
+Nicaragua,North America,2010,74.4,0.622,0.768,1680,52.2
+Nicaragua,North America,2011,74.3,0.628,0.815,1760,51.5
+Nicaragua,North America,2012,74.4,0.633,0.76,1850,51.4
+Nicaragua,North America,2013,74.5,0.639,0.718,1920,51.2
+Nicaragua,North America,2014,74.5,0.649,0.749,1980,50.9
+Nicaragua,North America,2015,74.9,0.652,0.844,2050,51.3
+Nicaragua,North America,2016,74.8,0.657,0.875,2120,52
+Nicaragua,North America,2017,75,0.661,0.862,2190,52.4
+Nicaragua,North America,2018,75.2,0.659,0.862,2090,52.9
+Niger,Africa,1998,51.1,0.255,0.0662,435,14.9
+Niger,Africa,1999,51.5,0.259,0.0625,419,14.9
+Niger,Africa,2000,51.9,0.262,0.0612,399,15
+Niger,Africa,2001,52.3,0.268,0.0555,413,15.3
+Niger,Africa,2002,53.3,0.273,0.057,418,15.6
+Niger,Africa,2003,53.7,0.276,0.0596,411,15.7
+Niger,Africa,2004,55,0.285,0.0616,398,15.8
+Niger,Africa,2005,55.6,0.294,0.052,411,16.2
+Niger,Africa,2006,56.7,0.3,0.0486,420,16.5
+Niger,Africa,2007,57.2,0.306,0.0489,417,16.7
+Niger,Africa,2008,58.3,0.314,0.0527,432,17
+Niger,Africa,2009,58.7,0.321,0.0608,424,17.2
+Niger,Africa,2010,59,0.331,0.0711,443,17.6
+Niger,Africa,2011,59.3,0.338,0.0773,437,17.8
+Niger,Africa,2012,59.6,0.35,0.0986,464,18.3
+Niger,Africa,2013,60,0.357,0.102,470,18.6
+Niger,Africa,2014,60.4,0.365,0.107,482,19
+Niger,Africa,2015,60.6,0.372,0.101,484,19.3
+Niger,Africa,2016,61.1,0.378,0.0967,493,19.6
+Niger,Africa,2017,61.5,0.386,0.103,498,19.9
+Niger,Africa,2018,62,0.391,0.103,514,20.4
+Nigeria,Africa,1998,54.6,,0.325,1440,37.9
+Nigeria,Africa,1999,54.6,,0.332,1420,38.2
+Nigeria,Africa,2000,54.6,,0.645,1450,38.9
+Nigeria,Africa,2001,54.8,,0.692,1500,39.6
+Nigeria,Africa,2002,55.1,,0.734,1690,40.8
+Nigeria,Africa,2003,55.5,0.45,0.759,1760,41.7
+Nigeria,Africa,2004,56,0.46,0.73,1880,42.6
+Nigeria,Africa,2005,56.6,0.465,0.762,1950,43.6
+Nigeria,Africa,2006,57.2,0.473,0.687,2010,44.5
+Nigeria,Africa,2007,57.9,0.478,0.645,2090,45.5
+Nigeria,Africa,2008,58.5,0.484,0.631,2170,46.4
+Nigeria,Africa,2009,59,0.49,0.486,2290,47.4
+Nigeria,Africa,2010,59.6,0.482,0.713,2400,48.4
+Nigeria,Africa,2011,60.2,0.492,0.8,2460,49.3
+Nigeria,Africa,2012,60.7,0.5,0.701,2500,49.6
+Nigeria,Africa,2013,61.2,0.519,0.711,2600,49.9
+Nigeria,Africa,2014,61.6,0.523,0.725,2690,50.6
+Nigeria,Africa,2015,62.1,0.526,0.627,2690,51.1
+Nigeria,Africa,2016,62.7,0.526,0.634,2580,51.4
+Nigeria,Africa,2017,63.3,0.531,0.644,2530,51.8
+Nigeria,Africa,2018,63.8,0.534,0.65,2510,52.2
+North Macedonia,Europe,1998,71.1,,6.27,3030,39.4
+North Macedonia,Europe,1999,71.4,,5.79,3150,40.1
+North Macedonia,Europe,2000,71.5,0.677,5.93,3270,40.7
+North Macedonia,Europe,2001,71.4,0.681,5.87,3160,41.9
+North Macedonia,Europe,2002,71.5,0.688,5.34,3200,42.8
+North Macedonia,Europe,2003,71.7,0.694,5.51,3260,44.1
+North Macedonia,Europe,2004,72.2,0.702,5.44,3410,45.1
+North Macedonia,Europe,2005,72.5,0.71,5.47,3560,46.3
+North Macedonia,Europe,2006,72.3,0.716,5.3,3740,47.2
+North Macedonia,Europe,2007,72.4,0.721,4.6,3980,50.4
+North Macedonia,Europe,2008,72.9,0.737,4.55,4190,50.6
+North Macedonia,Europe,2009,73,0.739,4.2,4170,51
+North Macedonia,Europe,2010,73.4,0.743,4.15,4310,51.1
+North Macedonia,Europe,2011,73.7,0.747,4.49,4410,51.3
+North Macedonia,Europe,2012,73.7,0.748,4.25,4380,52.8
+North Macedonia,Europe,2013,74,0.751,3.79,4510,50.9
+North Macedonia,Europe,2014,74,0.755,3.63,4670,51.2
+North Macedonia,Europe,2015,74,0.761,3.41,4840,51.6
+North Macedonia,Europe,2016,73.8,0.765,3.39,4980,53.1
+North Macedonia,Europe,2017,74.1,0.767,3.53,5030,53.2
+North Macedonia,Europe,2018,74.3,0.77,3.49,5170,52.9
+Norway,Europe,1998,78.5,0.904,9.5,64900,72.5
+Norway,Europe,1999,78.7,0.909,9.61,65800,73.1
+Norway,Europe,2000,78.9,0.915,9.46,67400,73.9
+Norway,Europe,2001,79.1,0.914,9.71,68500,74.2
+Norway,Europe,2002,79.3,0.917,9.46,69100,74.4
+Norway,Europe,2003,79.7,0.923,9.71,69300,74.5
+Norway,Europe,2004,80.1,0.932,9.72,71700,75.6
+Norway,Europe,2005,80.4,0.931,9.5,73000,75.8
+Norway,Europe,2006,80.5,0.934,9.53,74200,75.9
+Norway,Europe,2007,80.7,0.936,9.81,75600,76
+Norway,Europe,2008,80.9,0.937,9.52,75000,76.3
+Norway,Europe,2009,81.1,0.937,9.1,72800,77.1
+Norway,Europe,2010,81.3,0.94,9.47,72400,77.8
+Norway,Europe,2011,81.3,0.942,9.2,72200,77.4
+Norway,Europe,2012,81.6,0.941,8.99,73200,77.5
+Norway,Europe,2013,81.8,0.944,8.86,73000,77.5
+Norway,Europe,2014,82.2,0.944,8.74,73700,77.3
+Norway,Europe,2015,82.4,0.947,8.72,74400,77.9
+Norway,Europe,2016,82.5,0.95,8.47,74500,78.4
+Norway,Europe,2017,82.8,0.954,8.26,75600,78.5
+Norway,Europe,2018,82.8,0.956,8.31,76000,78.4
+Oman,Asia,1998,68.6,,7.24,17000,84
+Oman,Asia,1999,68.8,,9.12,17000,83.3
+Oman,Asia,2000,69.1,0.693,9.5,18000,82.4
+Oman,Asia,2001,69.5,0.705,8.77,18600,80.9
+Oman,Asia,2002,69.6,0.714,10.8,18100,79.3
+Oman,Asia,2003,69.8,0.724,13.4,17200,77.6
+Oman,Asia,2004,70.2,0.731,11.3,17000,75.6
+Oman,Asia,2005,70.3,0.736,11.7,17000,73.2
+Oman,Asia,2006,70.1,0.74,15.1,17400,70.6
+Oman,Asia,2007,69.9,0.752,16.4,17700,68
+Oman,Asia,2008,70,0.77,15.3,18400,65.2
+Oman,Asia,2009,70.2,0.777,14.1,18700,62.4
+Oman,Asia,2010,70.4,0.782,15.4,18000,58
+Oman,Asia,2011,70.8,0.782,16.4,17300,58.9
+Oman,Asia,2012,71.5,0.791,16.8,17500,59.3
+Oman,Asia,2013,71.9,0.799,16.2,17100,60.3
+Oman,Asia,2014,72.3,0.802,15,16200,61.3
+Oman,Asia,2015,72.4,0.814,15.1,16000,62.2
+Oman,Asia,2016,72.6,0.815,14,16100,63
+Oman,Asia,2017,72.9,0.819,13.7,15500,63.9
+Oman,Asia,2018,73.6,0.813,13.9,15100,64.3
+Pakistan,Asia,1998,60.7,0.438,0.718,1010,35.4
+Pakistan,Asia,1999,60.9,0.443,0.718,1010,35.8
+Pakistan,Asia,2000,61,0.447,0.741,1030,36.1
+Pakistan,Asia,2001,61.2,0.454,0.734,1040,36.4
+Pakistan,Asia,2002,61.4,0.462,0.756,1040,36.8
+Pakistan,Asia,2003,61.5,0.471,0.768,1070,37.2
+Pakistan,Asia,2004,61.8,0.473,0.83,1130,36.9
+Pakistan,Asia,2005,61,0.486,0.841,1180,36.6
+Pakistan,Asia,2006,62.3,0.492,0.877,1220,35.9
+Pakistan,Asia,2007,62.7,0.496,0.929,1250,35.4
+Pakistan,Asia,2008,62.9,0.503,0.906,1240,35.2
+Pakistan,Asia,2009,63.1,0.508,0.885,1250,35.7
+Pakistan,Asia,2010,63.3,0.512,0.925,1240,35.2
+Pakistan,Asia,2011,63.6,0.516,0.917,1250,34.7
+Pakistan,Asia,2012,63.8,0.519,0.889,1260,34.8
+Pakistan,Asia,2013,64,0.523,0.895,1290,34.8
+Pakistan,Asia,2014,64.2,0.53,0.915,1320,34.9
+Pakistan,Asia,2015,64.4,0.536,0.926,1360,35
+Pakistan,Asia,2016,64.7,0.542,0.967,1400,34.1
+Pakistan,Asia,2017,64.9,0.55,1.02,1450,35.9
+Pakistan,Asia,2018,65.5,0.552,1.05,1500,37.6
+Palestine,Asia,1998,71.7,,0.488,2590,49.1
+Palestine,Asia,1999,71.9,,0.438,2730,48.2
+Palestine,Asia,2000,70.2,,0.515,2440,51.8
+Palestine,Asia,2001,69.6,,0.408,2150,59.5
+Palestine,Asia,2002,68.8,,0.342,1840,60.9
+Palestine,Asia,2003,70,,0.372,2040,58.2
+Palestine,Asia,2004,69.8,0.651,0.627,2430,59.2
+Palestine,Asia,2005,71.1,0.659,0.767,2630,58.9
+Palestine,Asia,2006,69.6,0.659,0.619,2540,59.6
+Palestine,Asia,2007,71.6,0.669,0.619,2570,60.2
+Palestine,Asia,2008,69.3,0.674,0.532,2690,63.6
+Palestine,Asia,2009,69.8,0.679,0.528,2840,63.9
+Palestine,Asia,2010,73.7,0.684,0.502,2930,63.5
+Palestine,Asia,2011,73.7,0.692,0.542,3130,62.5
+Palestine,Asia,2012,73.9,0.698,0.519,3240,61.8
+Palestine,Asia,2013,74.8,0.695,0.563,3310,61.4
+Palestine,Asia,2014,74.5,0.697,0.641,3230,61.6
+Palestine,Asia,2015,74.3,0.701,0.664,3270,62.6
+Palestine,Asia,2016,74.5,0.704,0.698,3480,62.4
+Palestine,Asia,2017,74.7,0.706,0.671,3460,62.4
+Palestine,Asia,2018,74.7,0.708,0.661,3420,62.4
+Panama,North America,1998,76.8,0.724,2.02,6780,64.2
+Panama,North America,1999,77.3,0.729,1.89,6910,64.4
+Panama,North America,2000,78,0.735,1.89,6960,65.7
+Panama,North America,2001,78.1,0.738,2.25,6860,64.7
+Panama,North America,2002,78.1,0.744,1.85,6880,65.7
+Panama,North America,2003,78,0.746,1.89,7040,65.3
+Panama,North America,2004,78.2,0.751,1.75,7430,66.4
+Panama,North America,2005,78.2,0.754,2.03,7820,67.2
+Panama,North America,2006,78.2,0.759,2.17,8340,66
+Panama,North America,2007,78.5,0.767,2.09,9170,66
+Panama,North America,2008,78.4,0.771,2.08,9890,63
+Panama,North America,2009,78.4,0.772,2.35,9840,62.8
+Panama,North America,2010,78.5,0.774,2.49,10200,63.9
+Panama,North America,2011,78.7,0.78,2.69,11200,64.7
+Panama,North America,2012,78.6,0.786,2.59,12100,65
+Panama,North America,2013,78.7,0.791,2.97,12700,63.5
+Panama,North America,2014,78.9,0.795,2.78,13100,64.2
+Panama,North America,2015,79.3,0.799,2.74,13600,66.6
+Panama,North America,2016,79.5,0.805,2.59,14100,66.2
+Panama,North America,2017,79.6,0.811,2.54,14600,67
+Panama,North America,2018,79.9,0.812,2.62,14900,67
+Papua New Guinea,Oceania,1998,62.4,0.442,0.513,1990,23.9
+Papua New Guinea,Oceania,1999,63.3,0.445,0.428,1980,23.7
+Papua New Guinea,Oceania,2000,63.1,0.45,0.456,1880,23
+Papua New Guinea,Oceania,2001,62.9,0.456,0.537,1840,23.3
+Papua New Guinea,Oceania,2002,62.7,0.462,0.572,1800,23.3
+Papua New Guinea,Oceania,2003,62.5,0.47,0.634,1800,23.5
+Papua New Guinea,Oceania,2004,62.3,0.473,0.706,1810,23.9
+Papua New Guinea,Oceania,2005,62.2,0.48,0.675,1890,24.3
+Papua New Guinea,Oceania,2006,62.2,0.485,0.648,1940,24.7
+Papua New Guinea,Oceania,2007,62.3,0.498,0.899,2050,25.4
+Papua New Guinea,Oceania,2008,62.5,0.503,0.688,1990,25.6
+Papua New Guinea,Oceania,2009,62.6,0.512,0.713,2080,26.2
+Papua New Guinea,Oceania,2010,62.8,0.522,0.638,2240,26.7
+Papua New Guinea,Oceania,2011,63,0.53,0.7,2210,27.2
+Papua New Guinea,Oceania,2012,63.1,0.52,0.653,2270,27.8
+Papua New Guinea,Oceania,2013,63.4,0.537,0.662,2300,27.9
+Papua New Guinea,Oceania,2014,63.7,0.542,0.727,2560,28.3
+Papua New Guinea,Oceania,2015,63.9,0.548,0.91,2680,29.1
+Papua New Guinea,Oceania,2016,64.1,0.549,0.899,2770,29.6
+Papua New Guinea,Oceania,2017,64.3,0.549,0.9,2810,29.9
+Papua New Guinea,Oceania,2018,64.4,0.549,0.911,2750,30.1
+Paraguay,South America,1998,75.6,0.641,0.859,4220,49.1
+Paraguay,South America,1999,75.5,0.644,0.84,4080,49.5
+Paraguay,South America,2000,75.6,0.643,0.678,3900,49.6
+Paraguay,South America,2001,76,0.652,0.681,3800,50
+Paraguay,South America,2002,76.1,0.662,0.698,3720,50.6
+Paraguay,South America,2003,75.8,0.66,0.716,3820,52.7
+Paraguay,South America,2004,75.2,0.667,0.709,3900,50.6
+Paraguay,South America,2005,75.6,0.67,0.65,3920,52.2
+Paraguay,South America,2006,75.6,0.67,0.662,4050,52.8
+Paraguay,South America,2007,76,0.675,0.674,4210,53.1
+Paraguay,South America,2008,76,0.684,0.704,4420,55.6
+Paraguay,South America,2009,75.8,0.681,0.736,4350,54.4
+Paraguay,South America,2010,75.7,0.696,0.804,4770,55.2
+Paraguay,South America,2011,76,0.701,0.821,4900,56.7
+Paraguay,South America,2012,76.2,0.701,0.806,4800,57
+Paraguay,South America,2013,76,0.712,0.795,5130,59.7
+Paraguay,South America,2014,76.4,0.715,0.828,5330,58.8
+Paraguay,South America,2015,76.5,0.721,0.905,5410,60.6
+Paraguay,South America,2016,76.1,0.722,1.06,5570,59.3
+Paraguay,South America,2017,76.3,0.726,1.05,5760,59.7
+Paraguay,South America,2018,76.5,0.727,1.07,5870,61.3
+Peru,South America,1998,73.4,0.667,1.08,3270,49.9
+Peru,South America,1999,74.4,0.677,1.12,3260,50.2
+Peru,South America,2000,74.6,0.679,1.14,3300,50.6
+Peru,South America,2001,75.5,0.687,1.01,3280,50.9
+Peru,South America,2002,75.9,0.688,0.995,3420,51.4
+Peru,South America,2003,76,0.687,0.954,3530,50.7
+Peru,South America,2004,76.7,0.694,1.14,3670,51.4
+Peru,South America,2005,77.2,0.699,1.32,3870,51.1
+Peru,South America,2006,77.7,0.697,1.01,4120,52.1
+Peru,South America,2007,78.3,0.704,1.22,4440,54.3
+Peru,South America,2008,78.5,0.715,1.43,4800,54.6
+Peru,South America,2009,77.4,0.718,1.78,4820,55
+Peru,South America,2010,77.3,0.721,1.97,5180,55.4
+Peru,South America,2011,77.7,0.734,1.67,5460,55.2
+Peru,South America,2012,78,0.742,1.84,5750,55.5
+Peru,South America,2013,78.4,0.75,1.53,6030,55.6
+Peru,South America,2014,78.9,0.76,1.67,6110,55.6
+Peru,South America,2015,79.4,0.759,1.69,6230,55.2
+Peru,South America,2016,79.6,0.765,1.82,6380,55.4
+Peru,South America,2017,79.8,0.767,1.68,6430,56.7
+Peru,South America,2018,80,0.771,1.74,6570,56.8
+Philippines,Asia,1998,70.2,0.626,0.915,1780,46.3
+Philippines,Asia,1999,70.5,0.63,0.894,1790,45.8
+Philippines,Asia,2000,70.3,0.632,0.928,1830,47
+Philippines,Asia,2001,70.2,0.633,0.883,1850,47.3
+Philippines,Asia,2002,70.2,0.638,0.863,1880,47.4
+Philippines,Asia,2003,70.3,0.642,0.846,1930,48
+Philippines,Asia,2004,70.4,0.652,0.86,2020,48.4
+Philippines,Asia,2005,70.3,0.654,0.849,2080,49.1
+Philippines,Asia,2006,70.2,0.656,0.758,2150,49.7
+Philippines,Asia,2007,70.5,0.662,0.792,2250,50.1
+Philippines,Asia,2008,70.4,0.666,0.851,2310,50.4
+Philippines,Asia,2009,70.4,0.665,0.828,2300,50.7
+Philippines,Asia,2010,70.6,0.671,0.883,2430,51.4
+Philippines,Asia,2011,70.7,0.676,0.877,2480,52
+Philippines,Asia,2012,70.7,0.684,0.91,2610,52.6
+Philippines,Asia,2013,70.6,0.691,0.97,2740,53.4
+Philippines,Asia,2014,71,0.696,1.02,2870,53.6
+Philippines,Asia,2015,70.9,0.701,1.12,3000,54.6
+Philippines,Asia,2016,71,0.704,1.15,3170,55.8
+Philippines,Asia,2017,71.2,0.708,1.25,3340,56.3
+Philippines,Asia,2018,71.6,0.711,1.27,3500,56.6
+Poland,Europe,1998,73.1,0.774,8.79,6650,47.6
+Poland,Europe,1999,73.2,0.783,8.53,6960,49
+Poland,Europe,2000,73.9,0.79,8.26,7360,50.3
+Poland,Europe,2001,74.3,0.796,8.17,7450,50.1
+Poland,Europe,2002,74.7,0.804,7.97,7610,51.8
+Poland,Europe,2003,74.9,0.809,8.32,7880,53.3
+Poland,Europe,2004,75,0.807,8.43,8280,53.4
+Poland,Europe,2005,75.2,0.813,8.41,8570,53.4
+Poland,Europe,2006,75.3,0.819,8.76,9100,54.2
+Poland,Europe,2007,75.4,0.824,8.76,9750,54.5
+Poland,Europe,2008,75.6,0.829,8.58,10200,54.1
+Poland,Europe,2009,75.9,0.834,8.23,10400,55.6
+Poland,Europe,2010,76.5,0.84,8.71,10900,56.6
+Poland,Europe,2011,76.8,0.845,8.7,11400,56.4
+Poland,Europe,2012,76.9,0.842,8.52,11500,57
+Poland,Europe,2013,77.2,0.856,8.43,11700,57.5
+Poland,Europe,2014,77.6,0.858,8.11,12100,58
+Poland,Europe,2015,77.6,0.863,8.22,12600,57.9
+Poland,Europe,2016,77.9,0.869,8.51,13000,58
+Poland,Europe,2017,78,0.873,8.88,13600,58.1
+Poland,Europe,2018,78,0.877,9.07,14300,58.6
+Portugal,Europe,1998,76.2,0.787,5.85,17600,50.9
+Portugal,Europe,1999,76.4,0.786,6.57,18200,52.9
+Portugal,Europe,2000,76.8,0.792,6.43,18800,52.9
+Portugal,Europe,2001,77.2,0.798,6.36,19000,53.4
+Portugal,Europe,2002,77.5,0.799,6.71,19100,54
+Portugal,Europe,2003,77.8,0.805,6.19,18800,54.4
+Portugal,Europe,2004,78.4,0.809,6.43,19100,56.6
+Portugal,Europe,2005,78.8,0.813,6.62,19200,57.6
+Portugal,Europe,2006,79.2,0.811,6.15,19500,57.8
+Portugal,Europe,2007,79.4,0.814,5.9,19900,57.9
+Portugal,Europe,2008,79.7,0.817,5.67,20000,59.6
+Portugal,Europe,2009,79.9,0.823,5.39,19300,60.7
+Portugal,Europe,2010,80.2,0.829,5,19700,61.5
+Portugal,Europe,2011,80.5,0.833,4.9,19400,62.9
+Portugal,Europe,2012,80.8,0.836,4.75,18600,64
+Portugal,Europe,2013,81.1,0.84,4.6,18600,66.1
+Portugal,Europe,2014,81.3,0.847,4.61,18800,67.5
+Portugal,Europe,2015,81.5,0.854,5.04,19200,68.1
+Portugal,Europe,2016,81.6,0.855,4.88,19700,68.6
+Portugal,Europe,2017,81.6,0.858,5.32,20400,68.9
+Portugal,Europe,2018,81.7,0.86,4.97,21000,69.1
+Qatar,Asia,1998,70.2,0.81,58.6,,62.6
+Qatar,Asia,1999,70.6,0.814,54.9,,61.6
+Qatar,Asia,2000,71.2,0.816,58.4,56900,60.4
+Qatar,Asia,2001,71.5,0.817,67.1,56900,59.3
+Qatar,Asia,2002,71.5,0.822,63.6,58500,58.5
+Qatar,Asia,2003,71.7,0.83,60.6,57100,57.5
+Qatar,Asia,2004,72.2,0.832,56.7,61600,56.2
+Qatar,Asia,2005,72.3,0.838,58.6,57600,56
+Qatar,Asia,2006,72.1,0.835,61.8,61500,55.5
+Qatar,Asia,2007,72.2,0.838,51.7,60900,45.8
+Qatar,Asia,2008,72.5,0.843,44.8,60800,38.9
+Qatar,Asia,2009,72.8,0.841,41.5,59100,40
+Qatar,Asia,2010,73.4,0.834,38.8,63000,42.2
+Qatar,Asia,2011,73.9,0.84,39.2,65100,44.5
+Qatar,Asia,2012,74.3,0.854,42.5,63200,46.9
+Qatar,Asia,2013,74.7,0.842,36,62700,46.9
+Qatar,Asia,2014,74.9,0.835,43.1,62800,45.7
+Qatar,Asia,2015,75.5,0.839,41.3,63000,44.6
+Qatar,Asia,2016,75.7,0.845,38.5,62800,44.2
+Qatar,Asia,2017,75.9,0.848,39.8,60300,44.2
+Qatar,Asia,2018,76.1,0.845,38,59800,44.5
+Romania,Europe,1998,69.8,0.705,4.79,4440,29.3
+Romania,Europe,1999,70.7,0.711,4.07,4430,28.9
+Romania,Europe,2000,71.2,0.716,4.31,4550,29
+Romania,Europe,2001,71.2,0.722,4.57,4850,29.7
+Romania,Europe,2002,71.2,0.731,4.66,5220,32.7
+Romania,Europe,2003,71.5,0.739,4.85,5390,33.2
+Romania,Europe,2004,72,0.753,4.83,5980,36.4
+Romania,Europe,2005,72.4,0.762,4.8,6300,37.3
+Romania,Europe,2006,72.8,0.774,4.95,6850,38.7
+Romania,Europe,2007,73.4,0.788,5.09,7450,39.1
+Romania,Europe,2008,73.4,0.803,5.05,8280,39.7
+Romania,Europe,2009,73.5,0.806,4.25,7890,40.9
+Romania,Europe,2010,73.8,0.805,4.11,7630,40.7
+Romania,Europe,2011,74.6,0.806,4.42,7810,42.2
+Romania,Europe,2012,74.7,0.803,4.28,8000,42.1
+Romania,Europe,2013,75.3,0.808,3.84,8340,42.5
+Romania,Europe,2014,75,0.811,3.87,8670,42.7
+Romania,Europe,2015,75.3,0.815,3.91,8970,46
+Romania,Europe,2016,75.3,0.82,3.83,9440,47
+Romania,Europe,2017,75.4,0.821,3.82,10200,47.1
+Romania,Europe,2018,75.5,0.823,3.8,10700,47.7
+Russia,Europe,1998,67.5,0.705,9.9,5510,59.2
+Russia,Europe,1999,66.2,0.711,10.1,5880,56
+Russia,Europe,2000,65.6,0.722,10.1,6490,56.3
+Russia,Europe,2001,65.5,0.728,10.3,6850,57.8
+Russia,Europe,2002,65.4,0.734,10.3,7210,58.5
+Russia,Europe,2003,65.2,0.742,10.6,7770,59
+Russia,Europe,2004,65.5,0.748,10.6,8360,59.8
+Russia,Europe,2005,65,0.753,10.8,8930,60.6
+Russia,Europe,2006,66.5,0.76,11.2,9690,61.2
+Russia,Europe,2007,67.5,0.769,11.2,10500,61.8
+Russia,Europe,2008,67.7,0.775,11.4,11100,62.8
+Russia,Europe,2009,68.7,0.773,10.7,10200,64.2
+Russia,Europe,2010,68.8,0.781,11.3,10700,64.5
+Russia,Europe,2011,70,0.79,11.6,11100,64.9
+Russia,Europe,2012,70.5,0.798,11.7,11600,64.9
+Russia,Europe,2013,70.9,0.802,11.2,11700,65.2
+Russia,Europe,2014,71,0.807,11.2,11600,65.7
+Russia,Europe,2015,71.5,0.809,11.2,11400,66
+Russia,Europe,2016,72,0.815,11.1,11400,66.3
+Russia,Europe,2017,72.9,0.82,11.3,11600,67.1
+Russia,Europe,2018,73,0.823,11.7,11900,67.3
+Rwanda,Africa,1998,47.9,0.307,0.0692,348,8.76
+Rwanda,Africa,1999,49.3,0.326,0.067,337,8.75
+Rwanda,Africa,2000,50.5,0.341,0.0656,345,8.89
+Rwanda,Africa,2001,51.5,0.35,0.0634,361,9.12
+Rwanda,Africa,2002,53.2,0.366,0.0617,399,9.52
+Rwanda,Africa,2003,54.5,0.379,0.0594,401,9.97
+Rwanda,Africa,2004,56.3,0.396,0.0594,425,10.6
+Rwanda,Africa,2005,58.2,0.413,0.0583,457,11.2
+Rwanda,Africa,2006,60.2,0.434,0.0569,488,11.9
+Rwanda,Africa,2007,61.6,0.45,0.0585,512,12.5
+Rwanda,Africa,2008,62.6,0.461,0.0555,554,13.3
+Rwanda,Africa,2009,63.4,0.477,0.0571,573,14
+Rwanda,Africa,2010,64.5,0.492,0.0572,599,14.8
+Rwanda,Africa,2011,65.3,0.5,0.0629,631,15.6
+Rwanda,Africa,2012,65.8,0.508,0.0682,669,16.5
+Rwanda,Africa,2013,66.8,0.515,0.0724,683,19.8
+Rwanda,Africa,2014,67.2,0.521,0.0734,708,23.6
+Rwanda,Africa,2015,67.4,0.526,0.0816,751,24.9
+Rwanda,Africa,2016,67.6,0.527,0.0898,775,25.9
+Rwanda,Africa,2017,68,0.535,0.0912,785,27.1
+Rwanda,Africa,2018,68.3,0.54,0.0913,830,28.2
+Samoa,Oceania,1998,68.2,0.641,0.764,3020,37.6
+Samoa,Oceania,1999,68.3,0.646,0.782,3070,38.1
+Samoa,Oceania,2000,68.5,0.651,0.82,3270,38.5
+Samoa,Oceania,2001,68.6,0.659,0.836,3480,39.4
+Samoa,Oceania,2002,68.8,0.659,0.831,3610,39.5
+Samoa,Oceania,2003,68.9,0.665,0.868,3750,39.9
+Samoa,Oceania,2004,69,0.673,0.842,3900,39.6
+Samoa,Oceania,2005,69,0.677,0.898,4030,39.8
+Samoa,Oceania,2006,69.2,0.68,0.912,4090,40
+Samoa,Oceania,2007,69.3,0.686,0.947,4320,41
+Samoa,Oceania,2008,69.5,0.687,0.98,4330,41.2
+Samoa,Oceania,2009,67.5,0.691,1.01,4090,41.4
+Samoa,Oceania,2010,69.6,0.698,1.01,4080,42
+Samoa,Oceania,2011,69.7,0.701,1.08,4220,42.3
+Samoa,Oceania,2012,69.6,0.698,1.05,4010,42.3
+Samoa,Oceania,2013,69.9,0.7,1.04,3960,42.2
+Samoa,Oceania,2014,70,0.703,1.09,3930,42.9
+Samoa,Oceania,2015,70.1,0.707,1.21,4070,43
+Samoa,Oceania,2016,70.2,0.71,1.26,4380,43.6
+Samoa,Oceania,2017,70.3,0.71,1.29,4410,44.1
+Samoa,Oceania,2018,70.4,0.709,1.32,4300,44.5
+Sao Tome and Principe,Africa,1998,64.2,0.485,0.346,,49.1
+Sao Tome and Principe,Africa,1999,64.6,0.492,0.341,,49.7
+Sao Tome and Principe,Africa,2000,65,0.498,0.335,,50.1
+Sao Tome and Principe,Africa,2001,65.5,0.506,0.355,1080,50.7
+Sao Tome and Principe,Africa,2002,65.9,0.511,0.398,1090,51.2
+Sao Tome and Principe,Africa,2003,66.2,0.519,0.439,1140,51.9
+Sao Tome and Principe,Africa,2004,66.5,0.526,0.477,1150,51.7
+Sao Tome and Principe,Africa,2005,66.7,0.533,0.489,1210,54.9
+Sao Tome and Principe,Africa,2006,67.2,0.543,0.522,1280,55.7
+Sao Tome and Principe,Africa,2007,67.6,0.548,0.507,1290,56
+Sao Tome and Principe,Africa,2008,67.9,0.546,0.493,1350,56.6
+Sao Tome and Principe,Africa,2009,68.6,0.556,0.521,1350,56.9
+Sao Tome and Principe,Africa,2010,69,0.561,0.549,1400,57.5
+Sao Tome and Principe,Africa,2011,69.3,0.568,0.556,1430,58.1
+Sao Tome and Principe,Africa,2012,69.3,0.573,0.603,1450,58.6
+Sao Tome and Principe,Africa,2013,69.4,0.582,0.592,1490,59.3
+Sao Tome and Principe,Africa,2014,69.8,0.591,0.581,1550,60
+Sao Tome and Principe,Africa,2015,70,0.604,0.57,1580,60.5
+Sao Tome and Principe,Africa,2016,70.2,0.608,0.595,1620,61.2
+Sao Tome and Principe,Africa,2017,70.4,0.619,0.583,1650,61.8
+Sao Tome and Principe,Africa,2018,70.7,0.624,0.587,1670,62.4
+Saudi Arabia,Asia,1998,70,0.736,10.5,18200,71.9
+Saudi Arabia,Asia,1999,70.2,0.738,11.2,17100,72.8
+Saudi Arabia,Asia,2000,70.4,0.743,14.4,17700,74
+Saudi Arabia,Asia,2001,70.6,0.746,14,17000,73
+Saudi Arabia,Asia,2002,70.7,0.748,14.9,16100,74.4
+Saudi Arabia,Asia,2003,70.9,0.755,14.6,17400,74.6
+Saudi Arabia,Asia,2004,71.1,0.764,17.1,18200,74.9
+Saudi Arabia,Asia,2005,71.2,0.77,16.6,18700,75.4
+Saudi Arabia,Asia,2006,71.2,0.777,17.6,18700,75.8
+Saudi Arabia,Asia,2007,71.3,0.783,15.4,18500,74.9
+Saudi Arabia,Asia,2008,71.4,0.792,16.7,19100,75.9
+Saudi Arabia,Asia,2009,71.6,0.796,17.5,18200,75.5
+Saudi Arabia,Asia,2010,71.8,0.809,18.9,18600,74.6
+Saudi Arabia,Asia,2011,72.2,0.823,17.6,19800,73.5
+Saudi Arabia,Asia,2012,72.6,0.835,19.3,20200,72.7
+Saudi Arabia,Asia,2013,72.9,0.845,18,20200,71.8
+Saudi Arabia,Asia,2014,73.2,0.852,19.5,20300,71.7
+Saudi Arabia,Asia,2015,73.3,0.859,19.6,20600,71.2
+Saudi Arabia,Asia,2016,73.7,0.859,19.5,20500,70.5
+Saudi Arabia,Asia,2017,74,0.852,19.1,19900,71.7
+Saudi Arabia,Asia,2018,74.3,0.854,18.4,20100,72.7
+Senegal,Africa,1998,59.7,0.382,0.357,1010,40.1
+Senegal,Africa,1999,60.1,0.385,0.377,1050,40.8
+Senegal,Africa,2000,60.6,0.39,0.389,1070,41.3
+Senegal,Africa,2001,61.1,0.405,0.417,1090,42
+Senegal,Africa,2002,61.4,0.41,0.423,1060,42.5
+Senegal,Africa,2003,62.2,0.418,0.456,1090,43.4
+Senegal,Africa,2004,62.7,0.426,0.462,1120,44.2
+Senegal,Africa,2005,63.2,0.434,0.5,1130,45.1
+Senegal,Africa,2006,63.7,0.438,0.389,1130,45.8
+Senegal,Africa,2007,64.4,0.447,0.413,1130,46.6
+Senegal,Africa,2008,65,0.457,0.395,1140,47.5
+Senegal,Africa,2009,65.4,0.461,0.352,1140,48.2
+Senegal,Africa,2010,65.7,0.468,0.575,1150,49.1
+Senegal,Africa,2011,66,0.471,0.6,1130,49.8
+Senegal,Africa,2012,66.2,0.487,0.55,1150,50.8
+Senegal,Africa,2013,66.5,0.494,0.571,1140,51.6
+Senegal,Africa,2014,66.8,0.499,0.623,1180,52.7
+Senegal,Africa,2015,67,0.506,0.695,1220,53.7
+Senegal,Africa,2016,67.3,0.509,0.693,1260,54.5
+Senegal,Africa,2017,67.5,0.512,0.734,1320,55.3
+Senegal,Africa,2018,68,0.516,0.739,1360,56.1
+Serbia,Europe,1998,70.7,0.713,5.36,3300,45
+Serbia,Europe,1999,68.9,0.71,3.74,3000,45.6
+Serbia,Europe,2000,71.4,0.716,4.74,3190,46.2
+Serbia,Europe,2001,71.9,0.723,5.24,3420,47
+Serbia,Europe,2002,72.2,0.726,5.58,3640,47.9
+Serbia,Europe,2003,72.2,0.732,6,3810,48.6
+Serbia,Europe,2004,72.3,0.74,6.52,4160,49
+Serbia,Europe,2005,72.3,0.749,5.62,4400,49.1
+Serbia,Europe,2006,72.7,0.754,6.66,4650,50.2
+Serbia,Europe,2007,73.2,0.758,6.56,4970,49.7
+Serbia,Europe,2008,73.5,0.764,5.71,5270,48.7
+Serbia,Europe,2009,73.6,0.766,5.09,5150,50.8
+Serbia,Europe,2010,74.1,0.766,5.09,5210,52.1
+Serbia,Europe,2011,74.3,0.776,5.47,5350,52
+Serbia,Europe,2012,74.8,0.775,4.89,5340,52.6
+Serbia,Europe,2013,74.9,0.778,5,5520,52.9
+Serbia,Europe,2014,75,0.784,4.18,5460,55.5
+Serbia,Europe,2015,75.1,0.789,4.93,5590,56.1
+Serbia,Europe,2016,75.5,0.795,5.09,5810,57
+Serbia,Europe,2017,75.6,0.798,5.17,5960,57.5
+Serbia,Europe,2018,75.6,0.803,5.17,6260,57.2
+Sierra Leone,Africa,1998,49.8,0.284,0.0904,403,22.8
+Sierra Leone,Africa,1999,50,0.287,0.0846,388,22.9
+Sierra Leone,Africa,2000,51.6,0.295,0.0848,403,23.4
+Sierra Leone,Africa,2001,52.2,0.309,0.108,364,23.1
+Sierra Leone,Africa,2002,52.4,0.326,0.108,441,24.1
+Sierra Leone,Africa,2003,52.6,0.336,0.109,460,24.6
+Sierra Leone,Africa,2004,52.9,0.345,0.102,469,25
+Sierra Leone,Africa,2005,53.3,0.354,0.0818,472,25.6
+Sierra Leone,Africa,2006,53.7,0.362,0.106,476,26.3
+Sierra Leone,Africa,2007,54.1,0.375,0.0863,501,27.4
+Sierra Leone,Africa,2008,54.7,0.386,0.0873,516,28.3
+Sierra Leone,Africa,2009,55.3,0.394,0.0853,520,29.2
+Sierra Leone,Africa,2010,56,0.399,0.0897,536,30.3
+Sierra Leone,Africa,2011,56.6,0.406,0.113,557,31.5
+Sierra Leone,Africa,2012,57.4,0.421,0.128,627,33.1
+Sierra Leone,Africa,2013,58.2,0.433,0.151,740,35
+Sierra Leone,Africa,2014,57.1,0.438,0.163,757,36.3
+Sierra Leone,Africa,2015,58.7,0.431,0.126,588,35.7
+Sierra Leone,Africa,2016,60,0.431,0.127,610,36.6
+Sierra Leone,Africa,2017,60.2,0.443,0.139,623,37.3
+Sierra Leone,Africa,2018,61.2,0.447,0.141,630,38
+Singapore,Asia,1998,78.3,0.799,12.5,31000,69.7
+Singapore,Asia,1999,78.8,0.81,12.6,32500,70.3
+Singapore,Asia,2000,79.4,0.821,12.1,34900,71.9
+Singapore,Asia,2001,79.8,0.825,12.1,33600,73.3
+Singapore,Asia,2002,80.1,0.833,11.5,34600,73.9
+Singapore,Asia,2003,80.4,0.842,7.54,36700,74
+Singapore,Asia,2004,80.7,0.849,6.82,39800,75
+Singapore,Asia,2005,81.3,0.874,7.12,41700,77.1
+Singapore,Asia,2006,81.6,0.881,7,44100,76.6
+Singapore,Asia,2007,81.8,0.882,4.35,46100,76.3
+Singapore,Asia,2008,82.1,0.888,7.57,44500,76.1
+Singapore,Asia,2009,82.5,0.888,11.8,43300,76.6
+Singapore,Asia,2010,82.8,0.909,11.4,48700,78
+Singapore,Asia,2011,83.1,0.913,8.88,50700,79
+Singapore,Asia,2012,83.3,0.918,9.31,51700,79.4
+Singapore,Asia,2013,83.5,0.921,10.3,53300,80
+Singapore,Asia,2014,83.8,0.926,10.3,54700,82.2
+Singapore,Asia,2015,84.1,0.931,11,55600,82.5
+Singapore,Asia,2016,84.4,0.935,6.64,56800,83.1
+Singapore,Asia,2017,84.7,0.933,7.11,59300,83.5
+Singapore,Asia,2018,84.7,0.936,7.1,61100,84
+Slovak Republic,Europe,1998,73,0.764,8.16,8810,52.4
+Slovak Republic,Europe,1999,73.3,0.763,8,8790,54.3
+Slovak Republic,Europe,2000,73.7,0.765,7.64,8910,55.8
+Slovak Republic,Europe,2001,73.9,0.766,8.03,9210,56.7
+Slovak Republic,Europe,2002,74.1,0.773,7.79,9630,55.3
+Slovak Republic,Europe,2003,74.2,0.778,7.85,10200,55.9
+Slovak Republic,Europe,2004,74.6,0.786,7.95,10700,55.7
+Slovak Republic,Europe,2005,74.5,0.796,7.94,11400,56.4
+Slovak Republic,Europe,2006,74.7,0.805,7.9,12400,56.8
+Slovak Republic,Europe,2007,74.7,0.816,7.6,13700,56.4
+Slovak Republic,Europe,2008,75,0.823,7.67,14500,55.9
+Slovak Republic,Europe,2009,75.3,0.825,6.98,13700,58.5
+Slovak Republic,Europe,2010,75.8,0.831,7.13,14500,59.6
+Slovak Republic,Europe,2011,76,0.838,7.04,14900,59.4
+Slovak Republic,Europe,2012,76.3,0.843,6.65,15100,59.2
+Slovak Republic,Europe,2013,76.7,0.845,6.57,15200,60.9
+Slovak Republic,Europe,2014,76.9,0.847,6.2,15600,61.1
+Slovak Republic,Europe,2015,76.8,0.85,6.35,16300,60.7
+Slovak Republic,Europe,2016,77.3,0.853,6.42,16600,60.6
+Slovak Republic,Europe,2017,77.4,0.855,6.62,17100,60.1
+Slovak Republic,Europe,2018,77.5,0.858,6.61,17700,61.2
+Slovenia,Europe,1998,75.5,0.813,8.04,14900,48.4
+Slovenia,Europe,1999,75.8,0.826,7.72,15700,51.4
+Slovenia,Europe,2000,76.3,0.832,7.78,16200,52.7
+Slovenia,Europe,2001,76.3,0.843,8.25,16700,51.4
+Slovenia,Europe,2002,76.8,0.85,8.32,17300,51.6
+Slovenia,Europe,2003,77,0.857,8.2,17800,54.4
+Slovenia,Europe,2004,77.4,0.864,8.37,18600,53.9
+Slovenia,Europe,2005,78.1,0.869,8.5,19200,53.8
+Slovenia,Europe,2006,78.3,0.876,8.57,20300,54.9
+Slovenia,Europe,2007,78.6,0.88,8.59,21600,54.9
+Slovenia,Europe,2008,79.1,0.886,9.01,22300,56.3
+Slovenia,Europe,2009,79.4,0.885,8.03,20400,57.7
+Slovenia,Europe,2010,79.7,0.889,8.02,20600,58.6
+Slovenia,Europe,2011,80,0.891,7.98,20700,59.7
+Slovenia,Europe,2012,80.2,0.884,7.69,20100,60.6
+Slovenia,Europe,2013,80.5,0.893,7.36,19900,60.5
+Slovenia,Europe,2014,81.3,0.894,6.55,20400,59.4
+Slovenia,Europe,2015,81,0.894,6.58,20900,60.9
+Slovenia,Europe,2016,81.3,0.9,6.95,21500,61.8
+Slovenia,Europe,2017,81.3,0.907,6.87,22600,61.2
+Slovenia,Europe,2018,81.4,0.912,6.95,23500,61.2
+Solomon Islands,Oceania,1998,56.9,,0.366,2400,44.2
+Solomon Islands,Oceania,1999,57,0.489,0.384,2320,44.2
+Solomon Islands,Oceania,2000,57,0.475,0.373,1940,43.4
+Solomon Islands,Oceania,2001,56.9,0.48,0.372,1740,44.7
+Solomon Islands,Oceania,2002,56.9,0.486,0.362,1640,42.9
+Solomon Islands,Oceania,2003,56.9,0.492,0.361,1710,42.2
+Solomon Islands,Oceania,2004,56.8,0.5,0.352,1770,42.9
+Solomon Islands,Oceania,2005,56.8,0.509,0.343,1830,44.5
+Solomon Islands,Oceania,2006,56.9,0.519,0.343,1870,45.2
+Solomon Islands,Oceania,2007,56.8,0.526,0.365,1910,45.3
+Solomon Islands,Oceania,2008,57.1,0.524,0.357,1980,46.4
+Solomon Islands,Oceania,2009,57.1,0.517,0.349,1980,46.3
+Solomon Islands,Oceania,2010,57.4,0.537,0.354,2100,46.4
+Solomon Islands,Oceania,2011,57.6,0.541,0.339,2200,48.1
+Solomon Islands,Oceania,2012,57.9,0.553,0.33,2180,48.8
+Solomon Islands,Oceania,2013,58,0.558,0.34,2230,49
+Solomon Islands,Oceania,2014,58.1,0.559,0.331,2200,49.3
+Solomon Islands,Oceania,2015,58.4,0.563,0.316,2170,49.7
+Solomon Islands,Oceania,2016,58.6,0.561,0.272,2230,49.9
+Solomon Islands,Oceania,2017,58.8,0.562,0.272,2290,50.2
+Solomon Islands,Oceania,2018,59,0.564,0.273,2320,50.5
+South Africa,Africa,1998,58,0.64,8.64,4350,62
+South Africa,Africa,1999,57.2,0.635,8.46,4390,62.4
+South Africa,Africa,2000,55.6,0.631,8.42,4510,62.8
+South Africa,Africa,2001,54.8,0.611,8.16,4570,63.7
+South Africa,Africa,2002,53.7,0.619,7.73,4680,64.5
+South Africa,Africa,2003,52.7,0.619,8.66,4760,65.3
+South Africa,Africa,2004,52.2,0.619,9.5,4910,66
+South Africa,Africa,2005,52.1,0.622,8.69,5110,66.7
+South Africa,Africa,2006,52.3,0.626,9.22,5330,67.5
+South Africa,Africa,2007,53.2,0.632,9.47,5540,68.1
+South Africa,Africa,2008,54.3,0.646,9.94,5640,68.7
+South Africa,Africa,2009,55.7,0.655,9.96,5480,69.7
+South Africa,Africa,2010,57.1,0.664,9.16,5560,70.8
+South Africa,Africa,2011,58.7,0.665,9.16,5660,71.2
+South Africa,Africa,2012,60.1,0.675,8.77,5690,71.7
+South Africa,Africa,2013,61.3,0.685,8.53,5740,71.5
+South Africa,Africa,2014,61.8,0.693,8.86,5750,71.9
+South Africa,Africa,2015,62.3,0.701,8.35,5730,70.6
+South Africa,Africa,2016,62.7,0.703,8.46,5670,71.1
+South Africa,Africa,2017,63.2,0.705,8.12,5670,71.4
+South Africa,Africa,2018,64.4,0.707,8.1,5640,71.7
+South Korea,Asia,1998,75.6,0.802,7.8,14200,60
+South Korea,Asia,1999,76,0.813,8.48,15700,61.1
+South Korea,Asia,2000,76.3,0.823,9.41,17000,61.3
+South Korea,Asia,2001,76.9,0.829,9.41,17700,62.6
+South Korea,Asia,2002,77.3,0.837,9.67,18900,63.3
+South Korea,Asia,2003,77.7,0.844,9.59,19400,63.6
+South Korea,Asia,2004,78.3,0.853,9.88,20400,64.5
+South Korea,Asia,2005,78.8,0.86,9.44,21200,65.4
+South Korea,Asia,2006,79.3,0.868,9.53,22200,66.2
+South Korea,Asia,2007,79.8,0.875,10.1,23400,66.9
+South Korea,Asia,2008,80.2,0.88,10.3,23900,67.5
+South Korea,Asia,2009,80.5,0.877,10.3,23900,68.5
+South Korea,Asia,2010,80.8,0.889,11.4,25500,68.4
+South Korea,Asia,2011,81.2,0.895,11.8,26200,68.8
+South Korea,Asia,2012,81.5,0.898,11.7,26700,69.3
+South Korea,Asia,2013,81.9,0.901,11.8,27400,65.7
+South Korea,Asia,2014,82.3,0.904,11.6,28100,69.4
+South Korea,Asia,2015,82.6,0.907,11.7,28700,69.4
+South Korea,Asia,2016,82.8,0.91,12.1,29500,69.9
+South Korea,Asia,2017,82.9,0.912,12.5,30300,69.8
+South Korea,Asia,2018,82.9,0.914,12.9,31000,69.8
+South Sudan,Africa,1998,55.4,,0.0691,,18.8
+South Sudan,Africa,1999,56.3,,0.0715,,18.9
+South Sudan,Africa,2000,57,,0.0744,,18.9
+South Sudan,Africa,2001,57.7,,0.0823,,19
+South Sudan,Africa,2002,58.1,,0.101,,19
+South Sudan,Africa,2003,58.4,,0.109,,19
+South Sudan,Africa,2004,58.9,,0.132,,19.1
+South Sudan,Africa,2005,59.3,,0.121,,19.1
+South Sudan,Africa,2006,59.2,,0.127,,19.1
+South Sudan,Africa,2007,59.6,,0.142,,18.9
+South Sudan,Africa,2008,60,,0.142,2310,19
+South Sudan,Africa,2009,59.8,,0.142,2320,19.2
+South Sudan,Africa,2010,60.6,0.41,0.14,2350,19.5
+South Sudan,Africa,2011,60.5,0.43,0.133,2170,19.6
+South Sudan,Africa,2012,61.1,0.397,0.132,1140,20
+South Sudan,Africa,2013,60.8,0.428,0.14,1260,20.1
+South Sudan,Africa,2014,60.9,0.428,0.146,1270,20.2
+South Sudan,Africa,2015,61.6,0.425,0.181,1120,20.9
+South Sudan,Africa,2016,62,0.421,0.159,,21.7
+South Sudan,Africa,2017,62.3,0.426,0.167,,22.3
+South Sudan,Africa,2018,63,0.429,0.171,,22.8
+Spain,Europe,1998,79,0.821,6.86,21900,61.8
+Spain,Europe,1999,79.1,0.826,7.4,22800,62.1
+Spain,Europe,2000,79.5,0.832,7.62,23900,62.5
+Spain,Europe,2001,79.8,0.835,7.57,24700,62
+Spain,Europe,2002,79.9,0.837,7.95,25000,63
+Spain,Europe,2003,80,0.84,7.91,25300,63.6
+Spain,Europe,2004,80.3,0.844,8.17,25600,64.3
+Spain,Europe,2005,80.6,0.851,8.37,26100,65.1
+Spain,Europe,2006,81,0.856,8.04,26800,65.8
+Spain,Europe,2007,81.2,0.86,8.09,27200,66.4
+Spain,Europe,2008,81.4,0.863,7.29,27000,68.1
+Spain,Europe,2009,81.8,0.865,6.37,25800,71.3
+Spain,Europe,2010,82.1,0.872,6.04,25700,72.8
+Spain,Europe,2011,82.3,0.878,6.04,25400,74.1
+Spain,Europe,2012,82.4,0.881,5.93,24600,75.1
+Spain,Europe,2013,82.7,0.882,5.37,24400,76
+Spain,Europe,2014,82.8,0.888,5.45,24800,76.3
+Spain,Europe,2015,82.8,0.895,5.81,25700,76
+Spain,Europe,2016,83,0.899,5.59,26500,76.2
+Spain,Europe,2017,83,0.903,5.89,27200,75.6
+Spain,Europe,2018,83.1,0.905,5.75,27700,75.5
+Sri Lanka,Asia,1998,71.2,0.673,0.417,1760,34.3
+Sri Lanka,Asia,1999,71.6,0.681,0.457,1830,34.8
+Sri Lanka,Asia,2000,71.5,0.691,0.54,1920,35.4
+Sri Lanka,Asia,2001,72.6,0.697,0.547,1880,35.9
+Sri Lanka,Asia,2002,73.4,0.703,0.575,1940,36.6
+Sri Lanka,Asia,2003,73.4,0.712,0.57,2040,37.2
+Sri Lanka,Asia,2004,69,0.719,0.627,2130,37.7
+Sri Lanka,Asia,2005,73.3,0.725,0.611,2240,38.3
+Sri Lanka,Asia,2006,73.6,0.732,0.599,2400,38.9
+Sri Lanka,Asia,2007,74,0.738,0.613,2540,39.5
+Sri Lanka,Asia,2008,73.3,0.746,0.6,2670,40.1
+Sri Lanka,Asia,2009,73.4,0.749,0.644,2750,40.7
+Sri Lanka,Asia,2010,74,0.754,0.645,2950,42.6
+Sri Lanka,Asia,2011,75.3,0.76,0.73,3180,42.8
+Sri Lanka,Asia,2012,75.5,0.766,0.77,3460,42.9
+Sri Lanka,Asia,2013,76,0.769,0.711,3550,43.8
+Sri Lanka,Asia,2014,76.1,0.773,0.852,3690,44.8
+Sri Lanka,Asia,2015,76.4,0.776,0.949,3840,45.6
+Sri Lanka,Asia,2016,76.6,0.773,1.1,3970,46.5
+Sri Lanka,Asia,2017,76.8,0.775,1.16,4070,45.5
+Sri Lanka,Asia,2018,77.2,0.779,1.1,4160,46.6
+St. Lucia,North America,1998,72.8,,1.92,9300,58.1
+St. Lucia,North America,1999,73.1,,2.15,9430,59.1
+St. Lucia,North America,2000,73.4,0.695,2.22,9330,58.4
+St. Lucia,North America,2001,73.5,0.691,2.2,8930,60.4
+St. Lucia,North America,2002,73.6,0.693,1.82,8900,62.2
+St. Lucia,North America,2003,73.8,0.695,2.24,9210,63.6
+St. Lucia,North America,2004,74,0.695,2.2,9800,64.1
+St. Lucia,North America,2005,74.3,0.698,2.24,9660,62.8
+St. Lucia,North America,2006,74.6,0.712,2.22,10100,63.3
+St. Lucia,North America,2007,75,0.714,2.3,10200,64.9
+St. Lucia,North America,2008,75.3,0.725,2.33,10500,65.5
+St. Lucia,North America,2009,75.5,0.728,2.24,10100,66.5
+St. Lucia,North America,2010,75.6,0.73,2.32,10200,67.6
+St. Lucia,North America,2011,76,0.736,2.32,10600,68.5
+St. Lucia,North America,2012,76,0.73,2.3,10500,69.5
+St. Lucia,North America,2013,75.7,0.732,2.29,10100,70.6
+St. Lucia,North America,2014,75.6,0.735,2.28,10300,71.6
+St. Lucia,North America,2015,75.6,0.747,2.29,10100,72.4
+St. Lucia,North America,2016,75.1,0.752,2.3,10400,73.2
+St. Lucia,North America,2017,75.1,0.759,2.31,10800,73.9
+St. Lucia,North America,2018,75.1,0.758,2.31,11000,74.4
+St. Vincent and the Grenadines,North America,1998,71,,1.5,4790,60.4
+St. Vincent and the Grenadines,North America,1999,71.1,,1.53,4920,61.5
+St. Vincent and the Grenadines,North America,2000,71.1,0.681,1.36,5000,62.7
+St. Vincent and the Grenadines,North America,2001,71.7,0.686,1.67,5080,63.6
+St. Vincent and the Grenadines,North America,2002,71.7,0.69,1.73,5390,64.1
+St. Vincent and the Grenadines,North America,2003,72.2,0.698,1.83,5790,64.4
+St. Vincent and the Grenadines,North America,2004,72.3,0.701,2.03,6020,64.8
+St. Vincent and the Grenadines,North America,2005,72.6,0.705,2.03,6170,65.3
+St. Vincent and the Grenadines,North America,2006,72.9,0.711,2.03,6640,65.4
+St. Vincent and the Grenadines,North America,2007,73.1,0.715,2.1,6870,65.6
+St. Vincent and the Grenadines,North America,2008,73.1,0.721,2.1,6980,66.3
+St. Vincent and the Grenadines,North America,2009,73,0.72,2.88,6850,66.8
+St. Vincent and the Grenadines,North America,2010,73.1,0.718,2.03,6620,67.3
+St. Vincent and the Grenadines,North America,2011,73.2,0.721,1.83,6590,67.8
+St. Vincent and the Grenadines,North America,2012,73,0.72,2.33,6670,68.2
+St. Vincent and the Grenadines,North America,2013,72.5,0.723,1.92,6780,68.5
+St. Vincent and the Grenadines,North America,2014,72.6,0.733,2.02,6850,69
+St. Vincent and the Grenadines,North America,2015,72.6,0.733,2.02,6920,69.2
+St. Vincent and the Grenadines,North America,2016,72.6,0.734,2.01,7030,69.5
+St. Vincent and the Grenadines,North America,2017,72.7,0.734,2.02,7080,69.8
+St. Vincent and the Grenadines,North America,2018,72.8,0.736,2.03,7210,70.1
+Sudan,Africa,1998,62,0.39,0.165,980,36.5
+Sudan,Africa,1999,62.9,0.396,0.175,983,36.8
+Sudan,Africa,2000,63.3,0.403,0.185,1020,37.1
+Sudan,Africa,2001,63.7,0.409,0.208,1050,37.4
+Sudan,Africa,2002,63.9,0.415,0.259,1090,37.7
+Sudan,Africa,2003,64.1,0.422,0.281,1140,38
+Sudan,Africa,2004,64.2,0.43,0.347,1150,38.5
+Sudan,Africa,2005,65.5,0.437,0.324,1210,38.7
+Sudan,Africa,2006,65.8,0.443,0.347,1290,38.9
+Sudan,Africa,2007,66.3,0.45,0.399,1400,39
+Sudan,Africa,2008,66.8,0.461,0.413,1470,39.2
+Sudan,Africa,2009,67,0.468,0.42,1480,39.6
+Sudan,Africa,2010,67.4,0.469,0.417,1490,40.1
+Sudan,Africa,2011,67.6,0.474,0.396,1630,40.1
+Sudan,Africa,2012,68.1,0.486,0.393,1830,40.3
+Sudan,Africa,2013,68.3,0.494,0.407,1900,40.7
+Sudan,Africa,2014,68.7,0.499,0.407,1990,41.3
+Sudan,Africa,2015,69,0.504,0.499,2020,41.7
+Sudan,Africa,2016,69.4,0.507,0.491,2040,42.2
+Sudan,Africa,2017,69.8,0.509,0.503,2090,42.8
+Sudan,Africa,2018,70.1,0.506,0.504,2100,43.8
+Suriname,South America,1998,70.8,,4.58,6310,68.3
+Suriname,South America,1999,70.2,,4.56,6150,68.4
+Suriname,South America,2000,69.8,,4.66,6200,68.6
+Suriname,South America,2001,69.6,,4.96,6390,68.3
+Suriname,South America,2002,69.5,,3.24,6490,68
+Suriname,South America,2003,69.8,,3.16,6820,67.8
+Suriname,South America,2004,70.1,0.682,3.16,7310,67.5
+Suriname,South America,2005,70.6,0.686,3.18,7550,67.4
+Suriname,South America,2006,71.2,0.691,3.44,7900,67.2
+Suriname,South America,2007,71.6,0.697,3.44,8200,67.1
+Suriname,South America,2008,71.7,0.701,3.75,8450,67
+Suriname,South America,2009,72.1,0.707,3.82,8600,67.3
+Suriname,South America,2010,72.3,0.71,4.53,8940,67.3
+Suriname,South America,2011,72.8,0.717,3.36,9360,67.1
+Suriname,South America,2012,73.1,0.729,4.16,9500,67.3
+Suriname,South America,2013,73,0.734,3.83,9670,67.3
+Suriname,South America,2014,72.7,0.735,4.03,9590,67.3
+Suriname,South America,2015,72.5,0.74,3.06,9170,67.3
+Suriname,South America,2016,72.4,0.735,3.05,8630,67.4
+Suriname,South America,2017,72.5,0.732,3.02,8680,67.6
+Suriname,South America,2018,72.6,0.734,3.1,9020,67.6
+Sweden,Europe,1998,79.6,0.894,6.62,37700,71.1
+Sweden,Europe,1999,79.8,0.899,6.3,39300,72
+Sweden,Europe,2000,80,0.903,6.16,41100,72.7
+Sweden,Europe,2001,80.2,0.905,6.26,41600,73.6
+Sweden,Europe,2002,80.3,0.908,6.35,42400,74.5
+Sweden,Europe,2003,80.5,0.913,6.39,43200,74.9
+Sweden,Europe,2004,80.7,0.901,6.28,44900,75.1
+Sweden,Europe,2005,81,0.904,5.96,46000,75.6
+Sweden,Europe,2006,81.1,0.908,5.9,47900,75.9
+Sweden,Europe,2007,81.3,0.91,5.76,49100,76.1
+Sweden,Europe,2008,81.5,0.907,5.49,48500,76.6
+Sweden,Europe,2009,81.7,0.905,5.06,46000,77.7
+Sweden,Europe,2010,81.9,0.911,5.63,48400,78
+Sweden,Europe,2011,82,0.912,5.17,49500,78.1
+Sweden,Europe,2012,82.1,0.914,4.86,48900,78.3
+Sweden,Europe,2013,82.3,0.933,4.66,49000,78.8
+Sweden,Europe,2014,82.5,0.935,4.46,49900,79.4
+Sweden,Europe,2015,82.5,0.938,4.41,51500,79.7
+Sweden,Europe,2016,82.6,0.94,4.33,52000,79.9
+Sweden,Europe,2017,82.7,0.942,4.25,52600,80
+Sweden,Europe,2018,82.7,0.943,4.12,53000,80.1
+Switzerland,Europe,1998,79.9,0.882,6.3,70700,70.2
+Switzerland,Europe,1999,80.1,0.889,6.25,71600,70.5
+Switzerland,Europe,2000,80.3,0.898,6.11,74000,70.1
+Switzerland,Europe,2001,80.6,0.9,6.28,74700,71.2
+Switzerland,Europe,2002,80.9,0.899,6.02,74100,72.3
+Switzerland,Europe,2003,81.1,0.905,6.15,73600,73.3
+Switzerland,Europe,2004,81.4,0.909,6.18,75100,73.8
+Switzerland,Europe,2005,81.7,0.914,6.2,76800,73.6
+Switzerland,Europe,2006,81.9,0.92,6.09,79400,73.5
+Switzerland,Europe,2007,82.2,0.923,5.76,81800,73.5
+Switzerland,Europe,2008,82.4,0.925,5.87,83000,73.5
+Switzerland,Europe,2009,82.5,0.935,5.65,80300,74.6
+Switzerland,Europe,2010,82.8,0.941,5.77,82000,74.1
+Switzerland,Europe,2011,83,0.941,5.19,82700,74.2
+Switzerland,Europe,2012,83.1,0.944,5.28,82800,74.9
+Switzerland,Europe,2013,83.3,0.946,5.33,83300,74.7
+Switzerland,Europe,2014,83.5,0.942,4.78,84300,75.1
+Switzerland,Europe,2015,83.6,0.947,4.67,84800,75.8
+Switzerland,Europe,2016,83.8,0.947,4.68,85600,76
+Switzerland,Europe,2017,83.9,0.949,4.52,86100,76.4
+Switzerland,Europe,2018,83.9,0.955,4.33,88000,76.5
+Tajikistan,Asia,1998,65.7,0.544,0.414,399,23.3
+Tajikistan,Asia,1999,66.3,0.548,0.411,407,23.7
+Tajikistan,Asia,2000,66.6,0.555,0.359,434,24
+Tajikistan,Asia,2001,66.8,0.564,0.362,468,24.5
+Tajikistan,Asia,2002,67,0.573,0.292,510,25
+Tajikistan,Asia,2003,67.3,0.588,0.316,556,25.5
+Tajikistan,Asia,2004,67.5,0.6,0.383,602,26.3
+Tajikistan,Asia,2005,67.5,0.607,0.357,631,27.4
+Tajikistan,Asia,2006,67.6,0.617,0.381,662,28.2
+Tajikistan,Asia,2007,67.7,0.621,0.454,699,29.1
+Tajikistan,Asia,2008,67.9,0.639,0.4,739,30.2
+Tajikistan,Asia,2009,68,0.633,0.33,752,31.2
+Tajikistan,Asia,2010,68,0.638,0.334,784,31.8
+Tajikistan,Asia,2011,68.1,0.636,0.301,823,32.7
+Tajikistan,Asia,2012,68.3,0.643,0.369,865,33.5
+Tajikistan,Asia,2013,68.6,0.653,0.356,907,34.2
+Tajikistan,Asia,2014,68.6,0.652,0.545,946,35.1
+Tajikistan,Asia,2015,68.6,0.652,0.574,978,35.9
+Tajikistan,Asia,2016,68.6,0.653,0.596,1020,36.7
+Tajikistan,Asia,2017,68.8,0.657,0.581,1070,37.9
+Tajikistan,Asia,2018,69.2,0.661,0.603,1120,38.8
+Tanzania,Africa,1998,52.6,0.377,0.0778,500,13.5
+Tanzania,Africa,1999,53,0.383,0.0753,512,13.8
+Tanzania,Africa,2000,53.4,0.39,0.0768,522,14.2
+Tanzania,Africa,2001,54,0.397,0.0885,540,14.8
+Tanzania,Africa,2002,54.6,0.407,0.0988,562,16.1
+Tanzania,Africa,2003,55.3,0.416,0.102,583,17.5
+Tanzania,Africa,2004,55.9,0.426,0.113,610,19
+Tanzania,Africa,2005,56.5,0.437,0.14,637,20.6
+Tanzania,Africa,2006,57.3,0.447,0.149,660,22.3
+Tanzania,Africa,2007,58.5,0.456,0.14,685,22.7
+Tanzania,Africa,2008,59.6,0.465,0.142,704,23
+Tanzania,Africa,2009,60.3,0.474,0.132,720,23.4
+Tanzania,Africa,2010,61.1,0.481,0.154,743,23.8
+Tanzania,Africa,2011,61.7,0.487,0.171,777,24.3
+Tanzania,Africa,2012,62.7,0.496,0.196,788,24.7
+Tanzania,Africa,2013,63.7,0.497,0.225,817,25.2
+Tanzania,Africa,2014,64.5,0.504,0.225,846,25.7
+Tanzania,Africa,2015,65.1,0.514,0.244,872,26.2
+Tanzania,Africa,2016,65.5,0.52,0.219,904,26.8
+Tanzania,Africa,2017,66,0.523,0.222,937,27.4
+Tanzania,Africa,2018,66.7,0.524,0.222,959,27.9
+Thailand,Asia,1998,71.8,0.633,2.59,3290,31
+Thailand,Asia,1999,71.4,0.643,2.67,3400,33.1
+Thailand,Asia,2000,71.8,0.652,2.71,3520,32.2
+Thailand,Asia,2001,72.8,0.66,2.87,3610,35.1
+Thailand,Asia,2002,73.1,0.669,3,3800,36.2
+Thailand,Asia,2003,73.6,0.677,3.15,4040,37.3
+Thailand,Asia,2004,73.7,0.686,3.36,4260,38.5
+Thailand,Asia,2005,74.8,0.696,3.43,4410,38.9
+Thailand,Asia,2006,75.4,0.697,3.46,4600,38.3
+Thailand,Asia,2007,76,0.714,3.49,4830,38.5
+Thailand,Asia,2008,76.5,0.718,3.43,4880,39.1
+Thailand,Asia,2009,76.9,0.722,3.64,4830,40.2
+Thailand,Asia,2010,77,0.724,3.82,5160,41.1
+Thailand,Asia,2011,77.4,0.733,3.76,5180,39.6
+Thailand,Asia,2012,77.7,0.737,3.99,5530,38
+Thailand,Asia,2013,78,0.734,4.17,5650,38
+Thailand,Asia,2014,78.1,0.742,4.07,5690,43
+Thailand,Asia,2015,78.2,0.749,4.1,5840,44
+Thailand,Asia,2016,78,0.756,4.07,6020,45.2
+Thailand,Asia,2017,78.2,0.765,4.12,6250,45.7
+Thailand,Asia,2018,78.3,0.772,4.15,6490,45.1
+Timor-Leste,Asia,1998,63.8,,,,33.2
+Timor-Leste,Asia,1999,58.5,,,,31.8
+Timor-Leste,Asia,2000,65.5,0.484,,941,33.2
+Timor-Leste,Asia,2001,65.8,0.492,,1070,35.6
+Timor-Leste,Asia,2002,66.1,0.503,0.175,979,34.1
+Timor-Leste,Asia,2003,66.5,0.504,0.17,933,37.1
+Timor-Leste,Asia,2004,67.1,0.518,0.181,913,37.3
+Timor-Leste,Asia,2005,67.7,0.537,0.177,918,38.8
+Timor-Leste,Asia,2006,68.4,0.563,0.177,862,37.2
+Timor-Leste,Asia,2007,69,0.585,0.177,932,37
+Timor-Leste,Asia,2008,69.5,0.616,0.191,1020,37.5
+Timor-Leste,Asia,2009,69.8,0.611,0.212,1100,38.3
+Timor-Leste,Asia,2010,70,0.628,0.215,1180,39.9
+Timor-Leste,Asia,2011,70.2,0.644,0.221,1230,41.1
+Timor-Leste,Asia,2012,70.3,0.639,0.259,1280,41.9
+Timor-Leste,Asia,2013,70.4,0.63,0.385,1290,43
+Timor-Leste,Asia,2014,70.3,0.62,0.437,1320,43.5
+Timor-Leste,Asia,2015,70.3,0.61,0.42,1330,44
+Timor-Leste,Asia,2016,70.4,0.598,0.406,1350,44.3
+Timor-Leste,Asia,2017,70.5,0.599,0.409,1270,45.5
+Timor-Leste,Asia,2018,70.5,0.599,0.412,1230,45.1
+Togo,Africa,1998,56.6,0.425,0.279,528,37.3
+Togo,Africa,1999,56.5,0.426,0.387,525,37.7
+Togo,Africa,2000,56.4,0.427,0.271,506,37.8
+Togo,Africa,2001,56.3,0.43,0.229,496,38.2
+Togo,Africa,2002,56.3,0.433,0.255,501,38.9
+Togo,Africa,2003,56.4,0.438,0.339,522,39.7
+Togo,Africa,2004,56.7,0.439,0.319,504,40
+Togo,Africa,2005,56.9,0.438,0.307,468,40.1
+Togo,Africa,2006,57.5,0.444,0.261,468,40.7
+Togo,Africa,2007,57.8,0.439,0.256,450,40.9
+Togo,Africa,2008,58.1,0.447,0.251,456,41.6
+Togo,Africa,2009,58.7,0.456,0.439,468,42.3
+Togo,Africa,2010,59.5,0.466,0.405,483,43.1
+Togo,Africa,2011,60.2,0.479,0.38,501,43.9
+Togo,Africa,2012,60.8,0.482,0.327,519,44.8
+Togo,Africa,2013,61.3,0.488,0.307,537,45.5
+Togo,Africa,2014,61.8,0.493,0.305,554,46.3
+Togo,Africa,2015,62.4,0.499,0.369,571,46.5
+Togo,Africa,2016,63,0.502,0.408,588,46.7
+Togo,Africa,2017,63.8,0.506,0.432,598,46.6
+Togo,Africa,2018,64.5,0.51,0.434,613,47.4
+Tonga,Oceania,1998,71,0.678,0.907,3540,35.5
+Tonga,Oceania,1999,70.6,0.679,1.13,3660,35.5
+Tonga,Oceania,2000,70.7,0.675,0.973,3670,36.2
+Tonga,Oceania,2001,71,0.679,0.894,3790,36.8
+Tonga,Oceania,2002,71,0.684,1.04,3950,37.3
+Tonga,Oceania,2003,71.1,0.693,1.18,4020,37.6
+Tonga,Oceania,2004,71.4,0.682,1.1,3900,38.2
+Tonga,Oceania,2005,72,0.682,1.13,3880,39.6
+Tonga,Oceania,2006,72.1,0.683,1.26,3840,40.5
+Tonga,Oceania,2007,72.1,0.686,1.11,3820,40.9
+Tonga,Oceania,2008,72.1,0.688,1.17,3970,42.2
+Tonga,Oceania,2009,70,0.693,1.27,3740,42.8
+Tonga,Oceania,2010,72.2,0.699,1.13,3770,43.3
+Tonga,Oceania,2011,72.3,0.704,0.991,4040,43.9
+Tonga,Oceania,2012,72.4,0.708,1.04,4110,44.9
+Tonga,Oceania,2013,72.5,0.708,1.12,4160,46.6
+Tonga,Oceania,2014,72.5,0.707,1.13,4280,46.9
+Tonga,Oceania,2015,72.6,0.72,1.2,4340,47.7
+Tonga,Oceania,2016,72.7,0.722,1.27,4600,48.6
+Tonga,Oceania,2017,72.8,0.723,1.29,4720,49.1
+Tonga,Oceania,2018,72.9,0.723,1.31,4680,49.9
+Trinidad and Tobago,North America,1998,69.9,0.694,15.1,9240,63.7
+Trinidad and Tobago,North America,1999,69.8,0.713,17.8,9960,64.1
+Trinidad and Tobago,North America,2000,70.5,0.717,18.8,10600,64.7
+Trinidad and Tobago,North America,2001,70.6,0.725,20.7,11000,63.3
+Trinidad and Tobago,North America,2002,71.2,0.726,22.4,11800,64.6
+Trinidad and Tobago,North America,2003,71.1,0.74,24.9,13500,65.5
+Trinidad and Tobago,North America,2004,71.6,0.75,25.9,14500,65
+Trinidad and Tobago,North America,2005,71.9,0.748,29.4,15300,64.5
+Trinidad and Tobago,North America,2006,72.5,0.763,32.7,17300,64.7
+Trinidad and Tobago,North America,2007,72.8,0.771,34.7,18000,64.3
+Trinidad and Tobago,North America,2008,72.4,0.778,33.7,18500,63.9
+Trinidad and Tobago,North America,2009,73.2,0.782,33.9,17600,65.7
+Trinidad and Tobago,North America,2010,73.7,0.784,36,18100,66.5
+Trinidad and Tobago,North America,2011,74.5,0.782,35.1,17900,67.7
+Trinidad and Tobago,North America,2012,75.1,0.78,33.7,18100,67.7
+Trinidad and Tobago,North America,2013,74.9,0.783,34.3,18300,67.7
+Trinidad and Tobago,North America,2014,74.9,0.785,33.9,18100,68.3
+Trinidad and Tobago,North America,2015,74.9,0.792,33.7,18200,68.7
+Trinidad and Tobago,North America,2016,74.8,0.792,31.8,17100,69.4
+Trinidad and Tobago,North America,2017,74.8,0.795,31.4,16500,69.8
+Trinidad and Tobago,North America,2018,74.8,0.795,31.3,16500,70
+Tunisia,Africa,1998,73.8,0.632,1.87,2480,47.8
+Tunisia,Africa,1999,74,0.643,1.89,2600,47.8
+Tunisia,Africa,2000,74.3,0.651,2.03,2690,48
+Tunisia,Africa,2001,74.5,0.659,2.1,2770,48.2
+Tunisia,Africa,2002,74.7,0.664,2.08,2790,48.6
+Tunisia,Africa,2003,74.9,0.671,2.11,2890,48.8
+Tunisia,Africa,2004,75.1,0.681,2.19,3050,48.8
+Tunisia,Africa,2005,75.4,0.688,2.21,3130,49.1
+Tunisia,Africa,2006,75.5,0.694,2.22,3270,48.3
+Tunisia,Africa,2007,75.7,0.7,2.3,3450,48.4
+Tunisia,Africa,2008,75.9,0.707,2.34,3560,48.5
+Tunisia,Africa,2009,76,0.709,2.31,3630,49.2
+Tunisia,Africa,2010,76.2,0.716,2.55,3720,48.6
+Tunisia,Africa,2011,76.2,0.718,2.38,3610,49.9
+Tunisia,Africa,2012,76.5,0.72,2.43,3720,49.8
+Tunisia,Africa,2013,76.7,0.723,2.45,3790,51.3
+Tunisia,Africa,2014,76.8,0.726,2.52,3860,51.6
+Tunisia,Africa,2015,77,0.729,2.62,3860,52.2
+Tunisia,Africa,2016,77.2,0.731,2.57,3870,51.9
+Tunisia,Africa,2017,77.3,0.734,2.67,3900,52
+Tunisia,Africa,2018,77.5,0.738,2.73,3950,52.3
+Turkey,Asia,1998,72.7,0.64,3.46,6520,43.3
+Turkey,Asia,1999,72.8,0.648,3.34,6210,44.5
+Turkey,Asia,2000,74.7,0.66,3.64,6540,45.1
+Turkey,Asia,2001,75,0.666,3.33,6080,46.3
+Turkey,Asia,2002,75.2,0.677,3.39,6370,46.8
+Turkey,Asia,2003,75.7,0.684,3.58,6640,47.5
+Turkey,Asia,2004,76.3,0.69,3.65,7190,48
+Turkey,Asia,2005,76.8,0.696,3.89,7740,48.6
+Turkey,Asia,2006,77,0.704,4.1,8170,49.2
+Turkey,Asia,2007,77.1,0.712,4.5,8480,49.8
+Turkey,Asia,2008,77,0.714,4.4,8450,50.7
+Turkey,Asia,2009,76.8,0.72,4.43,7940,51.7
+Turkey,Asia,2010,76.7,0.739,4.35,8490,50.1
+Turkey,Asia,2011,76.8,0.753,4.63,9300,49.4
+Turkey,Asia,2012,77,0.765,4.74,9590,50.4
+Turkey,Asia,2013,77,0.785,4.55,10200,50.7
+Turkey,Asia,2014,77.1,0.796,4.69,10500,51.1
+Turkey,Asia,2015,77.4,0.801,4.86,11000,52.4
+Turkey,Asia,2016,77.5,0.808,5.03,11200,53.7
+Turkey,Asia,2017,77.8,0.814,5.25,11800,54.1
+Turkey,Asia,2018,78.1,0.817,5.2,12000,54.9
+Turkmenistan,Asia,1998,64.7,,7.26,1910,29.9
+Turkmenistan,Asia,1999,65.5,,8.43,2190,30.2
+Turkmenistan,Asia,2000,66.3,,8.3,2290,31
+Turkmenistan,Asia,2001,66.7,,8.33,2360,31.2
+Turkmenistan,Asia,2002,66.6,,8.66,2350,31.6
+Turkmenistan,Asia,2003,66.5,,9.57,2400,32.1
+Turkmenistan,Asia,2004,66.2,,9.88,2490,32.7
+Turkmenistan,Asia,2005,65.8,,10.2,2790,33.3
+Turkmenistan,Asia,2006,66.2,,10.3,3060,33.7
+Turkmenistan,Asia,2007,66.6,,11.5,3350,34.1
+Turkmenistan,Asia,2008,67.3,,11.5,3790,34.4
+Turkmenistan,Asia,2009,68.8,,10,3970,34.9
+Turkmenistan,Asia,2010,69.5,0.666,11.2,4270,35.4
+Turkmenistan,Asia,2011,69.6,0.673,12,4810,35.9
+Turkmenistan,Asia,2012,69.8,0.679,12.3,5250,36.3
+Turkmenistan,Asia,2013,69.8,0.685,12.4,5680,36.7
+Turkmenistan,Asia,2014,69.9,0.689,12.5,6150,37.2
+Turkmenistan,Asia,2015,70,0.694,12.6,6430,37.7
+Turkmenistan,Asia,2016,70.3,0.699,12.4,6710,38
+Turkmenistan,Asia,2017,70.5,0.701,12.7,7030,38.5
+Turkmenistan,Asia,2018,70.6,0.71,13.7,7350,38.9
+Uganda,Africa,1998,48.7,0.373,0.0557,490,21.5
+Uganda,Africa,1999,49.1,0.39,0.0563,514,21.9
+Uganda,Africa,2000,49.6,0.404,0.0593,515,22.2
+Uganda,Africa,2001,50.3,0.412,0.0602,525,22.6
+Uganda,Africa,2002,51,0.427,0.06,553,23.1
+Uganda,Africa,2003,51.8,0.436,0.0607,570,23.5
+Uganda,Africa,2004,52.6,0.436,0.0627,590,23.7
+Uganda,Africa,2005,53.9,0.444,0.0761,608,23.9
+Uganda,Africa,2006,55.5,0.456,0.0865,653,24.3
+Uganda,Africa,2007,56.5,0.466,0.0956,685,24.6
+Uganda,Africa,2008,57.6,0.479,0.1,722,24.9
+Uganda,Africa,2009,58.5,0.487,0.103,747,25.1
+Uganda,Africa,2010,59.3,0.498,0.116,764,25.3
+Uganda,Africa,2011,60.4,0.504,0.122,810,25.6
+Uganda,Africa,2012,61.4,0.507,0.112,815,25.8
+Uganda,Africa,2013,62.4,0.513,0.117,817,21.1
+Uganda,Africa,2014,63.2,0.519,0.123,831,20.8
+Uganda,Africa,2015,63.9,0.525,0.133,844,20.9
+Uganda,Africa,2016,64,0.529,0.136,852,20.9
+Uganda,Africa,2017,65,0.532,0.137,852,20.7
+Uganda,Africa,2018,65.7,0.538,0.135,872,21
+Ukraine,Europe,1998,68.7,0.688,6.61,1690,48.1
+Ukraine,Europe,1999,68.3,0.69,6.06,1700,48.3
+Ukraine,Europe,2000,68,0.694,5.85,1820,49
+Ukraine,Europe,2001,68.2,0.708,6.28,2010,49.5
+Ukraine,Europe,2002,68.1,0.717,6.17,2130,50
+Ukraine,Europe,2003,68.3,0.725,6.46,2350,50.6
+Ukraine,Europe,2004,68,0.732,6.58,2660,51.1
+Ukraine,Europe,2005,67.8,0.738,6.68,2760,51.5
+Ukraine,Europe,2006,68.4,0.744,7.14,2980,52
+Ukraine,Europe,2007,68.1,0.751,7.26,3230,52.5
+Ukraine,Europe,2008,68.3,0.755,7.06,3320,52.9
+Ukraine,Europe,2009,70,0.749,6.04,2840,53.2
+Ukraine,Europe,2010,70.8,0.755,6.43,2970,54
+Ukraine,Europe,2011,71.5,0.76,6.76,3140,54
+Ukraine,Europe,2012,71.6,0.764,6.69,3150,54.2
+Ukraine,Europe,2013,71.8,0.767,6.57,3160,55.2
+Ukraine,Europe,2014,71.7,0.771,5.71,3120,59.1
+Ukraine,Europe,2015,72.5,0.765,4.99,2830,60.1
+Ukraine,Europe,2016,72.9,0.768,5.24,2900,60.2
+Ukraine,Europe,2017,73.8,0.771,5.02,2990,60.3
+Ukraine,Europe,2018,73.9,0.774,5.09,3110,61
+United Arab Emirates,Asia,1998,69.2,0.769,28.7,59300,58.4
+United Arab Emirates,Asia,1999,69.2,0.776,26.2,57900,58.7
+United Arab Emirates,Asia,2000,69.1,0.782,35.7,60800,58.7
+United Arab Emirates,Asia,2001,69.2,0.787,30.5,58500,59.3
+United Arab Emirates,Asia,2002,69.4,0.792,24.1,56900,59.9
+United Arab Emirates,Asia,2003,69.3,0.798,28.5,58000,60.1
+United Arab Emirates,Asia,2004,69.1,0.803,27.5,58000,60.2
+United Arab Emirates,Asia,2005,69.2,0.809,25,53900,60.3
+United Arab Emirates,Asia,2006,69.5,0.814,23,51200,60
+United Arab Emirates,Asia,2007,70,0.819,21.6,45400,59.9
+United Arab Emirates,Asia,2008,70.4,0.821,21.7,40800,60
+United Arab Emirates,Asia,2009,70.6,0.819,20.9,34600,60.5
+United Arab Emirates,Asia,2010,70.8,0.82,18.3,32600,61.1
+United Arab Emirates,Asia,2011,71,0.826,18.9,33300,61.8
+United Arab Emirates,Asia,2012,71.2,0.832,23.8,34000,62.3
+United Arab Emirates,Asia,2013,71.6,0.838,23.7,35500,62.7
+United Arab Emirates,Asia,2014,73,0.847,24.2,37000,62.9
+United Arab Emirates,Asia,2015,73.2,0.859,20.7,38700,63
+United Arab Emirates,Asia,2016,73.4,0.864,21.7,39400,63.3
+United Arab Emirates,Asia,2017,73.5,0.881,21.1,39800,63.8
+United Arab Emirates,Asia,2018,73.7,0.889,21.4,39700,63.9
+United Kingdom,Europe,1998,77.5,0.862,9.71,36200,71.6
+United Kingdom,Europe,1999,77.6,0.868,9.55,37300,72.6
+United Kingdom,Europe,2000,78,0.874,9.63,38500,73.3
+United Kingdom,Europe,2001,78.3,0.878,9.75,39300,74
+United Kingdom,Europe,2002,78.5,0.881,9.45,40000,74.7
+United Kingdom,Europe,2003,78.6,0.885,9.6,41200,75.4
+United Kingdom,Europe,2004,79,0.892,9.58,41900,76.4
+United Kingdom,Europe,2005,79.3,0.897,9.46,42800,76.4
+United Kingdom,Europe,2006,79.5,0.896,9.33,43700,76.6
+United Kingdom,Europe,2007,79.8,0.899,9.1,44300,76.4
+United Kingdom,Europe,2008,80,0.903,8.77,43900,76.9
+United Kingdom,Europe,2009,80.3,0.906,7.87,41700,79.3
+United Kingdom,Europe,2010,80.6,0.912,8.07,42300,79.6
+United Kingdom,Europe,2011,80.8,0.906,7.34,42500,79.6
+United Kingdom,Europe,2012,80.9,0.904,7.56,42800,79.7
+United Kingdom,Europe,2013,81,0.921,7.36,43400,80.1
+United Kingdom,Europe,2014,81.1,0.925,6.71,44300,79.8
+United Kingdom,Europe,2015,81,0.923,6.42,45000,80.2
+United Kingdom,Europe,2016,81.1,0.924,6.04,45500,80.4
+United Kingdom,Europe,2017,81.2,0.926,5.81,45900,80.6
+United Kingdom,Europe,2018,81,0.928,5.65,46200,80.8
+United States,North America,1998,76.9,0.889,20.9,45700,73.4
+United States,North America,1999,76.9,0.89,20.9,47300,73.6
+United States,North America,2000,77,0.886,21.3,48700,73.9
+United States,North America,2001,77.1,0.889,20.7,48700,74.7
+United States,North America,2002,77.2,0.891,20.7,49100,75.7
+United States,North America,2003,77.3,0.894,20.7,50100,76
+United States,North America,2004,77.7,0.897,20.9,51500,76.1
+United States,North America,2005,77.7,0.9,20.8,52800,76.3
+United States,North America,2006,78,0.903,20.3,53800,76.3
+United States,North America,2007,78.2,0.906,20.4,54300,76.6
+United States,North America,2008,78.4,0.911,19.5,53700,77.2
+United States,North America,2009,78.6,0.912,17.9,51900,78.6
+United States,North America,2010,78.9,0.916,18.5,52800,78.9
+United States,North America,2011,78.9,0.919,17.9,53200,78.8
+United States,North America,2012,79,0.92,17.1,54000,78.9
+United States,North America,2013,79.1,0.918,17.5,54600,78.7
+United States,North America,2014,79.1,0.92,17.5,55600,78.7
+United States,North America,2015,79,0.921,16.9,56900,78.7
+United States,North America,2016,78.9,0.922,16.4,57400,78.8
+United States,North America,2017,79,0.924,16.2,58400,78.8
+United States,North America,2018,79,0.925,16.6,59800,78.8
+Uruguay,South America,1998,74.1,0.737,1.72,10600,64.7
+Uruguay,South America,1999,74.4,0.739,2.02,10300,65.2
+Uruguay,South America,2000,74.8,0.743,1.59,10100,65.8
+Uruguay,South America,2001,75,0.747,1.51,9680,66.6
+Uruguay,South America,2002,75,0.749,1.37,8930,67.6
+Uruguay,South America,2003,75,0.752,1.36,9010,68
+Uruguay,South America,2004,75.2,0.755,1.68,9460,68.1
+Uruguay,South America,2005,75.5,0.758,1.73,10200,68
+Uruguay,South America,2006,75.9,0.763,1.99,10600,68.1
+Uruguay,South America,2007,75.7,0.765,1.79,11200,67.6
+Uruguay,South America,2008,76.2,0.769,2.46,12000,67.9
+Uruguay,South America,2009,76.5,0.775,2.37,12500,68.1
+Uruguay,South America,2010,76.5,0.782,1.88,13400,67
+Uruguay,South America,2011,76.4,0.789,2.27,14100,69.4
+Uruguay,South America,2012,76.5,0.793,2.55,14500,70.3
+Uruguay,South America,2013,76.8,0.8,2.21,15200,69.1
+Uruguay,South America,2014,77.1,0.803,1.96,15600,69.9
+Uruguay,South America,2015,77.1,0.806,1.94,15600,70.7
+Uruguay,South America,2016,77.3,0.81,1.95,15800,71.7
+Uruguay,South America,2017,77.3,0.814,1.95,16000,71.5
+Uruguay,South America,2018,77.5,0.816,2.01,16000,72.4
+Uzbekistan,Asia,1998,65.4,,4.95,1130,37.4
+Uzbekistan,Asia,1999,65.5,,5.01,1170,38.5
+Uzbekistan,Asia,2000,65.1,0.599,4.91,1200,39.5
+Uzbekistan,Asia,2001,65.1,0.607,4.9,1230,40.7
+Uzbekistan,Asia,2002,65,0.614,5.03,1260,41.8
+Uzbekistan,Asia,2003,64.9,0.619,4.91,1300,42.9
+Uzbekistan,Asia,2004,64.8,0.626,4.82,1380,44
+Uzbekistan,Asia,2005,64.5,0.633,4.43,1460,45.1
+Uzbekistan,Asia,2006,65,0.637,4.47,1550,46.2
+Uzbekistan,Asia,2007,65.3,0.649,4.39,1680,47.3
+Uzbekistan,Asia,2008,65.7,0.653,4.47,1800,48.4
+Uzbekistan,Asia,2009,66.2,0.66,3.8,1910,49.4
+Uzbekistan,Asia,2010,66.5,0.669,3.64,2000,50.5
+Uzbekistan,Asia,2011,66.6,0.676,3.9,2100,50.1
+Uzbekistan,Asia,2012,66.7,0.685,3.91,2220,50.6
+Uzbekistan,Asia,2013,67,0.692,3.43,2350,50
+Uzbekistan,Asia,2014,67.2,0.696,3.44,2480,49.6
+Uzbekistan,Asia,2015,67.3,0.701,3.31,2620,49.4
+Uzbekistan,Asia,2016,67.6,0.705,2.9,2730,49.4
+Uzbekistan,Asia,2017,67.8,0.713,2.92,2800,49.7
+Uzbekistan,Asia,2018,68.1,0.717,2.81,2900,50.6
+Vanuatu,Oceania,1998,63.5,,0.453,2770,30.5
+Vanuatu,Oceania,1999,63,,0.465,2730,30.4
+Vanuatu,Oceania,2000,63.6,,0.456,2840,30.9
+Vanuatu,Oceania,2001,63.6,,0.465,2680,30.5
+Vanuatu,Oceania,2002,63.6,,0.435,2480,29.9
+Vanuatu,Oceania,2003,63.7,,0.424,2520,30.6
+Vanuatu,Oceania,2004,63.7,,0.287,2550,30.8
+Vanuatu,Oceania,2005,63.8,0.574,0.28,2620,31.4
+Vanuatu,Oceania,2006,63.9,0.58,0.222,2780,32.1
+Vanuatu,Oceania,2007,64,0.583,0.451,2790,32.6
+Vanuatu,Oceania,2008,64.1,0.589,0.424,2880,33
+Vanuatu,Oceania,2009,64.2,0.589,0.526,2890,32.4
+Vanuatu,Oceania,2010,64.4,0.59,0.512,2860,29.3
+Vanuatu,Oceania,2011,64.5,0.591,0.544,2870,29
+Vanuatu,Oceania,2012,64.7,0.591,0.456,2820,28.8
+Vanuatu,Oceania,2013,64.8,0.593,0.414,2750,28.6
+Vanuatu,Oceania,2014,64.8,0.594,0.584,2760,28.6
+Vanuatu,Oceania,2015,65,0.598,0.487,2700,28.5
+Vanuatu,Oceania,2016,65.1,0.598,0.527,2750,28.7
+Vanuatu,Oceania,2017,65.3,0.601,0.527,2850,28.8
+Vanuatu,Oceania,2018,65.3,0.603,0.529,2860,29
+Vietnam,Asia,1998,71.7,0.567,0.596,875,23.7
+Vietnam,Asia,1999,72,0.574,0.591,906,23
+Vietnam,Asia,2000,72.2,0.586,0.655,957,22.3
+Vietnam,Asia,2001,72.4,0.594,0.738,1010,22.1
+Vietnam,Asia,2002,72.5,0.602,0.843,1060,23.3
+Vietnam,Asia,2003,72.6,0.611,0.928,1120,23.9
+Vietnam,Asia,2004,72.7,0.62,1.06,1190,24.8
+Vietnam,Asia,2005,72.8,0.624,1.13,1270,26.4
+Vietnam,Asia,2006,72.9,0.632,1.17,1350,28.1
+Vietnam,Asia,2007,72.9,0.64,1.18,1430,30.3
+Vietnam,Asia,2008,73,0.647,1.31,1500,30.4
+Vietnam,Asia,2009,73.1,0.659,1.41,1560,30.6
+Vietnam,Asia,2010,73.2,0.661,1.55,1650,29.6
+Vietnam,Asia,2011,73.3,0.671,1.63,1730,30.4
+Vietnam,Asia,2012,73.5,0.676,1.51,1810,31.4
+Vietnam,Asia,2013,73.6,0.681,1.55,1880,32
+Vietnam,Asia,2014,73.7,0.683,1.75,1980,32.2
+Vietnam,Asia,2015,73.9,0.688,1.95,2090,33.2
+Vietnam,Asia,2016,74,0.693,1.96,2190,33.4
+Vietnam,Asia,2017,74.2,0.696,1.95,2320,34.1
+Vietnam,Asia,2018,74.3,0.7,2.16,2460,34.7
+Yemen,Asia,1998,62.5,0.431,0.734,2290,41.1
+Yemen,Asia,1999,63,0.435,0.812,2310,42.9
+Yemen,Asia,2000,63.5,0.444,0.832,2380,44.8
+Yemen,Asia,2001,64,0.453,0.895,2400,46.9
+Yemen,Asia,2002,64.5,0.461,0.844,2430,48.9
+Yemen,Asia,2003,64.9,0.47,0.901,2450,50.8
+Yemen,Asia,2004,65.3,0.477,0.955,2470,52.7
+Yemen,Asia,2005,65.8,0.483,0.985,2540,53.3
+Yemen,Asia,2006,66.2,0.488,1.02,2540,54.3
+Yemen,Asia,2007,66.5,0.492,0.974,2550,55.2
+Yemen,Asia,2008,66.9,0.495,1.01,2570,55.7
+Yemen,Asia,2009,67.2,0.502,1.08,2600,56.3
+Yemen,Asia,2010,67.6,0.506,1,2720,56.9
+Yemen,Asia,2011,67.8,0.506,0.849,2310,57.8
+Yemen,Asia,2012,67.9,0.504,0.747,2300,57.3
+Yemen,Asia,2013,68.4,0.509,0.994,2350,56.5
+Yemen,Asia,2014,68.5,0.502,0.937,2280,56.3
+Yemen,Asia,2015,68.2,0.483,0.48,1600,58.2
+Yemen,Asia,2016,67.5,0.474,0.377,1420,59.5
+Yemen,Asia,2017,67.3,0.467,0.363,1310,60.6
+Yemen,Asia,2018,66.1,0.468,0.356,1290,61.5
+Zambia,Africa,1998,45.5,0.416,0.231,751,23
+Zambia,Africa,1999,45.3,0.42,0.175,765,22.6
+Zambia,Africa,2000,45.3,0.425,0.172,774,22.2
+Zambia,Africa,2001,45.2,0.432,0.176,794,21.9
+Zambia,Africa,2002,45.9,0.441,0.179,808,21.5
+Zambia,Africa,2003,46.6,0.451,0.185,843,21.2
+Zambia,Africa,2004,47.7,0.46,0.182,879,20.9
+Zambia,Africa,2005,48.7,0.471,0.189,918,20.6
+Zambia,Africa,2006,50,0.482,0.183,965,20.8
+Zambia,Africa,2007,51.9,0.488,0.149,1020,20.9
+Zambia,Africa,2008,54.1,0.503,0.164,1070,21
+Zambia,Africa,2009,55.7,0.517,0.182,1130,23.8
+Zambia,Africa,2010,56.5,0.527,0.189,1210,27
+Zambia,Africa,2011,57.5,0.534,0.199,1240,30.2
+Zambia,Africa,2012,58.5,0.549,0.241,1300,33.9
+Zambia,Africa,2013,59.5,0.557,0.252,1320,35.2
+Zambia,Africa,2014,60.2,0.561,0.277,1340,36.2
+Zambia,Africa,2015,60.8,0.569,0.271,1340,37.1
+Zambia,Africa,2016,61.4,0.571,0.296,1350,38
+Zambia,Africa,2017,61.9,0.578,0.304,1350,38.6
+Zambia,Africa,2018,62.5,0.582,0.302,1370,39.3
+Zimbabwe,Africa,1998,49.7,0.442,1.2,1780,27.9
+Zimbabwe,Africa,1999,48.5,0.437,1.33,1760,28.1
+Zimbabwe,Africa,2000,47.5,0.43,1.16,1700,27.8
+Zimbabwe,Africa,2001,47,0.431,1.05,1720,27.7
+Zimbabwe,Africa,2002,46.6,0.423,0.996,1560,27.2
+Zimbabwe,Africa,2003,46.4,0.414,0.886,1290,26.5
+Zimbabwe,Africa,2004,46.4,0.411,0.785,1210,26.2
+Zimbabwe,Africa,2005,46.8,0.411,0.887,1140,25.8
+Zimbabwe,Africa,2006,47.4,0.414,0.853,1090,25.4
+Zimbabwe,Africa,2007,48.2,0.421,0.803,1040,25.2
+Zimbabwe,Africa,2008,48.9,0.422,0.624,850,24.4
+Zimbabwe,Africa,2009,50.2,0.458,0.441,941,24.8
+Zimbabwe,Africa,2010,52.3,0.482,0.607,1110,25.2
+Zimbabwe,Africa,2011,54.4,0.499,0.737,1250,25
+Zimbabwe,Africa,2012,56,0.525,0.587,1430,25.4
+Zimbabwe,Africa,2013,57.2,0.537,0.872,1440,25.3
+Zimbabwe,Africa,2014,58,0.547,0.881,1440,25.4
+Zimbabwe,Africa,2015,58.6,0.553,0.881,1450,25.7
+Zimbabwe,Africa,2016,59.2,0.558,0.771,1430,26.1
+Zimbabwe,Africa,2017,59.9,0.563,0.845,1480,26.6
+Zimbabwe,Africa,2018,60.6,0.569,0.85,1510,27.2
