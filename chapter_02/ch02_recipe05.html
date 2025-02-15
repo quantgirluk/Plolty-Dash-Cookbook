@@ -1,0 +1,1340 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>9. Reshaping Data with Pandas &#8212; Plotly Dash Cookbook</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'chapter_02/ch02_recipe05';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="10. Reading Data from Excel" href="ch02_recipe06.html" />
+    <link rel="prev" title="8. Handling Duplicated and Missing Values" href="ch02_recipe04.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Plotly Dash Cookbook</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Plotly and Dash Cookbook
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter 1. Introduction to Plotly and Dash in Python</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../chapter_01/ch01_intro.html">Introduction to Plotly and Dash in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_01/ch01_recipe04.html">1. Working with Dash and Plotly in Jupyter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_01/ch01_recipe05.html">2. Understanding the Figure Object</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_01/ch01_recipe06.html">3. Using Dictionaries to make Figures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_01/ch01_recipe07.html">4. Saving Plotly Figures</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter 2. Data Processing and Transformation</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="ch02_intro.html">Data Processing and Transformation</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe01.html">5. Creating Series and Data Frames</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe02.html">6. Selecting and Manipulating Data Frames</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe03.html">7. Creating Columns as Functions of Existing Columns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe04.html">8. Handling Duplicated and Missing Values</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">9. Reshaping Data with Pandas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe06.html">10. Reading Data from Excel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe07.html">11. Handling Large Datasets Efficiently</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe08.html">12. Loading the Plotly Express Data Sets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe09.html">13. Exploring the Gapminder Data set</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe10.html">14. Exploring the Iris Data Set</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe11.html">15. Fetching Data from APIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe12.html">16. Fetching Financial Data from the Web</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter 3. Simple Recipes</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../chapter_03/ch03_intro.html">Simple Recipes</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe01.html">17. Making scatter charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe02.html">18. Making line charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe03.html">19. Making a scatter with a trend line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe04.html">20. Making Bubble Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe05.html">21. Making Dot Plots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe06.html">22. Making Pie and Donut Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe07.html">23. Making Bar Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe08.html">24. Making Gantt Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe09.html">25. Making Stacked Bars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe10.html">26. Making Area Charts</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/PacktPublishing/Plotly-Dash-Cookbook" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/PacktPublishing/Plotly-Dash-Cookbook/issues/new?title=Issue%20on%20page%20%2Fchapter_02/ch02_recipe05.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/chapter_02/ch02_recipe05.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Reshaping Data with Pandas</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-ready">Getting ready</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-do-it">How to do it</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#use-pivot-to-go-from-vertical-to-horizontal">Use <code class="docutils literal notranslate"><span class="pre">pivot</span></code> to go from vertical to horizontal</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#use-melt-to-go-from-horizontal-to-vertical">Use <code class="docutils literal notranslate"><span class="pre">melt</span></code> to go from horizontal to vertical</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="reshaping-data-with-pandas">
+<h1><span class="section-number">9. </span>Reshaping Data with Pandas<a class="headerlink" href="#reshaping-data-with-pandas" title="Link to this heading">#</a></h1>
+<p>When working with data, it is common to encounter situations where the format of your <code class="docutils literal notranslate"><span class="pre">DataFrame</span></code> is not ideal for analysis or visualization. Reshaping data can help you transform the structure of your data to better suit your needs. This recipe illustrates two powerful tools available in Pandas for reshaping data, namely</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">pivot</span></code>: This method allows you to “pivot” a DataFrame, turning unique values from one column into new columns and filling them with corresponding values from another column. It is especially useful for converting long-form data (also known as tidy data) into a wide format.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">melt</span></code>: This method is the inverse of pivot. It is used to “melt” a wide-format DataFrame into a long-format, where multiple columns are unpivoted into a single column, making it easier to work with or visualize when you have a large number of variables.</p></li>
+</ul>
+<section id="getting-ready">
+<h2>Getting ready<a class="headerlink" href="#getting-ready" title="Link to this heading">#</a></h2>
+<p>Before starting, we are going to create two <code class="docutils literal notranslate"><span class="pre">DataFrame</span></code> objects to work with.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">df_vertical</span></code> this data is in a vertical/long format where each row represents a record of a single observation or instance, and each column represents a single variable.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">df_horizontal</span></code> this data is in horizontal/wide format where multiple columns/rows represent levels of a categorical variable.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_vertical</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;Month&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Jan&#39;</span><span class="p">,</span> <span class="s1">&#39;Jan&#39;</span><span class="p">,</span> <span class="s1">&#39;Feb&#39;</span><span class="p">,</span> <span class="s1">&#39;Feb&#39;</span><span class="p">,</span> <span class="s1">&#39;Mar&#39;</span><span class="p">,</span> <span class="s1">&#39;Mar&#39;</span><span class="p">,</span> <span class="s1">&#39;Apr&#39;</span><span class="p">,</span> <span class="s1">&#39;Apr&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;Region&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;North&#39;</span><span class="p">,</span> <span class="s1">&#39;South&#39;</span><span class="p">,</span> <span class="s1">&#39;North&#39;</span><span class="p">,</span> <span class="s1">&#39;South&#39;</span><span class="p">,</span> <span class="s1">&#39;North&#39;</span><span class="p">,</span> <span class="s1">&#39;South&#39;</span><span class="p">,</span> <span class="s1">&#39;North&#39;</span><span class="p">,</span> <span class="s1">&#39;South&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;Product&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;Sales&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">250</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">260</span><span class="p">,</span> <span class="mi">210</span><span class="p">,</span> <span class="mi">270</span><span class="p">,</span> <span class="mi">220</span><span class="p">,</span> <span class="mi">180</span><span class="p">,</span> <span class="mi">210</span><span class="p">],</span>
+    <span class="s1">&#39;Costs&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">130</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">130</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">120</span><span class="p">,</span> <span class="mi">120</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">]</span>
+<span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_horizontal</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s1">&#39;Month&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;Jan&#39;</span><span class="p">,</span> <span class="s1">&#39;Feb&#39;</span><span class="p">,</span> <span class="s1">&#39;Mar&#39;</span><span class="p">,</span> <span class="s1">&#39;Apr&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;North&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">250</span><span class="p">,</span> <span class="mi">260</span><span class="p">,</span> <span class="mi">270</span><span class="p">,</span> <span class="mi">180</span><span class="p">],</span>
+    <span class="s1">&#39;South&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">200</span><span class="p">,</span> <span class="mi">210</span><span class="p">,</span> <span class="mi">220</span><span class="p">,</span> <span class="mi">210</span><span class="p">]</span>
+<span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="how-to-do-it">
+<h2>How to do it<a class="headerlink" href="#how-to-do-it" title="Link to this heading">#</a></h2>
+<section id="use-pivot-to-go-from-vertical-to-horizontal">
+<h3>Use <code class="docutils literal notranslate"><span class="pre">pivot</span></code> to go from vertical to horizontal<a class="headerlink" href="#use-pivot-to-go-from-vertical-to-horizontal" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Take a look at the <code class="docutils literal notranslate"><span class="pre">df_vertical</span></code> object</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_vertical</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Month</th>
+      <th>Region</th>
+      <th>Product</th>
+      <th>Sales</th>
+      <th>Costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Jan</td>
+      <td>North</td>
+      <td>A</td>
+      <td>250</td>
+      <td>130</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Jan</td>
+      <td>South</td>
+      <td>A</td>
+      <td>200</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Feb</td>
+      <td>North</td>
+      <td>A</td>
+      <td>260</td>
+      <td>130</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Feb</td>
+      <td>South</td>
+      <td>A</td>
+      <td>210</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Mar</td>
+      <td>North</td>
+      <td>A</td>
+      <td>270</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Mar</td>
+      <td>South</td>
+      <td>A</td>
+      <td>220</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Apr</td>
+      <td>North</td>
+      <td>B</td>
+      <td>180</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Apr</td>
+      <td>South</td>
+      <td>B</td>
+      <td>210</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_vertical</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(8, 5)
+</pre></div>
+</div>
+</div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Convert the <code class="docutils literal notranslate"><span class="pre">df_vertical</span></code> into horizontal/wide format by using the Pandas method <code class="docutils literal notranslate"><span class="pre">pivot</span></code>. This method requires three inputs:</p></li>
+</ol>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">index</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">columns</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">values</span></code>
+which will determine the structure of the new <code class="docutils literal notranslate"><span class="pre">DataFrame</span></code></p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_vertical</span><span class="o">.</span><span class="n">pivot</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">&#39;Month&#39;</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="s1">&#39;Region&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">&#39;Sales&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Region</th>
+      <th>North</th>
+      <th>South</th>
+    </tr>
+    <tr>
+      <th>Month</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Apr</th>
+      <td>180</td>
+      <td>210</td>
+    </tr>
+    <tr>
+      <th>Feb</th>
+      <td>260</td>
+      <td>210</td>
+    </tr>
+    <tr>
+      <th>Jan</th>
+      <td>250</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>Mar</th>
+      <td>270</td>
+      <td>220</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>In this format each row represents a month, each column represents a region, and the sales values are filled in accordingly. Here, the <code class="docutils literal notranslate"><span class="pre">Month</span></code> column becomes the index, the <code class="docutils literal notranslate"><span class="pre">Region</span></code> column values become the column names, and the <code class="docutils literal notranslate"><span class="pre">Sales</span></code> values are filled into the corresponding cells.</p>
+<p>Note that the  information in the columns <code class="docutils literal notranslate"><span class="pre">Costs</span></code> and <code class="docutils literal notranslate"><span class="pre">Product</span></code> is lost.</p>
+<ol class="arabic simple" start="3">
+<li><p>Pass a list into the input <code class="docutils literal notranslate"><span class="pre">values</span></code>  to obtain a pivot with several values on it. In this case, we are going to pass <code class="docutils literal notranslate"><span class="pre">Sales</span></code> and <code class="docutils literal notranslate"><span class="pre">Costs</span></code>.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_vertical</span><span class="o">.</span><span class="n">pivot</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">&#39;Month&#39;</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="s1">&#39;Region&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Sales&#39;</span><span class="p">,</span> <span class="s1">&#39;Costs&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead tr th {
+        text-align: left;
+    }
+
+    .dataframe thead tr:last-of-type th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="2" halign="left">Sales</th>
+      <th colspan="2" halign="left">Costs</th>
+    </tr>
+    <tr>
+      <th>Region</th>
+      <th>North</th>
+      <th>South</th>
+      <th>North</th>
+      <th>South</th>
+    </tr>
+    <tr>
+      <th>Month</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Apr</th>
+      <td>180</td>
+      <td>210</td>
+      <td>100</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>Feb</th>
+      <td>260</td>
+      <td>210</td>
+      <td>130</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>Jan</th>
+      <td>250</td>
+      <td>200</td>
+      <td>130</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>Mar</th>
+      <td>270</td>
+      <td>220</td>
+      <td>120</td>
+      <td>120</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Pass a list into the input <code class="docutils literal notranslate"><span class="pre">columns</span></code> to include the information about the product type</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_vertical</span><span class="o">.</span><span class="n">pivot</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">&#39;Month&#39;</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Product&#39;</span><span class="p">,</span> <span class="s1">&#39;Region&#39;</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Sales&#39;</span><span class="p">,</span> <span class="s1">&#39;Costs&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead tr th {
+        text-align: left;
+    }
+
+    .dataframe thead tr:last-of-type th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="4" halign="left">Sales</th>
+      <th colspan="4" halign="left">Costs</th>
+    </tr>
+    <tr>
+      <th>Product</th>
+      <th colspan="2" halign="left">A</th>
+      <th colspan="2" halign="left">B</th>
+      <th colspan="2" halign="left">A</th>
+      <th colspan="2" halign="left">B</th>
+    </tr>
+    <tr>
+      <th>Region</th>
+      <th>North</th>
+      <th>South</th>
+      <th>North</th>
+      <th>South</th>
+      <th>North</th>
+      <th>South</th>
+      <th>North</th>
+      <th>South</th>
+    </tr>
+    <tr>
+      <th>Month</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Apr</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>180.0</td>
+      <td>210.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>100.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <th>Feb</th>
+      <td>260.0</td>
+      <td>210.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>130.0</td>
+      <td>100.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>Jan</th>
+      <td>250.0</td>
+      <td>200.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>130.0</td>
+      <td>100.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>Mar</th>
+      <td>270.0</td>
+      <td>220.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>120.0</td>
+      <td>120.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Similarly, you can pass a list into the input <code class="docutils literal notranslate"><span class="pre">index</span></code> to include the information about the product type</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_vertical</span><span class="o">.</span><span class="n">pivot</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Month&#39;</span><span class="p">,</span><span class="s1">&#39;Product&#39;</span><span class="p">],</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Region&#39;</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Sales&#39;</span><span class="p">,</span> <span class="s1">&#39;Costs&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead tr th {
+        text-align: left;
+    }
+
+    .dataframe thead tr:last-of-type th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th colspan="2" halign="left">Sales</th>
+      <th colspan="2" halign="left">Costs</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Region</th>
+      <th>North</th>
+      <th>South</th>
+      <th>North</th>
+      <th>South</th>
+    </tr>
+    <tr>
+      <th>Month</th>
+      <th>Product</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Apr</th>
+      <th>B</th>
+      <td>180</td>
+      <td>210</td>
+      <td>100</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>Feb</th>
+      <th>A</th>
+      <td>260</td>
+      <td>210</td>
+      <td>130</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>Jan</th>
+      <th>A</th>
+      <td>250</td>
+      <td>200</td>
+      <td>130</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th>Mar</th>
+      <th>A</th>
+      <td>270</td>
+      <td>220</td>
+      <td>120</td>
+      <td>120</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</section>
+<section id="use-melt-to-go-from-horizontal-to-vertical">
+<h3>Use <code class="docutils literal notranslate"><span class="pre">melt</span></code> to go from horizontal to vertical<a class="headerlink" href="#use-melt-to-go-from-horizontal-to-vertical" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Take a look at the <code class="docutils literal notranslate"><span class="pre">df_horizontal</span></code> object</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_horizontal</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Month</th>
+      <th>North</th>
+      <th>South</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Jan</td>
+      <td>250</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Feb</td>
+      <td>260</td>
+      <td>210</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Mar</td>
+      <td>270</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Apr</td>
+      <td>180</td>
+      <td>210</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ol class="arabic simple">
+<li><p>Convert the <code class="docutils literal notranslate"><span class="pre">df_horizontal</span></code> into vertical/long format by using the Pandas function <code class="docutils literal notranslate"><span class="pre">melt</span></code></p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span><span class="n">df_horizontal</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>variable</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Month</td>
+      <td>Jan</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Month</td>
+      <td>Feb</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Month</td>
+      <td>Mar</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Month</td>
+      <td>Apr</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>North</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>North</td>
+      <td>260</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>North</td>
+      <td>270</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>North</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>South</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>South</td>
+      <td>210</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>South</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>South</td>
+      <td>210</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>To get a better result we need to pass the inputs</p></li>
+</ol>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id_vars</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">value_vars</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">var_name</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">value_name</span></code></p></li>
+</ul>
+<p>which will determine the structure of the new <code class="docutils literal notranslate"><span class="pre">DataFrame</span></code></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">melted_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span><span class="n">df_horizontal</span><span class="p">,</span> <span class="n">id_vars</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Month&#39;</span><span class="p">],</span> <span class="n">value_vars</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;North&#39;</span><span class="p">,</span> <span class="s1">&#39;South&#39;</span><span class="p">],</span> <span class="n">var_name</span><span class="o">=</span><span class="s1">&#39;Region&#39;</span><span class="p">,</span> <span class="n">value_name</span><span class="o">=</span><span class="s1">&#39;Sales&#39;</span><span class="p">)</span>
+<span class="n">melted_df</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Month</th>
+      <th>Region</th>
+      <th>Sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Jan</td>
+      <td>North</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Feb</td>
+      <td>North</td>
+      <td>260</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Mar</td>
+      <td>North</td>
+      <td>270</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Apr</td>
+      <td>North</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Jan</td>
+      <td>South</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Feb</td>
+      <td>South</td>
+      <td>210</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Mar</td>
+      <td>South</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Apr</td>
+      <td>South</td>
+      <td>210</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./chapter_02"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="ch02_recipe04.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">8. </span>Handling Duplicated and Missing Values</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="ch02_recipe06.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">10. </span>Reading Data from Excel</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-ready">Getting ready</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-do-it">How to do it</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#use-pivot-to-go-from-vertical-to-horizontal">Use <code class="docutils literal notranslate"><span class="pre">pivot</span></code> to go from vertical to horizontal</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#use-melt-to-go-from-horizontal-to-vertical">Use <code class="docutils literal notranslate"><span class="pre">melt</span></code> to go from horizontal to vertical</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dialid Santiago
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
