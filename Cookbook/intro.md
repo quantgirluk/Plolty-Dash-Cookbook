@@ -1,13 +1,12 @@
 # Plotly and Dash Cookbook
 
-Tnis is the working repository for the book **Plotly and Dash Cookbook** published by Packt.
+Tnis is the working repository for the book **Plotly and Dash Cookbook**.
 
-This is a work in progress version.  
 
 Thanks for visiting ✨
 
 
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fquantgirluk.github.io%2FPlotly-Dash-Cookbook-Preview%2Fintro.html&countColor=%23ba68c8)](https://visitorbadge.io/status?path=https%3A%2F%2Fquantgirluk.github.io%2FPlotly-Dash-Cookbook-Preview%2Fintro.html)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fquantgirluk.github.io%2FPlotly-Dash-Cookbook%2Fintro.html&countColor=%23ba68c8)](https://visitorbadge.io/status?path=https%3A%2F%2Fquantgirluk.github.io%2FPlotly-Dash-Cookbook-Preview%2Fintro.html)
 
 ---
 
