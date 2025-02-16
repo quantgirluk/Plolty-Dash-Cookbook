@@ -1,172 +1,338 @@
 
 <!DOCTYPE html>
 
-
-<html lang="en" data-content_root="../" >
-
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>5. Creating Series and Data Frames &#8212; Plotly Dash Cookbook</title>
+    <title>1. Creating Series and Data Frames &#8212; Plotly Dash Cookbook</title>
   
   
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="../_static/styles/bootstrap.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
 
   
-  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2">
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=4ec06e9971c5264fbd345897d5258098f11cc577" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94">
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94">
 
-    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../_static/doctools.js?v=9a2dae69"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=8bf782fb4ee92b3d3646425e50f299c4e1fd152d"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js?v=f930bc37"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'chapter_02/ch02_recipe01';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="6. Selecting and Manipulating Data Frames" href="ch02_recipe02.html" />
+    <link rel="next" title="2. Selecting and Manipulating Data Frames" href="ch02_recipe02.html" />
     <link rel="prev" title="Data Processing and Transformation" href="ch02_intro.html" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="en"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="docsearch:language" content="en">
   </head>
   
   
-  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
 
   
   
-  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
-  
-  <div id="pst-scroll-pixel-helper"></div>
-  
-  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-primary-sidebar-checkbox"/>
-  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  <input type="checkbox" class="sidebar-toggle" name="__primary" id="__primary">
+  <label class="overlay overlay-primary" for="__primary"></label>
+
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-secondary-sidebar-checkbox"/>
-  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  <input type="checkbox" class="sidebar-toggle" name="__secondary" id="__secondary">
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
     <div class="search-button__search-container">
-<form class="bd-search d-flex align-items-center"
-      action="../search.html"
-      method="get">
+      
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
-  <input type="search"
-         class="form-control"
-         name="q"
-         id="search-input"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
-         autocomplete="off"
-         autocorrect="off"
-         autocapitalize="off"
-         spellcheck="false"/>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
+</form>
+    </div>
   </div>
 
-  <div class="pst-async-banner-revealer d-none">
-  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
-</div>
+  
+  <nav class="bd-header navbar navbar-expand-lg bd-navbar" id="navbar-main"><div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+      <span class="fa-solid fa-bars"></span>
+  </label>
+  <div id="navbar-start">
+    
+    
+  
+
+
+<a class="navbar-brand logo" href="../intro.html">
 
   
-    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
-    </header>
+  
+  
+  
+  
+  
+  
+
+  
+  
+    <p class="title logo__title">Plotly Dash Cookbook</p>
+  
+</a>
+    
+  </div>
+
+  
+  <div class="col-lg-9 navbar-header-items">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chapter_01/ch01_intro.html">
+                        Introduction to Plotly and Dash in Python
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="ch02_intro.html">
+                        Data Processing and Transformation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chapter_03/ch03_intro.html">
+                        Simple Recipes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chapter_04/ch04_intro.html">
+                        Recipes for Statistical Charts
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chapter_05/ch05_intro.html">
+                        Intermediate Recipes
+                      </a>
+                    </li>
+                
+    </ul>
+</nav>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+        <div class="navbar-end-item navbar-persistent--container">
+          
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+        </div>
+      
+      
+      <div class="navbar-end-item">
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+  
+  
+    <div class="navbar-persistent--mobile">
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+    </div>
+  
+
+  
+  <label class="sidebar-toggle secondary-toggle" for="__secondary">
+      <span class="fa-solid fa-outdent"></span>
+  </label>
+  
+
+</div>
+  </nav>
   
 
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
       
-      
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
-
   
   <div class="sidebar-header-items sidebar-primary__section">
     
     
+      <div class="sidebar-header-items__center">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chapter_01/ch01_intro.html">
+                        Introduction to Plotly and Dash in Python
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="ch02_intro.html">
+                        Data Processing and Transformation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chapter_03/ch03_intro.html">
+                        Simple Recipes
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chapter_04/ch04_intro.html">
+                        Recipes for Statistical Charts
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../chapter_05/ch05_intro.html">
+                        Intermediate Recipes
+                      </a>
+                    </li>
+                
+    </ul>
+</nav>
+      </div>
+      
+      </div>
     
+
+    
+    
+    <div class="sidebar-header-items__end">
+      
+      <div class="navbar-end-item">
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
     
   </div>
-  
-    <div class="sidebar-primary-items__start sidebar-primary__section">
-        <div class="sidebar-primary-item">
 
   
-    
+  <div class="sidebar-start-items sidebar-primary__section">
+    <div class="sidebar-start-items__item">
   
+
 
 <a class="navbar-brand logo" href="../intro.html">
+
   
   
   
   
+  
+  
+  
+
   
   
     <p class="title logo__title">Plotly Dash Cookbook</p>
   
-</a></div>
-        <div class="sidebar-primary-item">
-
- <script>
- document.write(`
-   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
-        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+</a>
+    </div>
+    <div class="sidebar-start-items__item">
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+    </div>
+    <div class="sidebar-start-items__item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -178,190 +344,134 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter 1. Introduction to Plotly and Dash in Python</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../chapter_01/ch01_intro.html">Introduction to Plotly and Dash in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../chapter_01/ch01_intro.html">Introduction to Plotly and Dash in Python</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../chapter_01/ch01_recipe04.html">1. Working with Dash and Plotly in Jupyter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../chapter_01/ch01_recipe05.html">2. Understanding the Figure Object</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../chapter_01/ch01_recipe06.html">3. Using Dictionaries to make Figures</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../chapter_01/ch01_recipe07.html">4. Saving Plotly Figures</a></li>
 </ul>
-</details></li>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter 2. Data Processing and Transformation</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="ch02_intro.html">Data Processing and Transformation</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">5. Creating Series and Data Frames</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe02.html">6. Selecting and Manipulating Data Frames</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe03.html">7. Creating Columns as Functions of Existing Columns</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe04.html">8. Handling Duplicated and Missing Values</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe05.html">9. Reshaping Data with Pandas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe06.html">10. Reading Data from Excel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe07.html">11. Handling Large Datasets Efficiently</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe08.html">12. Loading the Plotly Express Data Sets</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe09.html">13. Exploring the Gapminder Data set</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe10.html">14. Exploring the Iris Data Set</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe11.html">15. Fetching Data from APIs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ch02_recipe12.html">16. Fetching Financial Data from the Web</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="ch02_intro.html">Data Processing and Transformation</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">1. Creating Series and Data Frames</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe02.html">2. Selecting and Manipulating Data Frames</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe03.html">3. Creating Columns as Functions of Existing Columns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe04.html">4. Handling Duplicated and Missing Values</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe05.html">5. Reshaping Data with Pandas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe06.html">6. Reading Data from Excel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe07.html">7. Handling Large Datasets Efficiently</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe08.html">8. Loading the Plotly Express Data Sets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe09.html">9. Exploring the Gapminder Data set</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe10.html">10. Exploring the Iris Data Set</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe11.html">11. Fetching Data from APIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch02_recipe12.html">12. Fetching Financial Data from the Web</a></li>
 </ul>
-</details></li>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter 3. Simple Recipes</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../chapter_03/ch03_intro.html">Simple Recipes</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe01.html">17. Making scatter charts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe02.html">18. Making line charts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe03.html">19. Making a scatter with a trend line</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe04.html">20. Making Bubble Charts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe05.html">21. Making Dot Plots</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe06.html">22. Making Pie and Donut Charts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe07.html">23. Making Bar Charts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe08.html">24. Making Gantt Charts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe09.html">25. Making Stacked Bars</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe10.html">26. Making Area Charts</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../chapter_03/ch03_intro.html">Simple Recipes</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe01.html">1. Making scatter charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe02.html">2. Making line charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe03.html">3. Making a scatter with a trend line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe04.html">4. Making Bubble Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe05.html">5. Making Dot Plots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe06.html">6. Making Pie and Donut Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe07.html">7. Making Bar Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe08.html">8. Making Gantt Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe09.html">9. Making Stacked Bars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_03/ch03_recipe10.html">10. Making Area Charts</a></li>
 </ul>
-</details></li>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter 4. Recipes for Statistical Charts</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../chapter_04/ch04_intro.html">Recipes for Statistical Charts</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe01.html">1. Making Histograms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe02.html">2. Making 2D-Histograms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe03.html">3. Making Box Plots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe04.html">4. Making Box Plots better with Jitter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe05.html">5. Using Violin Plots as an alternative to Box Plots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe06.html">6. Understanding marginal plots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe07.html">7. Making histograms better with marginals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe08.html">8. Using marginal plots with facets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe09.html">9. Understanding ECDF charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe10.html">10. Visualizing Linear Regression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe11.html">11. Visualizing Moving Averages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_04/ch04_recipe12.html">12. Visualizing Correlation Matrices</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter 5. Recipes for Intermediate Charts</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../chapter_05/ch05_intro.html">Intermediate Recipes</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_05/ch05_recipe01.html">1. Making animated scatter charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_05/ch05_recipe02.html">2. Using Faceted Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_05/ch05_recipe03.html">3. Making Better Bar Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_05/ch05_recipe04.html">4. Creating Sunburst Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_05/ch05_recipe05.html">5. Creating Icicle Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_05/ch05_recipe06.html">6. Creating Heat maps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_05/ch05_recipe07.html">7. Creating Waterfall Charts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_05/ch05_recipe08.html">8. Using dual-axes in Plotly</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../chapter_05/ch05_recipe09.html">9. Making Basic Tables with Plotly</a></li>
+</ul>
+</li>
 </ul>
 
     </div>
-</nav></div>
+</nav>
     </div>
-  
-  
-  <div class="sidebar-primary-items__end sidebar-primary__section">
   </div>
+  
+
+  
+  <div class="sidebar-end-items sidebar-primary__section">
+    <div class="sidebar-end-items__item">
+    </div>
+  </div>
+
   
   <div id="rtd-footer-container"></div>
 
-
       </div>
-      
-      <main id="main-content" class="bd-main" role="main">
+      <main id="main-content" class="bd-main">
         
         
 
 <div class="sbt-scroll-pixel-helper"></div>
 
-          <div class="bd-content">
-            <div class="bd-article-container">
-              
-              <div class="bd-header-article d-print-none">
-<div class="header-article-items header-article__inner">
-  
-    <div class="header-article-items__start">
-      
-        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <span class="fa-solid fa-bars"></span>
-</button></div>
-      
+        <div class="bd-content">
+          <div class="bd-article-container">
+            
+            <div class="bd-header-article">
+                
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        <label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" data-toggle="tooltip" data-placement="right" title="Toggle primary sidebar">
+            <span class="fa-solid fa-bars"></span>
+        </label>
     </div>
-  
-  
-    <div class="header-article-items__end">
-      
-        <div class="header-article-item">
-
-<div class="article-header-buttons">
+    <div class="header-article__right">
 
 
-
-
-
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
   </button>
   <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://github.com/PacktPublishing/Plotly-Dash-Cookbook" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="btn__text-container">Repository</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/PacktPublishing/Plotly-Dash-Cookbook/issues/new?title=Issue%20on%20page%20%2Fchapter_02/ch02_recipe01.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="btn__text-container">Open issue</span>
-</a>
-</li>
-      
   </ul>
 </div>
-
-
-
-
-
-
-<div class="dropdown dropdown-download-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
-    <i class="fas fa-download"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="../_sources/chapter_02/ch02_recipe01.ipynb" target="_blank"
-   class="btn btn-sm btn-download-source-button dropdown-item"
-   title="Download source file"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="btn__text-container">.ipynb</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li>
-<button onclick="window.print()"
-  class="btn btn-sm btn-download-pdf-button dropdown-item"
-  title="Print to PDF"
-  data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="btn__text-container">.pdf</span>
-</button>
-</li>
-      
-  </ul>
-</div>
-
-
-
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
-  title="Fullscreen mode"
-  data-bs-placement="bottom" data-bs-toggle="tooltip"
+  class="btn btn-sm"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
 >
   
 
@@ -373,35 +483,92 @@
 
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+<div class="dropdown dropdown-repository-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
   </button>
-`);
-</script>
-
-
-<script>
-document.write(`
-  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
-</div></div>
-      
-    </div>
+  <ul class="dropdown-menu">
+      <li><a href="https://github.com/quantgirluk/Plolty-Dash-Cookbook" target="_blank"
+   class="btn btn-sm dropdown-item"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
   
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">repository</span>
+</a>
+</a>
+      
+      <li><a href="https://github.com/quantgirluk/Plolty-Dash-Cookbook/issues/new?title=Issue%20on%20page%20%2Fchapter_02/ch02_recipe01.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm dropdown-item"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">open issue</span>
+</a>
+</a>
+      
+  </ul>
 </div>
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      <li><a href="../_sources/chapter_02/ch02_recipe01.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</a>
+      
+      <li>
+<button onclick="printPdf(this)"
+  class="btn btn-sm dropdown-item"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</a>
+      
+  </ul>
 </div>
-              
-              
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary" data-toggle="tooltip" data-placement="left" title="Toggle secondary sidebar">
+            <span class="fa-solid fa-list"></span>
+        </label>
+    </div>
+</div>
+            </div>
+            
+            
 
 <div id="jb-print-docs-body" class="onlyprint">
     <h1>Creating Series and Data Frames</h1>
@@ -414,29 +581,51 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-do-it">How to do it</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#series">Series</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dataframes">DataFrames</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#from-dictionaries">From Dictionaries</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#from-numpy-arrays">From numpy arrays</a></li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-to-do-it">
+   How to do it
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#series">
+     Series
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dataframes">
+     DataFrames
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#from-dictionaries">
+       From Dictionaries
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#from-numpy-arrays">
+       From numpy arrays
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#there-is-more">
+   There is more
+  </a>
+ </li>
 </ul>
-</li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#there-is-more">There is more</a></li>
-</ul>
+
             </nav>
         </div>
     </div>
 </div>
 
+            <article class="bd-article" role="main">
               
-                
-<div id="searchbox"></div>
-                <article class="bd-article">
-                  
   <section class="tex2jax_ignore mathjax_ignore" id="creating-series-and-data-frames">
-<h1><span class="section-number">5. </span>Creating Series and Data Frames<a class="headerlink" href="#creating-series-and-data-frames" title="Link to this heading">#</a></h1>
+<h1><span class="section-number">1. </span>Creating Series and Data Frames<a class="headerlink" href="#creating-series-and-data-frames" title="Permalink to this heading">#</a></h1>
 <p>Pandas provides two types of classes for handling data:</p>
 <ul class="simple">
 <li><p>Series: a one-dimensional labeled array holding data of any type
@@ -445,14 +634,14 @@ such as integers, strings, Python objects etc.</p></li>
 </ul>
 <p>In this recipe, you will learn how to create objects of this types.</p>
 <section id="how-to-do-it">
-<h2>How to do it<a class="headerlink" href="#how-to-do-it" title="Link to this heading">#</a></h2>
+<h2>How to do it<a class="headerlink" href="#how-to-do-it" title="Permalink to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Import both <code class="docutils literal notranslate"><span class="pre">pandas</span></code> and <code class="docutils literal notranslate"><span class="pre">numpy</span></code> libraries.</p></li>
 </ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 </pre></div>
 </div>
 </div>
@@ -469,7 +658,7 @@ To do this use the method <code class="docutils literal notranslate"><span class
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([0.11916977, 0.03275636, 0.24843685, 0.27482792, 0.00724373])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([0.53488816, 0.2574287 , 0.22017769, 0.49318842, 0.00224111])
 </pre></div>
 </div>
 </div>
@@ -487,7 +676,7 @@ To do this use the method <code class="docutils literal notranslate"><span class
 </div>
 </div>
 <section id="series">
-<h3>Series<a class="headerlink" href="#series" title="Link to this heading">#</a></h3>
+<h3>Series<a class="headerlink" href="#series" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple" start="3">
 <li><p>Create a pandas <code class="docutils literal notranslate"><span class="pre">Series</span></code> object  from a <code class="docutils literal notranslate"><span class="pre">numpy.ndarray</span></code> of random numbers.</p></li>
 </ol>
@@ -499,11 +688,11 @@ To do this use the method <code class="docutils literal notranslate"><span class
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0    0.119170
-1    0.032756
-2    0.248437
-3    0.274828
-4    0.007244
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0    0.534888
+1    0.257429
+2    0.220178
+3    0.493188
+4    0.002241
 dtype: float64
 </pre></div>
 </div>
@@ -532,11 +721,11 @@ dtype: float64
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>a    0.119170
-b    0.032756
-c    0.248437
-d    0.274828
-e    0.007244
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>a    0.534888
+b    0.257429
+c    0.220178
+d    0.493188
+e    0.002241
 dtype: float64
 </pre></div>
 </div>
@@ -565,9 +754,9 @@ dtype: float64
 </div>
 </section>
 <section id="dataframes">
-<h3>DataFrames<a class="headerlink" href="#dataframes" title="Link to this heading">#</a></h3>
+<h3>DataFrames<a class="headerlink" href="#dataframes" title="Permalink to this heading">#</a></h3>
 <section id="from-dictionaries">
-<h4>From Dictionaries<a class="headerlink" href="#from-dictionaries" title="Link to this heading">#</a></h4>
+<h4>From Dictionaries<a class="headerlink" href="#from-dictionaries" title="Permalink to this heading">#</a></h4>
 <ol class="arabic simple" start="6">
 <li><p>Create a <code class="docutils literal notranslate"><span class="pre">DataFrame</span></code> from a dictionary containing pandas <code class="docutils literal notranslate"><span class="pre">Series</span></code> objects.</p></li>
 </ol>
@@ -781,28 +970,28 @@ dtype: float64
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.899305</td>
-      <td>0.942565</td>
+      <td>0.414424</td>
+      <td>0.496401</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0.071732</td>
-      <td>0.017570</td>
+      <td>0.603036</td>
+      <td>0.059203</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.787790</td>
-      <td>0.131965</td>
+      <td>0.796320</td>
+      <td>0.467955</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0.769525</td>
-      <td>0.627227</td>
+      <td>0.088818</td>
+      <td>0.048511</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0.356496</td>
-      <td>0.957365</td>
+      <td>0.007208</td>
+      <td>0.960004</td>
     </tr>
   </tbody>
 </table>
@@ -810,7 +999,7 @@ dtype: float64
 </div>
 </section>
 <section id="from-numpy-arrays">
-<h4>From numpy arrays<a class="headerlink" href="#from-numpy-arrays" title="Link to this heading">#</a></h4>
+<h4>From numpy arrays<a class="headerlink" href="#from-numpy-arrays" title="Permalink to this heading">#</a></h4>
 <ol class="arabic simple" start="8">
 <li><p>Create a <code class="docutils literal notranslate"><span class="pre">DataFrame</span></code> from a structured or record <code class="docutils literal notranslate"><span class="pre">numpy.ndarrays</span></code></p></li>
 </ol>
@@ -850,24 +1039,24 @@ dtype: float64
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.250439</td>
-      <td>0.575251</td>
-      <td>-0.112592</td>
-      <td>-1.036751</td>
+      <td>0.027796</td>
+      <td>-0.049280</td>
+      <td>2.242298</td>
+      <td>-2.420364</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>-0.730430</td>
-      <td>-1.067573</td>
-      <td>-0.028987</td>
-      <td>-0.566599</td>
+      <td>-0.713607</td>
+      <td>0.880039</td>
+      <td>-0.586295</td>
+      <td>0.833651</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>-0.065663</td>
-      <td>0.397358</td>
-      <td>-1.234084</td>
-      <td>-0.951766</td>
+      <td>-0.289917</td>
+      <td>-0.666360</td>
+      <td>0.914956</td>
+      <td>-0.314187</td>
     </tr>
   </tbody>
 </table>
@@ -877,7 +1066,7 @@ dtype: float64
 </section>
 </section>
 <section id="there-is-more">
-<h2>There is more<a class="headerlink" href="#there-is-more" title="Link to this heading">#</a></h2>
+<h2>There is more<a class="headerlink" href="#there-is-more" title="Permalink to this heading">#</a></h2>
 <p>Some additional steps for your recipe.</p>
 <ol class="arabic simple">
 <li><p>Specify the names of the columns of the columns by passing the input <code class="docutils literal notranslate"><span class="pre">columns</span></code></p></li>
@@ -918,73 +1107,73 @@ dtype: float64
   <tbody>
     <tr>
       <th>0</th>
-      <td>-1.273984</td>
-      <td>-0.694467</td>
-      <td>-0.651401</td>
-      <td>-1.227177</td>
+      <td>-1.636786</td>
+      <td>1.413731</td>
+      <td>-0.928007</td>
+      <td>1.954184</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>-0.835000</td>
-      <td>0.475331</td>
-      <td>0.865603</td>
-      <td>0.513394</td>
+      <td>0.941846</td>
+      <td>0.792159</td>
+      <td>0.189520</td>
+      <td>0.705256</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>-0.292890</td>
-      <td>0.111832</td>
-      <td>1.895598</td>
-      <td>-0.419964</td>
+      <td>0.914717</td>
+      <td>0.596589</td>
+      <td>-0.179512</td>
+      <td>1.843301</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>-0.255422</td>
-      <td>0.485881</td>
-      <td>-1.610410</td>
-      <td>-0.382930</td>
+      <td>-0.271163</td>
+      <td>0.835691</td>
+      <td>0.470643</td>
+      <td>0.637852</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>1.114523</td>
-      <td>-2.624704</td>
-      <td>-2.025223</td>
-      <td>1.016691</td>
+      <td>-1.147001</td>
+      <td>0.111675</td>
+      <td>1.155516</td>
+      <td>-0.877176</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0.596819</td>
-      <td>-1.143329</td>
-      <td>-0.054816</td>
-      <td>0.069777</td>
+      <td>-0.473725</td>
+      <td>-0.713234</td>
+      <td>0.794095</td>
+      <td>0.431748</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>0.268968</td>
-      <td>0.178064</td>
-      <td>0.705478</td>
-      <td>0.110649</td>
+      <td>0.474139</td>
+      <td>0.851177</td>
+      <td>-0.122130</td>
+      <td>0.808803</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>0.922114</td>
-      <td>-0.903447</td>
-      <td>-1.536839</td>
-      <td>0.038131</td>
+      <td>-0.115006</td>
+      <td>-0.800093</td>
+      <td>0.926193</td>
+      <td>0.217888</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>-1.204299</td>
-      <td>-0.304911</td>
-      <td>0.098902</td>
-      <td>0.635696</td>
+      <td>-1.457012</td>
+      <td>0.180267</td>
+      <td>-2.616860</td>
+      <td>-0.540481</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>0.246479</td>
-      <td>0.527795</td>
-      <td>1.109100</td>
-      <td>1.065584</td>
+      <td>0.041125</td>
+      <td>0.848244</td>
+      <td>0.137095</td>
+      <td>0.766203</td>
     </tr>
   </tbody>
 </table>
@@ -1030,73 +1219,73 @@ dtype: float64
   <tbody>
     <tr>
       <th>a</th>
-      <td>0.302079</td>
-      <td>-0.953906</td>
-      <td>-1.526290</td>
-      <td>1.663330</td>
+      <td>0.501190</td>
+      <td>-1.387065</td>
+      <td>0.448702</td>
+      <td>-0.391768</td>
     </tr>
     <tr>
       <th>b</th>
-      <td>-0.143795</td>
-      <td>-0.110555</td>
-      <td>-0.195417</td>
-      <td>-1.144576</td>
+      <td>-0.972357</td>
+      <td>0.468274</td>
+      <td>-0.133343</td>
+      <td>0.482755</td>
     </tr>
     <tr>
       <th>c</th>
-      <td>0.290816</td>
-      <td>1.340317</td>
-      <td>0.845967</td>
-      <td>1.914751</td>
+      <td>0.666622</td>
+      <td>0.620442</td>
+      <td>0.006720</td>
+      <td>1.927819</td>
     </tr>
     <tr>
       <th>d</th>
-      <td>-0.167902</td>
-      <td>1.311657</td>
-      <td>-1.002558</td>
-      <td>0.380822</td>
+      <td>0.905967</td>
+      <td>0.389000</td>
+      <td>0.140947</td>
+      <td>-0.101916</td>
     </tr>
     <tr>
       <th>e</th>
-      <td>-2.068634</td>
-      <td>-0.978588</td>
-      <td>2.587593</td>
-      <td>1.934465</td>
+      <td>-0.456024</td>
+      <td>0.182633</td>
+      <td>0.388280</td>
+      <td>-0.226709</td>
     </tr>
     <tr>
       <th>f</th>
-      <td>0.320779</td>
-      <td>0.387837</td>
-      <td>-0.777360</td>
-      <td>-0.249897</td>
+      <td>-0.460309</td>
+      <td>0.807130</td>
+      <td>0.300286</td>
+      <td>0.101806</td>
     </tr>
     <tr>
       <th>g</th>
-      <td>-0.223420</td>
-      <td>1.064635</td>
-      <td>0.269374</td>
-      <td>-0.404427</td>
+      <td>2.256869</td>
+      <td>0.343242</td>
+      <td>0.158148</td>
+      <td>1.113870</td>
     </tr>
     <tr>
       <th>h</th>
-      <td>0.671888</td>
-      <td>2.327721</td>
-      <td>-0.797111</td>
-      <td>-0.117858</td>
+      <td>0.886278</td>
+      <td>-1.411895</td>
+      <td>1.592381</td>
+      <td>-0.324345</td>
     </tr>
     <tr>
       <th>j</th>
-      <td>0.495998</td>
-      <td>-0.025809</td>
-      <td>-0.365434</td>
-      <td>-1.327910</td>
+      <td>0.925258</td>
+      <td>-0.453819</td>
+      <td>0.738501</td>
+      <td>0.504964</td>
     </tr>
     <tr>
       <th>i</th>
-      <td>-1.928318</td>
-      <td>1.410285</td>
-      <td>0.199214</td>
-      <td>0.968996</td>
+      <td>-0.055024</td>
+      <td>0.689810</td>
+      <td>-1.231503</td>
+      <td>0.888764</td>
     </tr>
   </tbody>
 </table>
@@ -1142,73 +1331,73 @@ dtype: float64
   <tbody>
     <tr>
       <th>2024-01-01</th>
-      <td>-0.257868</td>
-      <td>1.183058</td>
-      <td>-0.766828</td>
-      <td>1.090480</td>
+      <td>0.333373</td>
+      <td>0.616903</td>
+      <td>-1.330429</td>
+      <td>1.220757</td>
     </tr>
     <tr>
       <th>2024-01-02</th>
-      <td>0.899013</td>
-      <td>1.038363</td>
-      <td>1.921902</td>
-      <td>-0.452304</td>
+      <td>0.365811</td>
+      <td>0.288806</td>
+      <td>0.182492</td>
+      <td>0.719146</td>
     </tr>
     <tr>
       <th>2024-01-03</th>
-      <td>-0.291800</td>
-      <td>0.453335</td>
-      <td>0.723903</td>
-      <td>-1.701761</td>
+      <td>1.607381</td>
+      <td>0.600888</td>
+      <td>0.338804</td>
+      <td>-0.049192</td>
     </tr>
     <tr>
       <th>2024-01-04</th>
-      <td>-0.484783</td>
-      <td>-0.204428</td>
-      <td>-0.302545</td>
-      <td>-0.062829</td>
+      <td>-0.041277</td>
+      <td>2.088358</td>
+      <td>-0.991600</td>
+      <td>1.127880</td>
     </tr>
     <tr>
       <th>2024-01-05</th>
-      <td>-0.990800</td>
-      <td>-0.240723</td>
-      <td>1.103580</td>
-      <td>-0.413442</td>
+      <td>-0.335263</td>
+      <td>-0.207205</td>
+      <td>0.361172</td>
+      <td>0.345769</td>
     </tr>
     <tr>
       <th>2024-01-06</th>
-      <td>2.110125</td>
-      <td>-0.214889</td>
-      <td>0.416069</td>
-      <td>-1.143864</td>
+      <td>-1.132765</td>
+      <td>-1.134296</td>
+      <td>0.029237</td>
+      <td>2.023443</td>
     </tr>
     <tr>
       <th>2024-01-07</th>
-      <td>1.000550</td>
-      <td>-0.199904</td>
-      <td>1.799439</td>
-      <td>0.808709</td>
+      <td>-0.730513</td>
+      <td>0.156218</td>
+      <td>-1.395187</td>
+      <td>-0.901584</td>
     </tr>
     <tr>
       <th>2024-01-08</th>
-      <td>-0.523680</td>
-      <td>-0.400942</td>
-      <td>0.660657</td>
-      <td>1.043243</td>
+      <td>-1.617909</td>
+      <td>-0.943782</td>
+      <td>0.414490</td>
+      <td>-1.712926</td>
     </tr>
     <tr>
       <th>2024-01-09</th>
-      <td>-1.289172</td>
-      <td>0.391205</td>
-      <td>0.861276</td>
-      <td>1.281239</td>
+      <td>2.241245</td>
+      <td>-0.428608</td>
+      <td>0.740857</td>
+      <td>1.903824</td>
     </tr>
     <tr>
       <th>2024-01-10</th>
-      <td>1.059071</td>
-      <td>0.437115</td>
-      <td>2.289203</td>
-      <td>1.213284</td>
+      <td>0.615113</td>
+      <td>-0.826442</td>
+      <td>0.815021</td>
+      <td>-0.275606</td>
     </tr>
   </tbody>
 </table>
@@ -1237,68 +1426,89 @@ dtype: float64
     </script>
     <script>kernelName = 'python3'</script>
 
-                </article>
-              
+            </article>
+            
 
-              
-              
-              
-              
-                <footer class="prev-next-footer d-print-none">
-                  
-<div class="prev-next-area">
-    <a class="left-prev"
-       href="ch02_intro.html"
-       title="previous page">
+            
+            
+            <footer class="bd-footer-article">
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+  <a class='left-prev' id="prev-link" href="ch02_intro.html" title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Data Processing and Transformation</p>
+          <p class="prev-next-subtitle">previous</p>
+          <p class="prev-next-title">Data Processing and Transformation</p>
       </div>
-    </a>
-    <a class="right-next"
-       href="ch02_recipe02.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">6. </span>Selecting and Manipulating Data Frames</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
-</div>
-                </footer>
-              
-            </div>
-            
-            
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
+  </a>
+  <a class='right-next' id="next-link" href="ch02_recipe02.html" title="next page">
+  <div class="prev-next-info">
+      <p class="prev-next-subtitle">next</p>
+      <p class="prev-next-title"><span class="section-number">2. </span>Selecting and Manipulating Data Frames</p>
   </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-do-it">How to do it</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#series">Series</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dataframes">DataFrames</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#from-dictionaries">From Dictionaries</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#from-numpy-arrays">From numpy arrays</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#there-is-more">There is more</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
-              
+  <i class="fa-solid fa-angle-right"></i>
+  </a>
+</div>
+            </footer>
             
           </div>
-          <footer class="bd-footer-content">
+          
+          
+          
+            <div class="bd-sidebar-secondary bd-toc">
+              
+<div class="toc-item">
+  
+<div class="tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+</div>
+<nav id="bd-toc-nav" class="page-toc">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-to-do-it">
+   How to do it
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#series">
+     Series
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dataframes">
+     DataFrames
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#from-dictionaries">
+       From Dictionaries
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#from-numpy-arrays">
+       From numpy arrays
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#there-is-more">
+   There is more
+  </a>
+ </li>
+</ul>
+
+</nav>
+</div>
+
+            </div>
+          
+          
+        </div>
+        <footer class="bd-footer-content">
+          <div class="bd-footer-content__inner">
             
 <div class="bd-footer-content__inner container">
   
@@ -1312,18 +1522,18 @@ By Dialid Santiago
   
   <div class="footer-item">
     
+<p class="copyright">
 
-  <p class="copyright">
-    
-      © Copyright 2024.
-      <br/>
-    
-  </p>
+    &copy; Copyright 2024.<br>
+
+</p>
 
   </div>
   
   <div class="footer-item">
-    
+    <p class="last-updated">
+Last updated on None.<br>
+</p>
   </div>
   
   <div class="footer-item">
@@ -1331,18 +1541,19 @@ By Dialid Santiago
   </div>
   
 </div>
-          </footer>
+          </div>
+        </footer>
         
 
       </main>
     </div>
   </div>
-  
-  <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-  <footer class="bd-footer">
-  </footer>
+  
+    
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94"></script>
+
   </body>
 </html>
