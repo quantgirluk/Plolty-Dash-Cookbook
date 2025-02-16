@@ -8,7 +8,7 @@ options:  # The options key will be applied to all chapters, but not sub-section
   maxdepth: 4
 
 parts:
-  - caption: Chapter 1. Introduction to Plotly and Dash in Python
+  - caption: Part I. Gettting Started
     numbered: False  # Only applies to chapters in Part 1.
     chapters:
     - file: chapter_01/ch01_intro
@@ -16,14 +16,16 @@ parts:
         numbered: 1
         maxdepth: 2
       sections:
+      - file: chapter_01/ch01_recipe01
+      - file: chapter_01/ch01_recipe02
+      - file: chapter_01/ch01_recipe03
       - file: chapter_01/ch01_recipe04
       - file: chapter_01/ch01_recipe05
       - file: chapter_01/ch01_recipe06
       - file: chapter_01/ch01_recipe07
-
-  - caption: Chapter 2. Data Processing and Transformation
-    numbered: False  
-    chapters:
+  # - caption: Chapter 2. Data Processing and Transformation
+    # numbered: False  
+    # chapters:
     - file: chapter_02/ch02_intro
       options:  
         numbered: 1
@@ -42,7 +44,7 @@ parts:
       - file: chapter_02/ch02_recipe11
       - file: chapter_02/ch02_recipe12
 
-  - caption: Chapter 3. Simple Recipes
+  - caption: Part II. Using Plotly
     numbered: False  
     chapters:
     - file: chapter_03/ch03_intro
@@ -61,9 +63,9 @@ parts:
       - file: chapter_03/ch03_recipe09
       - file: chapter_03/ch03_recipe10
 
-  - caption: Chapter 4. Recipes for Statistical Charts
-    numbered: False  
-    chapters:
+  # - caption: Chapter 4. Recipes for Statistical Charts
+  #   numbered: False  
+  #   chapters:
     - file: chapter_04/ch04_intro
       options:  
         numbered: 1
@@ -82,9 +84,9 @@ parts:
       - file: chapter_04/ch04_recipe11
       - file: chapter_04/ch04_recipe12
 
-  - caption: Chapter 5. Recipes for Intermediate Charts
-    numbered: False  
-    chapters:
+  # - caption: Chapter 5. Recipes for Intermediate Charts
+  #   numbered: False  
+  #   chapters:
     - file: chapter_05/ch05_intro
       options:  
         numbered: 1
