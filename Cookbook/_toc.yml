@@ -5,7 +5,7 @@ format: jb-book
 root: intro
 options:  # The options key will be applied to all chapters, but not sub-sections
   numbered: 1
-  maxdepth: 3
+  maxdepth: 4
 
 parts:
   - caption: Chapter 1. Introduction to Plotly and Dash in Python
