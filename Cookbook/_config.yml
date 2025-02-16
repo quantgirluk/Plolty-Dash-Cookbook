@@ -4,7 +4,7 @@
 title: Plotly Dash Cookbook 
 author: Dialid Santiago
 copyright    : "2024"  # Copyright year to be placed in the footer
-# logo: puzzle.jpeg
+logo: logo.png
 
 only_build_toc_files: true
 
