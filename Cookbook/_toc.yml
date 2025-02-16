@@ -8,7 +8,7 @@ options:  # The options key will be applied to all chapters, but not sub-section
   maxdepth: 4
 
 parts:
-  - caption: Part I. Gettting Started
+  - caption: Part I. Getting Started
     numbered: False  # Only applies to chapters in Part 1.
     chapters:
     - file: chapter_01/ch01_intro
