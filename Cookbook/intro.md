@@ -28,7 +28,7 @@ Connect with me via:
 - 📸 [Instagram](https://www.instagram.com/quant_girl/)
 - 👾 [Personal Website](https://quantgirl.blog)
 
-Thanks for visiting ✨ 
+Thanks for visiting ✨
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fquantgirluk.github.io%2FPlotly-Dash-Cookbook%2Fintro.html&countColor=%23ba68c8)](https://visitorbadge.io/status?path=https%3A%2F%2Fquantgirluk.github.io%2FPlotly-Dash-Cookbook-Preview%2Fintro.html)
 
 ---
