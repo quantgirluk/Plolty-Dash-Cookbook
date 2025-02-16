@@ -32,9 +32,9 @@ python3 -m venv /path/to/new/virtual/venv
 
 - On macOS/Linux
 
-``
+```bash
 $source venv/bin/activatev
-``
+```
 
 - On Windows
 
