@@ -15,11 +15,12 @@ The goal is to serve as a comprehensive guide for researchers, and practitioners
 
 ## About me
 
-I am a mathematician with over 8 years of experience working as a Quant in Finance. Currently, I am working in the Cross-Asset front office quant team at Bank of America. My  experience includes the development and implementation of mathematical models for Credit, Commodities and Rates asset classes; as well as for Counterparty Credit Risk, Market Risk, and Wholesale and Retail Credit Risk.
+I am a mathematician with over eight years of experience as a Quant in Finance. Currently, I serve as a VP Strategist in the Cross-Asset Front Office Quant team at Bank of America. Throughout my career, I have had the opportunity to work in diverse teams at institutions such as Citigroup and Barclays.
 
-I hold a PhD in Mathematics/Statistics from the University of Warwick where I spent 4 amazing years focusing on non-linear stochastic processes. Before coming to the UK, I obtained an MSc in Probability and Statistics, and a BSc in Applied Mathematics in Mexico.
+My expertise lies in developing and implementing mathematical models for pricing across the Credit, Commodities, and Rates asset classes, as well as for assessing Counterparty Credit Risk, Market Risk, and Wholesale/Retail Credit Risk.
 
-I regularly write [here](https://quantgirl.blog) about diverse topics.
+I hold a PhD in Statistics from the University of Warwick, where I spent four enriching years researching non-linear stochastic processes. Prior to moving to the UK, I earned an MSc in Probability and Statistics and a BSc in Applied Mathematics, both in Mexico.
+In my free time, I create open-source projects and write about financial mathematics, programming, statistics, data visualization, and other related topics.
 
 Connect with me via:
 
