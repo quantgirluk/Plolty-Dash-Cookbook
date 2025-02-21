@@ -1,6 +1,6 @@
 # Plotly and Dash Cookbook
 
-Tnis is the working 👷🏽‍♀️ repository for the book **Plotly and Dash Cookbook**, by [Dialid Santiago](https://www.linkedin.com/in/dialidsantiago/). It will contain over 119 recipes for Interactive Visualizations and Dashboards with Plotly and Dash.
+This is the working 👷🏽‍♀️ repository for the book **Plotly and Dash Cookbook**, by [Dialid Santiago](https://www.linkedin.com/in/dialidsantiago/). It will contain over 119 recipes for Interactive Visualizations and Dashboards with Plotly and Dash.
 
 This book offers practical, hands-on recipes covering a wide range of techniques and tools, making it an essential resource for both beginners and experienced users of Plotly and Dash.
 
