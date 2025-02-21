@@ -62,7 +62,7 @@ pip install SomePackage==1.0.4
 - Install a minimum- version of a package
 
 ```bash
-pip install "SomePackage>=1.0.4" 
+pip install SomePackage>=1.0.4
 ```
 
 - Upgrade a package to the latest available
