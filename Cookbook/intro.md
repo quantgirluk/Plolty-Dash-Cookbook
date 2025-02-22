@@ -30,7 +30,7 @@ Connect with me via:
 - 👾 [Personal Website](https://quantgirl.blog)
 
 Thanks for visiting ✨
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fquantgirluk.github.io%2FPlotly-Dash-Cookbook%2Fintro.html&labelColor=%23d9e3f0&countColor=%23f47373)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fquantgirluk.github.io%2FPlotly-Dash-Cookbook%2Fintro.html&labelColor=%23d9e3f0&countColor=%23f47373)](https://visitorbadge.io/status?path=https%3A%2F%2Fquantgirluk.github.io%2FPlotly-Dash-Cookbook%2Fintro.html)
 
 ---
 
